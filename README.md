@@ -59,6 +59,16 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 ---
 
+## AI Audio & Voice
+
+- **[ElevenLabs](https://elevenlabs.io/)**
+  AI voice platform for text-to-speech, voice cloning, music generation, and conversational voice agents — supports 70+ languages.
+
+- **[Supertonic](https://github.com/supertone-inc/supertonic)**
+  Lightning-fast, on-device, multilingual TTS running natively via ONNX — available across Python, Node.js, Go, Rust, Swift, C#, Java, and more.
+
+---
+
 ## AI Creative Tools
 
 - **[SkySnail](https://skysnail.io)**
