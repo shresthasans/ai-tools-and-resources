@@ -28,6 +28,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[AITrendz](https://aitrendz.xyz/)**
   Comprehensive AI tools directory — discover and explore tools across dozens of categories, from content creation to business automation.
 
+- **[Arena AI](https://arena.ai/)**
+  Battle Mode platform for comparing AI models head-to-head through interactive conversations — results feed into an official leaderboard.
+
 ---
 
 ## AI Agents & Memory
@@ -37,6 +40,25 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[mercury-agent-skills](https://github.com/cosmicstack-labs/mercury-agent-skills)**
   Curated registry of reusable agent skills for Mercury Agent, OpenClaw, or Hermes — built for real developer workflows, persistent memory, and token-efficient execution.
+
+- **[pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills)**
+  114 professional skills for Claude across 16 disciplines (product, engineering, marketing, legal, finance, HR, and more) — structured markdown files that save 8–10 hours per week.
+
+- **[google/skills](https://github.com/google/skills)**
+  Reusable agent skills for Google products and Cloud — integrates Gemini API, BigQuery, Cloud Run, Firebase, and more into agent-based applications.
+
+- **[CrawlAI-RAG](https://github.com/AnkitNayak-eth/CrawlAI-RAG)**
+  RAG platform that automatically crawls and indexes websites, then answers natural-language questions about the content.
+
+---
+
+## MCP Resources
+
+- **[MCP Servers](https://mcpservers.org/)**
+  Curated collection of MCP servers across categories — web scraping, productivity, development, and cloud services.
+
+- **[FastPedia MCPs](https://fastpedia.io/mcps/)**
+  Directory of 1,100+ MCP integrations for connecting AI models to external systems and data sources.
 
 ---
 
@@ -67,6 +89,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Supertonic](https://github.com/supertone-inc/supertonic)**
   Lightning-fast, on-device, multilingual TTS running natively via ONNX — available across Python, Node.js, Go, Rust, Swift, C#, Java, and more.
 
+- **[Input 0](https://input0.com/)**
+  macOS app for hands-free text input — transcribes speech locally on-device, polishes with AI, then auto-pastes into any app.
+
 ---
 
 ## AI Creative Tools
@@ -89,6 +114,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Anderro](https://anderro.com)**
   Developer tool. *(Description unavailable — site blocked fetch.)*
+
+- **[RapidRAW](https://github.com/CyberTimon/RapidRAW)**
+  Lightweight, GPU-accelerated RAW photo editor with non-destructive editing, AI-powered masking, and batch operations — under 20MB.
+
+- **[PhotoGIMP](https://github.com/Diolinux/PhotoGIMP)**
+  Patch for GIMP 3+ that remaps the interface, shortcuts, and tool layout to match Adobe Photoshop — eases the transition from Photoshop.
+
+- **[Reactive Resume](https://github.com/amruthpillai/reactive-resume)**
+  Open-source, privacy-focused resume builder — no account required, exports to multiple formats.
+
+- **[Paper](https://paper.design/)**
+  Web-based design platform connecting design, code, and AI agents on a single canvas built with web standards.
+
+- **[Figma to Lottie Community](https://www.lottie.community/c/figma-to-lottie/)**
+  Community hub for exporting Figma animations to Lottie format via the LottieFiles plugin.
 
 ---
 
@@ -133,6 +173,19 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Hugging Face](https://huggingface.co/learn)**
   Hands-on open-source AI courses — NLP, diffusion models, deep RL, and the Hugging Face ecosystem.
+
+- **[freeCodeCamp](https://www.freecodecamp.org/learn/javascript-v9/)**
+  Free, project-based coding curriculum — includes JavaScript, Python, ML, and data science certifications. JS v9 curriculum is the latest.
+
+- **[AI For Beginners](https://github.com/microsoft/AI-For-Beginners)**
+  Microsoft's 12-week, 24-lesson open curriculum covering neural networks, computer vision, NLP, and AI ethics using TensorFlow and PyTorch.
+
+---
+
+## Privacy & Utilities
+
+- **[Pi-hole](https://github.com/pi-hole/pi-hole)**
+  DNS sinkhole for network-wide ad blocking — protects all connected devices (including apps and smart TVs) without per-device software.
 
 ---
 
