@@ -15,6 +15,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[claude-code-training](https://github.com/kousen/claude-code-training)**
   Slides and demos for a training course on Claude Code.
 
+- **[awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)**
+  Community-curated list of Claude Code tips, workflows, prompts, and resources.
+
+- **[claude-code-workflow](https://github.com/runesleo/claude-code-workflow)**
+  Opinionated workflow guide for using Claude Code effectively in real projects.
+
 ---
 
 ## Learning & Resources
@@ -30,6 +36,18 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Arena AI](https://arena.ai/)**
   Battle Mode platform for comparing AI models head-to-head through interactive conversations — results feed into an official leaderboard.
+
+- **[AI Text Tools](https://aitextools.com/)**
+  Collection of AI-powered text manipulation and transformation utilities.
+
+- **[booya-skills.com](https://booya-skills.com/)**
+  Marketplace for reusable agent skills — browse and install pre-built skills for AI coding agents.
+
+- **[AI for UX & Product Design Survey](https://designlab.com/advanced/ai-for-ux-and-product-design-survey-report)**
+  Designlab's survey report on how AI is reshaping UX and product design workflows.
+
+- **[Cursor for Designers](https://adplist.notion.site/cursor-for-designers)**
+  Guide to using Cursor as a non-developer designer — prompts, patterns, and workflows for design-to-code.
 
 ---
 
@@ -49,6 +67,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[CrawlAI-RAG](https://github.com/AnkitNayak-eth/CrawlAI-RAG)**
   RAG platform that automatically crawls and indexes websites, then answers natural-language questions about the content.
+
+- **[deer-flow](https://github.com/bytedance/deer-flow)**
+  ByteDance's open-source deep research AI workflow — orchestrates agents to research, plan, and synthesize answers from multiple sources.
+
+- **[agency-agents](https://github.com/msitarzewski/agency-agents)**
+  Multi-agent framework for building agency-style AI workflows — coordinates specialized agents across tasks.
+
+- **[book-to-skill](https://github.com/virgiliojr94/book-to-skill)**
+  Converts book content into Claude-compatible skill files — extract structured knowledge from any book.
+
+- **[Understand-Anything](https://github.com/Lum1104/Understand-Anything)**
+  Multimodal model pipeline for comprehensive understanding of images, video, and audio — identifies entities, events, and context.
+
+- **[freellmapi](https://github.com/tashfeenahmed/freellmapi)**
+  Free LLM API wrapper aggregating access to multiple language models without paid API keys.
 
 ---
 
@@ -92,6 +125,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Input 0](https://input0.com/)**
   macOS app for hands-free text input — transcribes speech locally on-device, polishes with AI, then auto-pastes into any app.
 
+- **[annyang](https://github.com/TalAter/annyang)**
+  Tiny JS speech recognition library — add voice commands to any web app in a few lines, no server required.
+
 ---
 
 ## AI Creative Tools
@@ -101,6 +137,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Supertoons](https://supertoons.co)**
   AI photo-to-cartoon transformer — upload a photo, pick a viral cartoon style, get results in minutes.
+
+- **[Sana](https://github.com/NVLabs/Sana)**
+  NVIDIA's fast text-to-image generation model — high-quality 4K images with efficient inference at high speeds.
+
+- **[yt-short-clipper](https://github.com/jipraks/yt-short-clipper)**
+  Auto-clip YouTube videos into short-form content — detects highlights and exports clips optimized for Shorts/Reels.
+
+- **[automate-faceless-content](https://github.com/cporter202/automate-faceless-content)**
+  Automate faceless YouTube content creation — scripts, voiceover, and video assembly without showing your face.
+
+- **[stenoai](https://github.com/ruzin/stenoai)**
+  AI-powered stenography and transcription tool — converts speech to structured, formatted text.
+
+- **[Removerized](https://www.opensourceprojects.dev/post/removerized)**
+  Open-source background removal tool — removes image backgrounds locally without uploading to external services.
 
 ---
 
@@ -129,6 +180,27 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Figma to Lottie Community](https://www.lottie.community/c/figma-to-lottie/)**
   Community hub for exporting Figma animations to Lottie format via the LottieFiles plugin.
+
+- **[codegraph](https://github.com/colbymchenry/codegraph)**
+  Visual code dependency graph explorer — maps relationships between files, functions, and modules in a codebase.
+
+- **[awesome-design-md](https://github.com/VoltAgent/awesome-design-md)**
+  Curated resources, examples, and templates for the design.md format — structured design systems for AI agents.
+
+- **[design-skills](https://github.com/parhamb/design-skills)**
+  Design-focused skill files for AI coding agents — UI patterns, component guidelines, and visual design rules.
+
+- **[presenton](https://github.com/presenton/presenton)**
+  Open-source AI presentation maker — generate slides from prompts or documents, self-hostable.
+
+- **[openpencil](https://github.com/ZSeven-W/openpencil)**
+  Open-source AI drawing and annotation tool.
+
+- **[AI Templates](https://www.aitmpl.com/)**
+  Library of AI prompt templates across categories — copywriting, coding, design, marketing, and more.
+
+- **[mono.chat](https://mono.chat/en/)**
+  Multi-model chat interface — switch between Claude, GPT, Gemini, and other models in one unified UI.
 
 ---
 
@@ -186,6 +258,24 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Pi-hole](https://github.com/pi-hole/pi-hole)**
   DNS sinkhole for network-wide ad blocking — protects all connected devices (including apps and smart TVs) without per-device software.
+
+- **[Jellyfin](https://github.com/jellyfin/jellyfin)**
+  Open-source media server — self-host your movies, TV shows, and music with no subscription or tracking.
+
+- **[Immich](https://github.com/immich-app/immich)**
+  Self-hosted Google Photos alternative — automatic backup, face recognition, and album management for photos and videos.
+
+- **[Papermark](https://github.com/papermark/papermark)**
+  Open-source DocSend alternative — share documents with analytics, access controls, and custom domains.
+
+- **[Twenty](https://github.com/twentyhq/twenty)**
+  Open-source Salesforce alternative — modern CRM with a clean UI, self-hostable, and fully extensible.
+
+- **[Anytype](https://github.com/anyproto/anytype-ts)**
+  Open-source Notion alternative — local-first, encrypted workspace for notes, tasks, databases, and knowledge graphs.
+
+- **[Rufus](https://rufus.ie/en/)**
+  Utility for creating bootable USB drives — fastest way to flash ISO images for Windows, Linux, and UEFI systems.
 
 ---
 
