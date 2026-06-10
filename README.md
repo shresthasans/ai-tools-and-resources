@@ -21,6 +21,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[claude-code-workflow](https://github.com/runesleo/claude-code-workflow)**
   Opinionated workflow guide for using Claude Code effectively in real projects.
 
+- **[stop-slop](https://github.com/hardikpandya/stop-slop)**
+  Skill file for removing AI tells from prose — strips the hollow filler phrases that make AI-written text obvious.
+
+- **[vibecode-pro-max-kit](https://github.com/withkynam/vibecode-pro-max-kit)**
+  Spec-driven coding harness for vibecoders and product owners — 12 agents, 32 skills, self-improving context memory. Kills context rot, ships features. Works with Claude Code and Codex.
+
+- **[prompt-master](https://github.com/nidhinjs/prompt-master)**
+  Claude skill that writes accurate prompts for any AI tool — zero wasted tokens, full context and memory retention.
+
 ---
 
 ## Learning & Resources
@@ -83,6 +92,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[freellmapi](https://github.com/tashfeenahmed/freellmapi)**
   Free LLM API wrapper aggregating access to multiple language models without paid API keys.
 
+- **[odysseus](https://github.com/pewdiepie-archdaemon/odysseus)**
+  Self-hosted AI workspace — run your own private AI environment with 65k+ stars.
+
 ---
 
 ## MCP Resources
@@ -128,6 +140,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[annyang](https://github.com/TalAter/annyang)**
   Tiny JS speech recognition library — add voice commands to any web app in a few lines, no server required.
 
+- **[VoxCPM](https://github.com/OpenBMB/VoxCPM)**
+  Tokenizer-free TTS for multilingual speech generation — supports creative voice design and true-to-life voice cloning.
+
+- **[Buzz](https://github.com/chidiwilliams/buzz)**
+  Offline audio transcription and translation powered by OpenAI's Whisper — runs entirely on your personal computer.
+
+- **[macparakeet](https://github.com/moona3k/macparakeet)**
+  Fast local voice app for Mac — system-wide dictation, file & YouTube transcription, and meeting recording. Powered by Parakeet TDT on Apple Silicon. Free and open-source.
+
 ---
 
 ## AI Creative Tools
@@ -152,6 +173,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Removerized](https://www.opensourceprojects.dev/post/removerized)**
   Open-source background removal tool — removes image backgrounds locally without uploading to external services.
+
+- **[Clypra](https://github.com/AIEraDev/Clypra)**
+  Modern open-source video editor built with Tauri, React, and TypeScript — aims to replicate premium CapCut features for free.
 
 ---
 
@@ -201,6 +225,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[mono.chat](https://mono.chat/en/)**
   Multi-model chat interface — switch between Claude, GPT, Gemini, and other models in one unified UI.
+
+- **[baguette](https://github.com/tddworks/baguette)**
+  Headless iOS Simulator manager and farm with host-side input injection — taps, swipes, multi-finger gestures, and 60fps streaming for iOS 26.
+
+- **[AI & Design Systems Resources](https://southleft.substack.com/p/ai-and-design-systems-tjs-resources)**
+  Curated roundup of tools, articles, and frameworks at the intersection of AI and design systems — by TJ from Southleft.
 
 ---
 
@@ -252,6 +282,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[AI For Beginners](https://github.com/microsoft/AI-For-Beginners)**
   Microsoft's 12-week, 24-lesson open curriculum covering neural networks, computer vision, NLP, and AI ethics using TensorFlow and PyTorch.
 
+- **[Google AI Essentials](https://www.coursera.org/google-certificates/ai-essentials-google)**
+  Google's foundational AI course on Coursera — practical skills for using AI tools effectively at work, no coding required.
+
+- **[awesome-courses](https://github.com/prakhar1989/awesome-courses)**
+  Curated list of university-level CS courses freely available online — 68k+ stars, covers algorithms, systems, ML, and more.
+
 ---
 
 ## Privacy & Utilities
@@ -277,12 +313,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Rufus](https://rufus.ie/en/)**
   Utility for creating bootable USB drives — fastest way to flash ISO images for Windows, Linux, and UEFI systems.
 
+- **[ShichiZip](https://github.com/idawnlight/ShichiZip)**
+  7-Zip derivative built for macOS — native compression and extraction with full 7z format support.
+
 ---
 
 ## Meta / Lists
 
 - **[awesome](https://github.com/sindresorhus/awesome)**
   The original awesome list — curated lists of interesting topics across all domains. Great starting point for finding more resources.
+
+- **[FMHY](https://fmhy.net/)**
+  The internet's largest curated wiki of free resources — software, media, tools, courses, and more across hundreds of categories.
+
+- **[TBCPL](https://www.tbcpl.lol/)**
+  The Best Couch Potato List — curated, regional directory of free streaming sites for movies, TV, anime, manga, live TV, and sports. Fast fuzzy search, multi-region.
 
 ---
 
