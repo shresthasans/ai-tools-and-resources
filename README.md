@@ -30,6 +30,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[prompt-master](https://github.com/nidhinjs/prompt-master)**
   Claude skill that writes accurate prompts for any AI tool — zero wasted tokens, full context and memory retention.
 
+- **[ponytail](https://github.com/DietrichGebert/ponytail)**
+  Claude Code skill that enforces YAGNI — checks if a solution already exists before generating new code.
+
+- **[humanizer](https://github.com/blader/humanizer)**
+  Claude Code skill that detects and strips 33 AI-writing patterns to make generated text sound natural.
+
+- **[claude-howto](https://github.com/luongnv89/claude-howto)**
+  Visual, example-driven guide to Claude Code — covers basics through advanced agent orchestration with copy-paste templates.
+
+- **[harness](https://github.com/revfactory/harness)**
+  Claude Code plugin that auto-designs domain-specific agent teams using six pre-defined architecture patterns.
+
+- **[ai-job-search](https://github.com/MadsLorentzen/ai-job-search)**
+  Claude Code framework that automates job applications — evaluates positions, tailors CVs, drafts cover letters, and preps interview responses.
+
 ---
 
 ## Learning & Resources
@@ -57,6 +72,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Cursor for Designers](https://adplist.notion.site/cursor-for-designers)**
   Guide to using Cursor as a non-developer designer — prompts, patterns, and workflows for design-to-code.
+
+- **[Google Labs](https://labs.google/)**
+  Google's early-access hub for experimental AI tools — try and give feedback on projects before they become products.
+
+- **[Vibe Coding Guide](https://attachments.convertkitcdnn2.com/1745700/93097ff1-1724-4b2e-835c-f08a98aa0b9f/vibe-coding-guide.pdf)**
+  Practical PDF guide to vibe coding — workflows, prompts, and patterns for AI-assisted development.
 
 ---
 
@@ -94,6 +115,30 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[odysseus](https://github.com/pewdiepie-archdaemon/odysseus)**
   Self-hosted AI workspace — run your own private AI environment with 65k+ stars.
+
+- **[career-ops](https://github.com/santifer/career-ops)**
+  AI-powered job search system — evaluates offers, generates tailored resumes, scans portals, and tracks applications.
+
+- **[OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)**
+  .NET CLI tool for AI agents to read, edit, and automate Word, Excel, and PowerPoint files — no Office installation required.
+
+- **[paca](https://github.com/Paca-AI/paca)**
+  Open-source self-hosted project management platform where humans and AI agents collaborate as equal Scrum team members.
+
+- **[wayland](https://github.com/ferroxlabs/wayland)**
+  Local-first desktop AI agent that coordinates multiple models and CLI tools from a unified command center — all data stays on-device.
+
+- **[memanto](https://github.com/moorcheh-ai/memanto)**
+  Persistent memory agent for AI assistants — stores and retrieves typed semantic context across sessions without a vector database.
+
+- **[cod3x-code](https://github.com/codexhaven/cod3x-code)**
+  Open-source AI coding assistant with 70+ tools and 14 specialized agents — production-ready alternative to proprietary coding assistants.
+
+- **[Understand-Anything (Egonex)](https://github.com/Egonex-AI/Understand-Anything)**
+  Transforms any codebase, knowledge base, or docs into an interactive searchable knowledge graph — compatible with Claude Code, Cursor, and Copilot.
+
+- **[codiris](https://www.codiris.build/)**
+  Platform for transforming websites into agent-first apps that work for both autonomous AI agents and human users simultaneously.
 
 ---
 
@@ -149,6 +194,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[macparakeet](https://github.com/moona3k/macparakeet)**
   Fast local voice app for Mac — system-wide dictation, file & YouTube transcription, and meeting recording. Powered by Parakeet TDT on Apple Silicon. Free and open-source.
 
+- **[whisper](https://github.com/openai/whisper)**
+  OpenAI's open-source speech recognition model — multilingual transcription, translation, and language identification, runs locally.
+
 ---
 
 ## AI Creative Tools
@@ -188,7 +236,7 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
   Open-source CapCut alternative — a web-based video editor.
 
 - **[Anderro](https://anderro.com)**
-  Developer tool. *(Description unavailable — site blocked fetch.)*
+  Developer tool. _(Description unavailable — site blocked fetch.)_
 
 - **[RapidRAW](https://github.com/CyberTimon/RapidRAW)**
   Lightweight, GPU-accelerated RAW photo editor with non-destructive editing, AI-powered masking, and batch operations — under 20MB.
@@ -231,6 +279,27 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[AI & Design Systems Resources](https://southleft.substack.com/p/ai-and-design-systems-tjs-resources)**
   Curated roundup of tools, articles, and frameworks at the intersection of AI and design systems — by TJ from Southleft.
+
+- **[skill-design-tokens-starter](https://github.com/fatcolors/skill-design-tokens-starter)**
+  Claude skill that builds a production-grade design system with multi-tier token architecture directly in Figma.
+
+- **[open-design](https://github.com/nexu-io/open-design)**
+  Local-first open-source desktop app that generates prototypes, decks, images, and videos via AI — open alternative to Claude Design.
+
+- **[App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI)**
+  Fast Go CLI for automating App Store Connect workflows — TestFlight management, build uploads, and app submissions.
+
+- **[Photopea](https://www.photopea.com/)**
+  Free browser-based professional photo editor — processes everything locally, no download or upload required. Full Photoshop-compatible PSD support.
+
+- **[Polotno Studio](https://polotno.com/studio/)**
+  Web-based graphic design tool for creating visual content in the browser — social media graphics, presentations, and marketing assets.
+
+- **[AI Design OS](https://aidesign-os.com/)**
+  Modular knowledge system for AI-era product design — covers foundational paradigms, design principles, and interaction patterns for human-AI interfaces.
+
+- **[ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)**
+  Reusable template that reverse-engineers websites into clean Next.js codebases using a multi-phase AI agent pipeline.
 
 ---
 
@@ -288,6 +357,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[awesome-courses](https://github.com/prakhar1989/awesome-courses)**
   Curated list of university-level CS courses freely available online — 68k+ stars, covers algorithms, systems, ML, and more.
 
+- **[Free-Certifications](https://github.com/ArslanYM/Free-Certifications)**
+  Curated list of free courses and certifications across cloud, programming, security, and DevOps — all legitimately free.
+
 ---
 
 ## Privacy & Utilities
@@ -316,6 +388,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[ShichiZip](https://github.com/idawnlight/ShichiZip)**
   7-Zip derivative built for macOS — native compression and extraction with full 7z format support.
 
+- **[OpenClaw](https://openclaw.ai/)**
+  Open-source local AI assistant — manages emails, calendars, and files, and automates tasks via WhatsApp, Telegram, and Discord.
+
+- **[Pear Desktop](https://github.com/pear-devs/pear-desktop)**
+  Native Electron desktop app for YouTube Music — alternative cross-platform client for Windows, macOS, and Linux.
+
 ---
 
 ## Meta / Lists
@@ -329,6 +407,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[TBCPL](https://www.tbcpl.lol/)**
   The Best Couch Potato List — curated, regional directory of free streaming sites for movies, TV, anime, manga, live TV, and sports. Fast fuzzy search, multi-region.
 
+- **[free-for-dev](https://github.com/ripienaar/free-for-dev)**
+  Massive curated list of SaaS, PaaS, IaaS, and cloud services with free tiers for developers — 90k+ stars.
+
+- **[RepoDir](https://repodir.com/)**
+  Directory for discovering and browsing repositories across topics and languages.
+
 ---
 
-*Add more resources by opening a PR or editing this file directly.*
+_Add more resources by opening a PR or editing this file directly._
