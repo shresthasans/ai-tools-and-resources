@@ -45,6 +45,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[ai-job-search](https://github.com/MadsLorentzen/ai-job-search)**
   Claude Code framework that automates job applications — evaluates positions, tailors CVs, drafts cover letters, and preps interview responses.
 
+- **[Claude-Code-Toolkit](https://github.com/xixu-me/Claude-Code-Toolkit)**
+  Cross-platform toolkit bundling utilities and scripts to enhance the Claude Code CLI experience.
+
+- **[knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)**
+  Official Anthropic collection of Claude plugins for knowledge workers — designed for use in Claude Cowork.
+
 ---
 
 ## Learning & Resources
@@ -412,6 +418,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[RepoDir](https://repodir.com/)**
   Directory for discovering and browsing repositories across topics and languages.
+
+- **[Awesome Claude](https://awesomeclaude.ai/)**
+  Curated collection of Claude AI tools, cheatsheets, skills, and MCP servers for developers building with Claude.
 
 ---
 
