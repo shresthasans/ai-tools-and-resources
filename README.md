@@ -51,6 +51,18 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins)**
   Official Anthropic collection of Claude plugins for knowledge workers — designed for use in Claude Cowork.
 
+- **[Superpowers](https://github.com/obra/superpowers)**
+  Software development methodology and skills framework for Claude Code that guides coding agents through design refinement, planning, TDD, and code review while keeping humans in the loop at key checkpoints.
+
+- **[GSD (Get Shit Done)](https://github.com/gsd-build/get-shit-done)**
+  Lightweight meta-prompting, context engineering, and spec-driven development system for Claude Code.
+
+- **[claude-mem](https://github.com/thedotmack/claude-mem)**
+  Persistent memory system for Claude Code that captures session activity, compresses it with AI, and injects relevant context back into future sessions for project continuity.
+
+- **[everything-claude-code](https://github.com/affaan-m/everything-claude-code)**
+  Plugin and toolkit bundling 67+ agents and 277+ skills with hooks, rules, and memory persistence to optimize agentic workflows across multiple AI harnesses (Cursor, OpenCode, Codex).
+
 ---
 
 ## Learning & Resources
@@ -146,6 +158,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[codiris](https://www.codiris.build/)**
   Platform for transforming websites into agent-first apps that work for both autonomous AI agents and human users simultaneously.
 
+- **[obsidian-skills](https://github.com/kepano/obsidian-skills)**
+  Agent skills that teach AI assistants how to work with Obsidian, covering Obsidian-flavored Markdown, Bases, JSON Canvas files, and vault interaction via the CLI.
+
+- **[LightRAG](https://github.com/hkuds/lightrag)**
+  Lightweight, graph-based retrieval-augmented generation framework combining knowledge graphs with vector embeddings — positioned as a faster alternative to systems like Microsoft GraphRAG.
+
 ---
 
 ## MCP Resources
@@ -155,6 +173,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[FastPedia MCPs](https://fastpedia.io/mcps/)**
   Directory of 1,100+ MCP integrations for connecting AI models to external systems and data sources.
+
+- **[n8n-mcp](https://github.com/czlonkowski/n8n-mcp)**
+  MCP server giving AI assistants structured access to documentation for 2,000+ n8n automation nodes, enabling AI-assisted workflow creation, validation, and deployment.
 
 ---
 
@@ -231,6 +252,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Clypra](https://github.com/AIEraDev/Clypra)**
   Modern open-source video editor built with Tauri, React, and TypeScript — aims to replicate premium CapCut features for free.
 
+- **[Unlimited AI](https://unlimitedai.org/)**
+  Free, login-free AI chat platform offering unrestricted access to multiple AI models for writing, translation, and research.
+
 ---
 
 ## Design & Development Tools
@@ -306,6 +330,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)**
   Reusable template that reverse-engineers websites into clean Next.js codebases using a multi-phase AI agent pipeline.
+
+- **[ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)**
+  AI-powered design intelligence skill offering 161 industry-specific reasoning rules plus 67 UI styles, 161 color palettes, and 57 font pairings to generate tailored design systems.
+
+- **[design-md-chrome](https://github.com/bergside/design-md-chrome)**
+  Chrome extension that extracts a website's visual style into a machine-readable DESIGN.md/SKILL.md file so AI coding assistants can build new sites matching that design system.
+
+- **[ERPNext](https://github.com/frappe/erpnext)**
+  Free, open-source ERP system built on the Frappe Framework covering accounting, inventory, manufacturing, and project management for businesses.
+
+- **[Maket](https://www.maket.ai/)**
+  AI platform that lets homeowners, architects, and builders describe requirements to generate, refine, and visualize residential floor plans without specialized design software.
+
+- **[Drafted](https://www.drafted.ai/)**
+  Free AI house-plan generator that creates custom home layouts from prompts and provides downloadable PDF and CAD files, focused on early-stage schematic design.
 
 ---
 
@@ -399,6 +438,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Pear Desktop](https://github.com/pear-devs/pear-desktop)**
   Native Electron desktop app for YouTube Music — alternative cross-platform client for Windows, macOS, and Linux.
+
+- **[IPSW.me](https://ipsw.me/)**
+  Directory site for downloading current and previous Apple firmware (iOS, iPadOS, macOS, watchOS, tvOS, visionOS) by device and version, linking to Apple's official servers.
+
+- **[CrystalFetch ISO Downloader](https://apps.apple.com/us/app/crystalfetch-iso-downloader/id6454431289?mt=12)**
+  macOS utility that simplifies downloading official Windows 11 installer ISOs for use in virtual machines like UTM, avoiding Microsoft's cumbersome download flow.
 
 ---
 
