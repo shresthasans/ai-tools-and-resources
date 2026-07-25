@@ -63,6 +63,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[everything-claude-code](https://github.com/affaan-m/everything-claude-code)**
   Plugin and toolkit bundling 67+ agents and 277+ skills with hooks, rules, and memory persistence to optimize agentic workflows across multiple AI harnesses (Cursor, OpenCode, Codex).
 
+- **[skills (Vercel Labs)](https://github.com/vercel-labs/skills)**
+  CLI for installing, discovering, and creating agent skills using the SKILL.md format — supports 70+ coding agents including Claude Code.
+
+- **[The Minimalist Entrepreneur Skills](https://github.com/slavingia/skills)**
+  10 Claude Code skills based on Sahil Lavingia's book, guiding entrepreneurs from idea validation through pricing and growth.
+
 ---
 
 ## Learning & Resources
@@ -87,6 +93,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[AI for UX & Product Design Survey](https://designlab.com/advanced/ai-for-ux-and-product-design-survey-report)**
   Designlab's survey report on how AI is reshaping UX and product design workflows.
+
+- **[system-design-notes](https://github.com/liquidslr/system-design-notes)**
+  Study notes covering 28 chapters from the "System Design Interview" book series, spanning scaling concepts to real-world system designs.
+
+- **[prompts.chat](https://github.com/f/prompts.chat)**
+  Open-source prompt library (formerly Awesome ChatGPT Prompts) for browsing, sharing, and self-hosting prompts across ChatGPT, Claude, Gemini, and other models.
 
 - **[Cursor for Designers](https://adplist.notion.site/cursor-for-designers)**
   Guide to using Cursor as a non-developer designer — prompts, patterns, and workflows for design-to-code.
@@ -164,6 +176,24 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[LightRAG](https://github.com/hkuds/lightrag)**
   Lightweight, graph-based retrieval-augmented generation framework combining knowledge graphs with vector embeddings — positioned as a faster alternative to systems like Microsoft GraphRAG.
 
+- **[pm-skills](https://github.com/phuryn/pm-skills)**
+  68 Claude Code skills and 42 chained workflows across 9 plugins encoding proven PM frameworks for product discovery, strategy, and growth.
+
+- **[Onyx](https://github.com/onyx-dot-app/onyx)**
+  Self-hosted, open-source AI chat platform with RAG, web search, code execution, and 50+ indexing connectors for enterprise deployment.
+
+- **[ECC (Agent Harness Operating System)](https://github.com/affaan-m/ECC)**
+  Toolkit of 67 agents and 279 reusable skills adding memory, security auditing, and research-first workflows to Claude Code, Cursor, and other harnesses.
+
+- **[9Router](https://github.com/decolua/9router)**
+  Open-source AI routing proxy that manages fallback across subscription, cheap, and free AI provider tiers with token-saving compression for coding tools.
+
+- **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)**
+  Free, open-source AI gateway unifying 290+ providers and 500+ models with auto-routing, fallback, and token compression across 33+ coding tools.
+
+- **[Collaborator](https://github.com/collabs-inc/collab-public)**
+  Native desktop app combining terminals, code editors, and file management on an infinite canvas for running AI coding agents locally.
+
 ---
 
 ## MCP Resources
@@ -176,6 +206,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[n8n-mcp](https://github.com/czlonkowski/n8n-mcp)**
   MCP server giving AI assistants structured access to documentation for 2,000+ n8n automation nodes, enabling AI-assisted workflow creation, validation, and deployment.
+
+- **[free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources)**
+  Maintained list of free and trial-based LLM inference API providers, including perpetually free services like OpenRouter and Groq.
 
 ---
 
@@ -224,6 +257,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[whisper](https://github.com/openai/whisper)**
   OpenAI's open-source speech recognition model — multilingual transcription, translation, and language identification, runs locally.
 
+- **[Meetily](https://github.com/Zackriya-Solutions/meetily)**
+  Privacy-focused, local-first AI meeting assistant built with Rust/Tauri that transcribes and summarizes meetings using Ollama, Claude, or Groq.
+
 ---
 
 ## AI Creative Tools
@@ -254,6 +290,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Unlimited AI](https://unlimitedai.org/)**
   Free, login-free AI chat platform offering unrestricted access to multiple AI models for writing, translation, and research.
+
+- **[Streambert](https://github.com/truelockmc/streambert)**
+  Cross-platform Electron app for streaming and downloading movies, TV, and anime with subtitle management and built-in ad blocking.
+
+- **[Open Generative AI](https://github.com/Anil-matcha/Open-Generative-AI)**
+  Free, open-source AI creative studio for unrestricted image, video, audio, and lip-sync generation across 400+ models, with a node-based workflow builder.
+
+- **[awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2)**
+  Curated library of 2,000+ prompts for OpenAI's GPT Image 2 model with preview images, updated daily and available in 16 languages.
+
+- **[FreeCut (walterlow)](https://github.com/walterlow/freecut)**
+  Browser-based video editor using WebGPU/WebCodecs for multi-track editing with local AI transcription and scene detection, no uploads required.
+
+- **[freecut (Moh4696)](https://github.com/Moh4696/freecut)**
+  AI-agent-driven video editing fork that automates filler-word removal, color grading, and subtitle burning using transcript-based, token-efficient processing.
 
 ---
 
@@ -346,6 +397,18 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Drafted](https://www.drafted.ai/)**
   Free AI house-plan generator that creates custom home layouts from prompts and provides downloadable PDF and CAD files, focused on early-stage schematic design.
 
+- **[OpenPencil](https://github.com/open-pencil/open-pencil)**
+  AI-native, open-source design editor that reads/writes native .fig files with a Tauri desktop app, MCP server, and real-time P2P collaboration.
+
+- **[Skills for Design Engineers](https://github.com/emilkowalski/skills)**
+  Collection of AI agent skills teaching animation review, motion opportunities, and Apple design principles for higher-quality UI output.
+
+- **[Instatic](https://github.com/corebunch/instatic)**
+  Self-hosted, open-source visual CMS and static site publisher positioned as an alternative to Webflow, Framer, and WordPress, built on Bun.
+
+- **[Penpot](https://github.com/penpot/penpot)**
+  Open-source, self-hostable design platform with real-time collaboration, design tokens, and code inspection built on Clojure/ClojureScript.
+
 ---
 
 ## Productivity
@@ -355,6 +418,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Happy Work, Happy Life](https://happywork-happylife.com)**
   Resources for escaping burnout and reconnecting with purpose at work.
+
+- **[Bananas](https://github.com/mistweaverco/bananas)**
+  Cross-platform peer-to-peer screen sharing tool requiring no account creation, suited for pair programming and collaboration.
+
+- **[OpenWA](https://github.com/rmyndharis/OpenWA)**
+  Self-hosted WhatsApp API gateway built on NestJS/TypeScript for programmatic messaging, group management, and automation via webhooks.
 
 ---
 
@@ -405,6 +474,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Free-Certifications](https://github.com/ArslanYM/Free-Certifications)**
   Curated list of free courses and certifications across cloud, programming, security, and DevOps — all legitimately free.
 
+- **[AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch)**
+  Open-source curriculum of 503 lessons across 20 phases teaching AI engineering from math foundations through agents and production deployment.
+
+- **[cs-video-courses](https://github.com/Developer-Y/cs-video-courses)**
+  Curated list of university-level computer science courses with freely available video lectures across algorithms, systems, ML, and security.
+
 ---
 
 ## Privacy & Utilities
@@ -445,6 +520,27 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[CrystalFetch ISO Downloader](https://apps.apple.com/us/app/crystalfetch-iso-downloader/id6454431289?mt=12)**
   macOS utility that simplifies downloading official Windows 11 installer ISOs for use in virtual machines like UTM, avoiding Microsoft's cumbersome download flow.
 
+- **[PDFCraft](https://github.com/PDFCraftTool/pdfcraft)**
+  Browser-based PDF toolkit with 90+ tools that processes files locally via WebAssembly, including a visual workflow editor.
+
+- **[BentoPDF](https://www.bentopdf.com/)**
+  Privacy-first, open-source PDF toolkit with 100+ tools that run entirely client-side in the browser, requiring no uploads or sign-up.
+
+- **[Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader)**
+  Free, open-source lightweight Windows document viewer supporting PDF, EPUB, MOBI, CBZ/CBR, DjVu, XPS, and CHM formats.
+
+- **[Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF)**
+  Open-source, self-hostable PDF platform offering 50+ tools including editing, merging, OCR, and REST API automation in 40+ languages.
+
+- **[iptv-org/iptv](https://github.com/iptv-org/iptv)**
+  Curated collection of publicly available IPTV channel streams from around the world, with accompanying EPG database and API.
+
+- **[Project N.O.M.A.D.](https://github.com/crosstalk-solutions/project-nomad)**
+  Offline-first Docker-based server bundling AI, Wikipedia, Khan Academy, and mapping tools for internet-independent education and knowledge access.
+
+- **[Magika](https://github.com/google/magika)**
+  Google's AI-powered file type detection tool achieving ~99% accuracy across 200+ file types in about 5 milliseconds per file.
+
 ---
 
 ## Meta / Lists
@@ -466,6 +562,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Awesome Claude](https://awesomeclaude.ai/)**
   Curated collection of Claude AI tools, cheatsheets, skills, and MCP servers for developers building with Claude.
+
+- **[NoSignups](https://nosignups.net/)**
+  Collection of open-source, no-frills software tools emphasizing simplicity and transparency without sign-up requirements.
+
+- **[awesome-ai-agents](https://github.com/slavakurilyak/awesome-ai-agents)**
+  Curated directory of 300+ agentic AI projects and frameworks, ranked by GitHub stars with categorized tools, providers, and evaluation resources.
+
+- **[Exercises Dataset](https://github.com/hasaneyldrm/exercises-dataset)**
+  Open dataset of 1,324 fitness exercises with GIF animations, muscle/equipment metadata, and instructions in 10 languages.
 
 ---
 
