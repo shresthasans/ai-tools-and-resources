@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI & Claude Resources</title>
+<meta name="description" content="A curated list of useful AI tools, Claude Code resources, agent frameworks, and related projects." />
+<style>
+  :root {
+    --bg: #f7f7f8;
+    --surface: #ffffff;
+    --border: #e3e3e6;
+    --text: #1c1c1f;
+    --text-dim: #6b6b74;
+    --accent: #6366f1;
+    --accent-bg: #eef0fe;
+    --chip-bg: #f0f0f3;
+    --chip-active-bg: #6366f1;
+    --chip-active-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17171a;
+      --surface: #201f24;
+      --border: #33333a;
+      --text: #eceef0;
+      --text-dim: #9a9aa2;
+      --accent: #8b8cf9;
+      --accent-bg: #2a2a4a;
+      --chip-bg: #2b2b30;
+      --chip-active-bg: #8b8cf9;
+      --chip-active-text: #17171a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17171a; --surface: #201f24; --border: #33333a; --text: #eceef0;
+    --text-dim: #9a9aa2; --accent: #8b8cf9; --accent-bg: #2a2a4a;
+    --chip-bg: #2b2b30; --chip-active-bg: #8b8cf9; --chip-active-text: #17171a;
+  }
+  :root[data-theme="light"] {
+    --bg: #f7f7f8; --surface: #ffffff; --border: #e3e3e6; --text: #1c1c1f;
+    --text-dim: #6b6b74; --accent: #6366f1; --accent-bg: #eef0fe;
+    --chip-bg: #f0f0f3; --chip-active-bg: #6366f1; --chip-active-text: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.45;
+  }
+  header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 1rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+    margin: 0 0 0.35rem;
+    letter-spacing: -0.02em;
+  }
+  .subtitle { color: var(--text-dim); margin: 0 0 1.5rem; font-size: 0.95rem; }
+  .controls {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem 1rem;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 10;
+  }
+  #search {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    font-size: 0.95rem;
+    margin-bottom: 0.9rem;
+  }
+  #search:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .filter-group { margin-bottom: 0.6rem; }
+  .filter-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-dim);
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .chip {
+    border: 1px solid var(--border);
+    background: var(--chip-bg);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.82rem;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+    white-space: nowrap;
+  }
+  .chip:hover { border-color: var(--accent); }
+  .chip.active {
+    background: var(--chip-active-bg);
+    color: var(--chip-active-text);
+    border-color: var(--chip-active-bg);
+  }
+  .meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-dim);
+    font-size: 0.82rem;
+    margin-top: 0.6rem;
+  }
+  #clear-btn {
+    background: none;
+    border: none;
+    color: var(--accent);
+    cursor: pointer;
+    font-size: 0.82rem;
+    padding: 0;
+  }
+  main { max-width: 1100px; margin: 0 auto; padding: 0.5rem 1.5rem 3rem; }
+  .category { margin-top: 2rem; }
+  .category h2 {
+    font-size: 1.05rem;
+    margin: 0 0 0.8rem;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.75rem;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.9rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .card a.name {
+    color: var(--text);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  .card a.name:hover { color: var(--accent); text-decoration: underline; }
+  .card .desc { color: var(--text-dim); font-size: 0.85rem; }
+  .card .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.15rem; }
+  .tag-pill {
+    background: var(--accent-bg);
+    color: var(--accent);
+    font-size: 0.68rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    font-weight: 500;
+  }
+  #empty-state {
+    text-align: center;
+    color: var(--text-dim);
+    padding: 3rem 1rem;
+    display: none;
+  }
+  footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem 3rem;
+    color: var(--text-dim);
+    font-size: 0.8rem;
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>AI &amp; Claude Resources</h1>
+  <p class="subtitle">A curated list of useful AI tools, Claude Code resources, agent frameworks, and related projects.</p>
+</header>
+
+<div class="controls">
+  <input id="search" type="text" placeholder="Search by name or description..." />
+  <div class="filter-group">
+    <span class="filter-label">Category</span>
+    <div class="chips" id="category-chips"></div>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Tags</span>
+    <div class="chips" id="tag-chips"></div>
+  </div>
+  <div class="meta-row">
+    <span id="result-count"></span>
+    <button id="clear-btn">Clear filters</button>
+  </div>
+</div>
+
+<main id="results"></main>
+<div id="empty-state">No resources match your filters.</div>
+
+<footer>
+  <span id="tag-note"></span>
+  &middot; Source: <a href="https://github.com/shresthasans/ai-tools-and-resources/blob/main/README.md">README.md</a>
+</footer>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  const data = window.RESOURCE_DATA;
+  const state = { search: '', category: null, tags: new Set() };
+
+  const categoryChips = document.getElementById('category-chips');
+  const tagChips = document.getElementById('tag-chips');
+  const resultsEl = document.getElementById('results');
+  const emptyState = document.getElementById('empty-state');
+  const resultCount = document.getElementById('result-count');
+  const searchInput = document.getElementById('search');
+  const clearBtn = document.getElementById('clear-btn');
+  document.getElementById('tag-note').textContent = data.generatedNote || '';
+
+  function makeChip(label, isActive, onClick) {
+    const el = document.createElement('button');
+    el.className = 'chip' + (isActive ? ' active' : '');
+    el.textContent = label;
+    el.addEventListener('click', onClick);
+    return el;
+  }
+
+  function renderChips() {
+    categoryChips.innerHTML = '';
+    categoryChips.appendChild(makeChip('All', state.category === null, () => {
+      state.category = null;
+      renderAll();
+    }));
+    data.categories.forEach(cat => {
+      categoryChips.appendChild(makeChip(cat.name, state.category === cat.name, () => {
+        state.category = state.category === cat.name ? null : cat.name;
+        renderAll();
+      }));
+    });
+
+    tagChips.innerHTML = '';
+    data.allTags.forEach(tag => {
+      tagChips.appendChild(makeChip(tag, state.tags.has(tag), () => {
+        if (state.tags.has(tag)) state.tags.delete(tag);
+        else state.tags.add(tag);
+        renderAll();
+      }));
+    });
+  }
+
+  function matches(entry) {
+    if (state.search) {
+      const q = state.search.toLowerCase();
+      const hay = (entry.name + ' ' + entry.desc).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    if (state.tags.size > 0) {
+      for (const t of state.tags) {
+        if (!entry.tags.includes(t)) return false;
+      }
+    }
+    return true;
+  }
+
+  function renderResults() {
+    resultsEl.innerHTML = '';
+    let total = 0;
+    const cats = state.category
+      ? data.categories.filter(c => c.name === state.category)
+      : data.categories;
+
+    cats.forEach(cat => {
+      const entries = cat.entries.filter(matches);
+      if (entries.length === 0) return;
+      total += entries.length;
+
+      const section = document.createElement('section');
+      section.className = 'category';
+      const h2 = document.createElement('h2');
+      h2.textContent = cat.name + ' (' + entries.length + ')';
+      section.appendChild(h2);
+
+      const grid = document.createElement('div');
+      grid.className = 'grid';
+      entries.forEach(entry => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        const a = document.createElement('a');
+        a.className = 'name';
+        a.href = entry.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.textContent = entry.name;
+        const desc = document.createElement('div');
+        desc.className = 'desc';
+        desc.textContent = entry.desc;
+        const tagsWrap = document.createElement('div');
+        tagsWrap.className = 'tags';
+        entry.tags.forEach(t => {
+          const pill = document.createElement('span');
+          pill.className = 'tag-pill';
+          pill.textContent = t;
+          tagsWrap.appendChild(pill);
+        });
+        card.appendChild(a);
+        card.appendChild(desc);
+        card.appendChild(tagsWrap);
+        grid.appendChild(card);
+      });
+      section.appendChild(grid);
+      resultsEl.appendChild(section);
+    });
+
+    resultCount.textContent = total + ' resource' + (total === 1 ? '' : 's');
+    emptyState.style.display = total === 0 ? 'block' : 'none';
+  }
+
+  function renderAll() {
+    renderChips();
+    renderResults();
+  }
+
+  searchInput.addEventListener('input', e => {
+    state.search = e.target.value;
+    renderResults();
+  });
+
+  clearBtn.addEventListener('click', () => {
+    state.search = '';
+    state.category = null;
+    state.tags.clear();
+    searchInput.value = '';
+    renderAll();
+  });
+
+  renderAll();
+})();
+</script>
+</body>
+</html>
