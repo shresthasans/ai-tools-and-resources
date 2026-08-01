@@ -437,6 +437,46 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "geo-seo-claude",
+          "url": "https://github.com/zubair-trabzada/geo-seo-claude",
+          "desc": "Claude skill for optimizing content so it surfaces well in AI answer engines (ChatGPT, Perplexity, Google AI Overviews) — the AI-era counterpart to SEO.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A Claude skill that helps optimize your content so it shows up well when people ask AI tools like ChatGPT or Perplexity questions, instead of just Google.",
+            "whyHelpful": "Traditional SEO helps you rank in Google search, but more people now get answers from AI chatbots — this helps make sure your content gets picked up there too.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Add the skill files to Claude Code's skills folder",
+              "Follow the README to run it against your content"
+            ]
+          }
+        },
+        {
+          "name": "improve (shadcn)",
+          "url": "https://github.com/shadcn/improve",
+          "desc": "Tool/skill that reviews and improves shadcn/ui-based component code for consistency and quality.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A tool that looks at your shadcn/ui component code and suggests or applies improvements for consistency and quality.",
+            "whyHelpful": "Keeps your UI components clean and consistent without manually reviewing every component yourself.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it against your component files"
+            ]
+          }
         }
       ]
     },
@@ -635,6 +675,38 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A downloadable PDF guide that explains 'vibe coding,' a casual style of building software by describing what you want to an AI instead of writing code by hand.",
             "whyHelpful": "Gives beginners simple steps and example prompts to start building small apps using AI, even without programming experience.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Cursos e Certificados Free",
+          "url": "https://github.com/caioross/Cursos-Certificados-Free",
+          "desc": "Curated list of free online courses that also award a certificate on completion.",
+          "tags": [
+            "Free",
+            "Learning",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A list of free online courses that also give you a certificate when you finish them.",
+            "whyHelpful": "Lets you build up a resume of certificates without spending money on paid course platforms.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Anthropic Prompt Engineering Interactive Tutorial",
+          "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+          "desc": "Anthropic's official hands-on tutorial for learning prompt engineering — interactive exercises instead of just docs.",
+          "tags": [
+            "Free",
+            "Learning",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "Anthropic's own free, hands-on lesson series for learning how to write better prompts for AI models — you practice as you go instead of just reading.",
+            "whyHelpful": "Teaches you directly from the company that makes Claude how to get better, more reliable answers out of AI.",
             "installNeeded": false,
             "install": []
           }
@@ -1221,6 +1293,46 @@ window.RESOURCE_DATA = {
               "Configure it to point at your own tasks/workflows"
             ]
           }
+        },
+        {
+          "name": "jcode",
+          "url": "https://github.com/1jehuang/jcode",
+          "desc": "Open-source AI coding agent/CLI for working with AI on codebases from the terminal, in the same space as Claude Code.",
+          "tags": [
+            "Agent",
+            "CLI",
+            "Claude Code",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "An open-source command-line tool that lets an AI assistant help you write and edit code directly in your terminal — similar in spirit to Claude Code.",
+            "whyHelpful": "Gives you an AI coding helper without being locked into one company's paid tool.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow install steps in the README (likely npm or similar)",
+              "Run it from your project folder"
+            ]
+          }
+        },
+        {
+          "name": "BrowserOS",
+          "url": "https://www.browseros.com/",
+          "desc": "AI-powered web browser that understands pages and can take actions for you — an agent built directly into your browsing.",
+          "tags": [
+            "Agent"
+          ],
+          "details": {
+            "whatItIs": "A web browser with AI built in that can read what's on the page and actually click, fill forms, or navigate for you.",
+            "whyHelpful": "Automates repetitive browsing tasks (like filling out forms or comparing prices) instead of you doing every click by hand.",
+            "installNeeded": true,
+            "install": [
+              "Download the app from browseros.com for your OS",
+              "Install like any normal browser",
+              "Open it and start using its AI features"
+            ]
+          }
         }
       ]
     },
@@ -1289,6 +1401,26 @@ window.RESOURCE_DATA = {
             "whyHelpful": "It saves you money and research time by pointing you straight to no-cost or low-cost ways to experiment with AI models.",
             "installNeeded": false,
             "install": []
+          }
+        },
+        {
+          "name": "drawio-mcp-server",
+          "url": "https://github.com/lgazo/drawio-mcp-server",
+          "desc": "MCP server that lets AI assistants create and edit diagrams directly in draw.io / diagrams.net.",
+          "tags": [
+            "Free",
+            "MCP",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A connector that lets AI assistants (like Claude) create and edit flowcharts and diagrams directly inside the free draw.io tool.",
+            "whyHelpful": "Lets you ask an AI to 'draw me a diagram of this process' and have it actually appear in draw.io, instead of describing it in text.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the MCP server setup steps in the README",
+              "Connect it to your AI assistant's MCP settings"
+            ]
           }
         }
       ]
@@ -1840,6 +1972,25 @@ window.RESOURCE_DATA = {
               "Wait for it to download the AI model on first run"
             ]
           }
+        },
+        {
+          "name": "MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "desc": "Open-source tool that auto-generates short-form videos (YouTube Shorts/TikTok style) from just a topic or script, using AI for voice, visuals, and captions.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free tool that automatically makes short videos (like YouTube Shorts or TikToks) — it writes the script, adds AI voice, picks visuals, and adds captions, all from just a topic you give it.",
+            "whyHelpful": "Lets you produce short-form video content quickly without filming, editing, or voiceover skills.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Install dependencies as described in the README",
+              "Run it and provide a video topic to generate from"
+            ]
+          }
         }
       ]
     },
@@ -2275,6 +2426,44 @@ window.RESOURCE_DATA = {
               "Or use the free hosted version at penpot.app"
             ]
           }
+        },
+        {
+          "name": "appscreen",
+          "url": "https://github.com/YUZU-Hub/appscreen",
+          "desc": "Generates polished app store screenshots and marketing images from your app's UI, with device frames and text overlays.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that turns plain screenshots of your app into polished, professional-looking app store images — with device frames and text.",
+            "whyHelpful": "Saves you from manually designing marketing screenshots in Photoshop or Figma before submitting your app to a store.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow setup steps in the README",
+              "Feed in your app screenshots to generate store-ready images"
+            ]
+          }
+        },
+        {
+          "name": "componentry",
+          "url": "https://github.com/harshjdhv/componentry",
+          "desc": "Tool for building and managing a reusable UI component library / design system.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool for organizing and building a library of reusable UI building blocks (buttons, cards, forms, etc.) for a consistent app design.",
+            "whyHelpful": "Saves time by reusing well-designed, consistent components instead of rebuilding the same UI pieces over and over.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Install dependencies as described in the README",
+              "Run it to browse or generate your component library"
+            ]
+          }
         }
       ]
     },
@@ -2440,6 +2629,25 @@ window.RESOURCE_DATA = {
               "Follow README to install and run with Bun"
             ]
           }
+        },
+        {
+          "name": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "desc": "Turns your data or codebase into visual graphs/diagrams, making relationships easier to understand at a glance.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that turns your data or codebase into visual diagrams and graphs, so relationships between pieces are easier to see.",
+            "whyHelpful": "Makes complex data or code structure easier to understand at a glance instead of reading through raw files.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Install dependencies as described in the README",
+              "Point it at your data/codebase to generate the graph"
+            ]
+          }
         }
       ]
     },
@@ -2573,6 +2781,25 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A self-hosted scheduling tool for creating booking pages, similar to Calendly but based on the open-source Cal.com project.",
             "whyHelpful": "Lets you run your own booking page without depending on a paid third-party scheduling service.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the self-hosting setup guide in the README",
+              "Deploy to your own server or hosting provider"
+            ]
+          }
+        },
+        {
+          "name": "OpenShip",
+          "url": "https://github.com/oblien/openship",
+          "desc": "Open-source platform for automating order routing and fulfillment across multiple sales channels and suppliers.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free, open-source system for online sellers that automatically routes orders to the right supplier or warehouse and tracks fulfillment.",
+            "whyHelpful": "Saves online store owners from manually forwarding every order to suppliers — it automates that handoff.",
             "installNeeded": true,
             "install": [
               "Clone the GitHub repository",
@@ -3285,6 +3512,21 @@ window.RESOURCE_DATA = {
               "Open it and start creating pages/boards"
             ]
           }
+        },
+        {
+          "name": "tools.rmv.fyi",
+          "url": "https://tools.rmv.fyi/",
+          "desc": "Small collection of free, no-frills web-based utility tools.",
+          "tags": [
+            "Free",
+            "Web"
+          ],
+          "details": {
+            "whatItIs": "A small website offering a handful of free, simple online utility tools.",
+            "whyHelpful": "Quick access to small everyday tools without installing anything or creating an account.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -3449,6 +3691,21 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A community-maintained list of services that give out free website domain names or subdomains.",
             "whyHelpful": "Useful if you want a website address for a personal project without paying yearly domain fees.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "awesome-opensource-ai",
+          "url": "https://github.com/alvinreal/awesome-opensource-ai",
+          "desc": "Curated list of open-source AI projects and tools across categories.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A curated, organized list of free and open-source AI projects and tools.",
+            "whyHelpful": "Saves time browsing GitHub randomly — gives you a vetted starting point for open-source AI options.",
             "installNeeded": false,
             "install": []
           }

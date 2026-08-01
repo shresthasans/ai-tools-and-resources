@@ -72,6 +72,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[31 Skills, 72 Systems — How the Library Works](https://open-design.ai/blog/31-skills-72-systems-how-the-library-works/#anatomy-of-a-skill-folder)**
   Deep-dive into how design.md-style skill folders are structured — anatomy of a skill folder, drawn from a real 31-skill, 72-system production library.
 
+- **[geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude)**
+  Claude skill for optimizing content so it surfaces well in AI answer engines (ChatGPT, Perplexity, Google AI Overviews) — the AI-era counterpart to SEO.
+
+- **[improve (shadcn)](https://github.com/shadcn/improve)**
+  Tool/skill that reviews and improves shadcn/ui-based component code for consistency and quality.
+
 ---
 
 ## Learning & Resources
@@ -114,6 +120,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Vibe Coding Guide](https://attachments.convertkitcdnn2.com/1745700/93097ff1-1724-4b2e-835c-f08a98aa0b9f/vibe-coding-guide.pdf)**
   Practical PDF guide to vibe coding — workflows, prompts, and patterns for AI-assisted development.
+
+- **[Cursos e Certificados Free](https://github.com/caioross/Cursos-Certificados-Free)**
+  Curated list of free online courses that also award a certificate on completion.
+
+- **[Anthropic Prompt Engineering Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)**
+  Anthropic's official hands-on tutorial for learning prompt engineering — interactive exercises instead of just docs.
 
 ---
 
@@ -206,6 +218,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[openwork](https://github.com/different-ai/openwork)**
   Open-source toolkit for building AI-powered agentic workflows that automate everyday work tasks.
 
+- **[jcode](https://github.com/1jehuang/jcode)**
+  Open-source AI coding agent/CLI for working with AI on codebases from the terminal, in the same space as Claude Code.
+
+- **[BrowserOS](https://www.browseros.com/)**
+  AI-powered web browser that understands pages and can take actions for you — an agent built directly into your browsing.
+
 ---
 
 ## MCP Resources
@@ -221,6 +239,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources)**
   Maintained list of free and trial-based LLM inference API providers, including perpetually free services like OpenRouter and Groq.
+
+- **[drawio-mcp-server](https://github.com/lgazo/drawio-mcp-server)**
+  MCP server that lets AI assistants create and edit diagrams directly in draw.io / diagrams.net.
 
 ---
 
@@ -321,6 +342,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Fooocus](https://github.com/lllyasviel/Fooocus)**
   Simplified, beginner-friendly interface for Stable-Diffusion-based image generation — focuses on ease of use over manual parameter tuning.
 
+- **[MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)**
+  Open-source tool that auto-generates short-form videos (YouTube Shorts/TikTok style) from just a topic or script, using AI for voice, visuals, and captions.
+
 ---
 
 ## Design Tools
@@ -397,6 +421,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Penpot](https://github.com/penpot/penpot)**
   Open-source, self-hostable design platform with real-time collaboration, design tokens, and code inspection built on Clojure/ClojureScript.
 
+- **[appscreen](https://github.com/YUZU-Hub/appscreen)**
+  Generates polished app store screenshots and marketing images from your app's UI, with device frames and text overlays.
+
+- **[componentry](https://github.com/harshjdhv/componentry)**
+  Tool for building and managing a reusable UI component library / design system.
+
 ---
 
 ## Development Tools
@@ -428,6 +458,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Instatic](https://github.com/corebunch/instatic)**
   Self-hosted, open-source visual CMS and static site publisher positioned as an alternative to Webflow, Framer, and WordPress, built on Bun.
 
+- **[graphify](https://github.com/Graphify-Labs/graphify)**
+  Turns your data or codebase into visual graphs/diagrams, making relationships easier to understand at a glance.
+
 ---
 
 ## Productivity
@@ -452,6 +485,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[cal.diy](https://github.com/calcom/cal.diy)**
   Self-hostable scheduling and booking-page tool built on the open-source Cal.com stack.
+
+- **[OpenShip](https://github.com/oblien/openship)**
+  Open-source platform for automating order routing and fulfillment across multiple sales channels and suppliers.
 
 ---
 
@@ -581,6 +617,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)**
   Open-source, privacy-first alternative to Notion — notes, docs, and project management with full control over your data, self-hostable.
 
+- **[tools.rmv.fyi](https://tools.rmv.fyi/)**
+  Small collection of free, no-frills web-based utility tools.
+
 ---
 
 ## Meta / Lists
@@ -617,6 +656,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)**
   Community-maintained list of providers offering free domain names and subdomains for personal projects, with notes on terms and renewal requirements.
+
+- **[awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai)**
+  Curated list of open-source AI projects and tools across categories.
 
 ---
 
