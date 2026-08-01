@@ -62,9 +62,14 @@
     position: sticky;
     top: 0;
     height: 100vh;
-    overflow-y: auto;
-    padding: 2rem 1.25rem 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
     border-right: 1px solid var(--border);
+  }
+  .sidebar-scroll {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem 1.25rem 1rem 1.5rem;
   }
   .content-col {
     display: flex;
@@ -106,24 +111,13 @@
     letter-spacing: -0.01em;
   }
   .filter-group { margin-bottom: 1.4rem; }
-  .filter-label-row {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
-  }
   .filter-label {
     font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--text-dim);
     display: block;
-  }
-  .filter-hint {
-    font-size: 0.68rem;
-    color: var(--text-dim);
-    opacity: 0.75;
-    font-style: italic;
+    margin-bottom: 0.5rem;
   }
   .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
   .sidebar .chips { flex-direction: column; align-items: stretch; gap: 0.2rem; }
@@ -192,14 +186,15 @@
   .chip.chip-checkbox .indicator svg { display: none; width: 10px; height: 10px; }
   .chip.chip-checkbox.active { color: var(--accent); font-weight: 600; }
   .meta-row {
+    flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: var(--text-dim);
     font-size: 0.82rem;
-    margin-top: 1rem;
-    padding-top: 0.8rem;
+    padding: 0.8rem 1.25rem 0.8rem 1.5rem;
     border-top: 1px solid var(--border);
+    background: var(--surface);
   }
   #clear-btn {
     background: none;
@@ -353,20 +348,16 @@
 
 <div class="layout">
   <aside class="sidebar">
-    <p class="sidebar-title">Filters</p>
-    <div class="filter-group">
-      <div class="filter-label-row">
+    <div class="sidebar-scroll">
+      <p class="sidebar-title">Filters</p>
+      <div class="filter-group">
         <span class="filter-label">Category</span>
-        <span class="filter-hint">choose one</span>
+        <div class="chips" id="category-chips" role="radiogroup" aria-label="Filter by category"></div>
       </div>
-      <div class="chips" id="category-chips" role="radiogroup" aria-label="Filter by category"></div>
-    </div>
-    <div class="filter-group">
-      <div class="filter-label-row">
+      <div class="filter-group">
         <span class="filter-label">Tags</span>
-        <span class="filter-hint">choose any</span>
+        <div class="chips" id="tag-chips" role="group" aria-label="Filter by tag"></div>
       </div>
-      <div class="chips" id="tag-chips" role="group" aria-label="Filter by tag"></div>
     </div>
     <div class="meta-row">
       <span id="result-count"></span>
