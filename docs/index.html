@@ -50,12 +50,13 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.45;
   }
+  html, body { height: 100%; }
   .layout {
     display: grid;
     grid-template-columns: 280px minmax(0, 1fr);
     align-items: start;
-    max-width: 1400px;
-    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
   }
   aside.sidebar {
     position: sticky;
@@ -66,35 +67,44 @@
     border-right: 1px solid var(--border);
   }
   .content-col {
-    padding: 2rem 1.5rem 3rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    min-height: 100vh;
   }
-  header { max-width: 900px; width: 100%; margin: 0 auto; padding: 0 0 1.5rem; text-align: center; }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 1.75rem 2rem 1.25rem;
+  }
+  .header-inner { max-width: 900px; margin: 0 auto; text-align: center; }
   h1 {
     font-size: 1.9rem;
     margin: 0 0 0.35rem;
     letter-spacing: -0.02em;
   }
-  .subtitle { color: var(--text-dim); margin: 0; font-size: 0.95rem; }
-  .sidebar-title {
-    font-size: 1.05rem;
-    font-weight: 700;
-    margin: 0 0 1.2rem;
-    letter-spacing: -0.01em;
-  }
+  .subtitle { color: var(--text-dim); margin: 0 0 1.1rem; font-size: 0.95rem; }
   #search {
+    display: block;
     width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
     padding: 0.7rem 1rem;
     border-radius: 10px;
     border: 1px solid var(--border);
     background: var(--surface);
     color: var(--text);
     font-size: 0.95rem;
-    margin-bottom: 1.1rem;
   }
   #search:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .sidebar-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 1.2rem;
+    letter-spacing: -0.01em;
+  }
   .filter-group { margin-bottom: 1.1rem; }
   .filter-label {
     font-size: 0.72rem;
@@ -144,7 +154,7 @@
     font-size: 0.82rem;
     padding: 0;
   }
-  main { max-width: 900px; width: 100%; margin: 0 auto; }
+  main { max-width: 900px; width: 100%; margin: 0 auto; padding: 2rem 1.5rem 0; }
   .category { margin-top: 2rem; }
   .category:first-child { margin-top: 0; }
   @media (max-width: 860px) {
@@ -204,7 +214,7 @@
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
-    padding: 1.5rem 0 0;
+    padding: 1.5rem 1.5rem 3rem;
     color: var(--text-dim);
     font-size: 0.8rem;
   }
@@ -216,7 +226,6 @@
 <div class="layout">
   <aside class="sidebar">
     <p class="sidebar-title">Filters</p>
-    <input id="search" type="text" placeholder="Search by name or description..." />
     <div class="filter-group">
       <span class="filter-label">Category</span>
       <div class="chips" id="category-chips"></div>
@@ -233,8 +242,11 @@
 
   <div class="content-col">
     <header>
-      <h1>AI &amp; Claude Resources</h1>
-      <p class="subtitle">A curated list of useful AI tools, Claude Code resources, agent frameworks, and related projects.</p>
+      <div class="header-inner">
+        <h1>AI &amp; Claude Resources</h1>
+        <p class="subtitle">A curated list of useful AI tools, Claude Code resources, agent frameworks, and related projects.</p>
+        <input id="search" type="text" placeholder="Search by name or description..." />
+      </div>
     </header>
 
     <main id="results"></main>
