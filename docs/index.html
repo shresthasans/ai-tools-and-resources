@@ -66,6 +66,16 @@
     flex-direction: column;
     border-right: 1px solid var(--border);
   }
+  .sidebar-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 1rem 1.1rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg);
+  }
+  .sidebar-header .sidebar-title { margin: 0; }
   .sidebar-scroll {
     flex: 1;
     overflow-y: auto;
@@ -84,34 +94,36 @@
     border-bottom: 1px solid var(--border);
     padding: 1.75rem 2rem 1.25rem;
   }
-  .header-inner { max-width: 900px; margin: 0 auto; text-align: center; position: relative; }
+  .header-inner { max-width: 900px; margin: 0 auto; text-align: center; }
   #filters-toggle {
     display: none;
     align-items: center;
-    gap: 0.5rem;
-    position: absolute;
-    left: 0;
-    top: 0.15rem;
+    justify-content: center;
+    position: relative;
     background: var(--surface);
     border: 1px solid var(--border);
     color: var(--text);
     border-radius: 8px;
-    padding: 0.45rem 0.7rem;
-    font-size: 0.82rem;
-    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    padding: 0;
     cursor: pointer;
+    margin: 0 auto 0.9rem;
   }
-  #filters-toggle svg { width: 18px; height: 18px; flex-shrink: 0; }
+  #filters-toggle svg { width: 20px; height: 20px; }
   #filters-toggle .active-count {
+    position: absolute;
+    top: -4px;
+    right: -4px;
     background: var(--accent);
     color: #fff;
     border-radius: 999px;
-    font-size: 0.68rem;
+    font-size: 0.65rem;
     min-width: 16px;
     height: 16px;
     line-height: 16px;
     text-align: center;
-    padding: 0 4px;
+    padding: 0 3px;
     display: none;
   }
   #filters-toggle .active-count.show { display: inline-block; }
@@ -123,9 +135,6 @@
     font-size: 1.4rem;
     line-height: 1;
     cursor: pointer;
-    position: absolute;
-    top: 1.1rem;
-    right: 1rem;
     padding: 0.2rem;
   }
   .sidebar-close:hover { color: var(--text); }
@@ -256,7 +265,8 @@
   }
   @media (max-width: 860px) {
     .layout { grid-template-columns: 1fr; }
-    #filters-toggle { display: inline-flex; }
+    #filters-toggle { display: flex; }
+    .sidebar-close { display: block; }
     aside.sidebar {
       position: fixed;
       top: 0;
@@ -270,8 +280,6 @@
       transition: transform 0.22s ease;
     }
     aside.sidebar.open { transform: translateX(0); }
-    .sidebar-scroll { padding-top: 3.5rem; }
-    .sidebar-close { display: block; }
     .sidebar-overlay {
       display: block;
       position: fixed;
@@ -416,9 +424,11 @@
 
 <div class="layout">
   <aside class="sidebar" id="sidebar">
-    <button class="sidebar-close" id="sidebar-close" aria-label="Close filters">&times;</button>
-    <div class="sidebar-scroll">
+    <div class="sidebar-header">
       <p class="sidebar-title">Filters</p>
+      <button class="sidebar-close" id="sidebar-close" aria-label="Close filters">&times;</button>
+    </div>
+    <div class="sidebar-scroll">
       <div class="filter-group">
         <span class="filter-label">Category</span>
         <div class="chips" id="category-chips" role="radiogroup" aria-label="Filter by category"></div>
@@ -438,9 +448,8 @@
   <div class="content-col">
     <header>
       <div class="header-inner">
-        <button id="filters-toggle" aria-expanded="false" aria-controls="sidebar">
+        <button id="filters-toggle" aria-expanded="false" aria-controls="sidebar" aria-label="Show filters">
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          Filters
           <span class="active-count" id="active-count">0</span>
         </button>
         <h1>AI &amp; Claude Resources</h1>
