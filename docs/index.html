@@ -84,7 +84,51 @@
     border-bottom: 1px solid var(--border);
     padding: 1.75rem 2rem 1.25rem;
   }
-  .header-inner { max-width: 900px; margin: 0 auto; text-align: center; }
+  .header-inner { max-width: 900px; margin: 0 auto; text-align: center; position: relative; }
+  #filters-toggle {
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    left: 0;
+    top: 0.15rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 8px;
+    padding: 0.45rem 0.7rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  #filters-toggle svg { width: 18px; height: 18px; flex-shrink: 0; }
+  #filters-toggle .active-count {
+    background: var(--accent);
+    color: #fff;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    min-width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    padding: 0 4px;
+    display: none;
+  }
+  #filters-toggle .active-count.show { display: inline-block; }
+  .sidebar-close {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+    position: absolute;
+    top: 1.1rem;
+    right: 1rem;
+    padding: 0.2rem;
+  }
+  .sidebar-close:hover { color: var(--text); }
   h1 {
     font-size: 1.9rem;
     margin: 0 0 0.35rem;
@@ -207,14 +251,38 @@
   main { max-width: 900px; width: 100%; margin: 0 auto; padding: 2rem 1.5rem 0; }
   .category { margin-top: 2rem; }
   .category:first-child { margin-top: 0; }
+  .sidebar-overlay {
+    display: none;
+  }
   @media (max-width: 860px) {
     .layout { grid-template-columns: 1fr; }
+    #filters-toggle { display: inline-flex; }
     aside.sidebar {
-      position: static;
-      height: auto;
-      border-right: none;
-      border-bottom: 1px solid var(--border);
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100dvh;
+      width: min(320px, 85vw);
+      z-index: 200;
+      background: var(--bg);
+      box-shadow: 4px 0 24px rgba(0, 0, 0, 0.18);
+      transform: translateX(-100%);
+      transition: transform 0.22s ease;
     }
+    aside.sidebar.open { transform: translateX(0); }
+    .sidebar-scroll { padding-top: 3.5rem; }
+    .sidebar-close { display: block; }
+    .sidebar-overlay {
+      display: block;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.18s;
+      z-index: 190;
+    }
+    .sidebar-overlay.open { opacity: 1; pointer-events: auto; }
   }
   .category h2 {
     font-size: 1.05rem;
@@ -347,7 +415,8 @@
 <body>
 
 <div class="layout">
-  <aside class="sidebar">
+  <aside class="sidebar" id="sidebar">
+    <button class="sidebar-close" id="sidebar-close" aria-label="Close filters">&times;</button>
     <div class="sidebar-scroll">
       <p class="sidebar-title">Filters</p>
       <div class="filter-group">
@@ -364,10 +433,16 @@
       <button id="clear-btn">Clear</button>
     </div>
   </aside>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
 
   <div class="content-col">
     <header>
       <div class="header-inner">
+        <button id="filters-toggle" aria-expanded="false" aria-controls="sidebar">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          Filters
+          <span class="active-count" id="active-count">0</span>
+        </button>
         <h1>AI &amp; Claude Resources</h1>
         <p class="subtitle">A curated list of useful AI tools, Claude Code resources, agent frameworks, and related projects.</p>
         <input id="search" type="text" placeholder="Search by name or description..." />
@@ -448,8 +523,36 @@
 
   overlay.addEventListener('click', closePanel);
   panelClose.addEventListener('click', closePanel);
+
+  const sidebar = document.getElementById('sidebar');
+  const sidebarOverlay = document.getElementById('sidebar-overlay');
+  const sidebarClose = document.getElementById('sidebar-close');
+  const filtersToggle = document.getElementById('filters-toggle');
+  const activeCountBadge = document.getElementById('active-count');
+
+  function openSidebar() {
+    sidebar.classList.add('open');
+    sidebarOverlay.classList.add('open');
+    filtersToggle.setAttribute('aria-expanded', 'true');
+  }
+
+  function closeSidebar() {
+    sidebar.classList.remove('open');
+    sidebarOverlay.classList.remove('open');
+    filtersToggle.setAttribute('aria-expanded', 'false');
+  }
+
+  filtersToggle.addEventListener('click', () => {
+    sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
+  });
+  sidebarOverlay.addEventListener('click', closeSidebar);
+  sidebarClose.addEventListener('click', closeSidebar);
+
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closePanel();
+    if (e.key === 'Escape') {
+      closePanel();
+      closeSidebar();
+    }
   });
 
   const CHECK_SVG = '<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 8.5L6.5 12L13 4.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -578,6 +681,9 @@
   function renderAll() {
     renderChips();
     renderResults();
+    const activeCount = (state.category ? 1 : 0) + state.tags.size;
+    activeCountBadge.textContent = activeCount;
+    activeCountBadge.classList.toggle('show', activeCount > 0);
   }
 
   searchInput.addEventListener('input', e => {
