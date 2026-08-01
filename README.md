@@ -78,6 +78,24 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[improve (shadcn)](https://github.com/shadcn/improve)**
   Tool/skill that reviews and improves shadcn/ui-based component code for consistency and quality.
 
+- **[Claude Code](https://github.com/anthropics/claude-code)**
+  The official GitHub repository for Claude Code, Anthropic's command-line AI coding assistant.
+
+- **[skills.sh](https://www.skills.sh/)**
+  Marketplace and directory for discovering and installing AI agent skills.
+
+- **[bencium-marketplace](https://github.com/bencium/bencium-marketplace)**
+  Marketplace of Claude Code skills and agent configurations shared by the community.
+
+- **[taste-skill](https://github.com/Leonxlnx/taste-skill)**
+  Claude skill that reviews designs and UI with an eye for aesthetic taste and polish, not just functionality.
+
+- **[wcag-audit-claude-skill](https://github.com/CFLW-AI/wcag-audit-claude-skill)**
+  Claude skill that audits a website or app for WCAG accessibility compliance issues.
+
+- **[wondelai/skills](https://github.com/wondelai/skills)**
+  Collection of reusable Claude Code skills for common tasks.
+
 ---
 
 ## Learning & Resources
@@ -126,6 +144,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Anthropic Prompt Engineering Interactive Tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)**
   Anthropic's official hands-on tutorial for learning prompt engineering — interactive exercises instead of just docs.
+
+- **[Project Based Learning](https://github.com/practical-tutorials/project-based-learning)**
+  Huge curated list of programming tutorials organized around building real projects instead of following pure theory.
+
+- **[Learn Anything](https://learn-anything.xyz/)**
+  Community-built knowledge graph mapping how to learn any topic, with curated resources at each node.
+
+- **[huryn's Design & Dev Notion](https://huryn.notion.site/)**
+  Curated Notion page collecting design and development tools, resources, and inspiration.
 
 ---
 
@@ -224,6 +251,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[BrowserOS](https://www.browseros.com/)**
   AI-powered web browser that understands pages and can take actions for you — an agent built directly into your browsing.
 
+- **[AI Templates — Agents](https://www.aitmpl.com/agents/)**
+  Directory of ready-made AI agent templates and configurations you can copy and adapt for your own use case.
+
 ---
 
 ## MCP Resources
@@ -261,6 +291,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[ViralSky](https://viralsky.ai)**
   AI-powered social media growth tool.
+
+- **[LinkedIn Formatter (Poper)](https://www.poper.ai/linkedin-formatter/)**
+  Free tool that adds rich formatting (bold, bullets, spacing) to LinkedIn posts, since LinkedIn's own editor doesn't support it natively.
 
 ---
 
@@ -345,6 +378,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)**
   Open-source tool that auto-generates short-form videos (YouTube Shorts/TikTok style) from just a topic or script, using AI for voice, visuals, and captions.
 
+- **[Flux AI](https://flux-ai.io/)**
+  Web app for generating images from text prompts using the Flux AI image model.
+
 ---
 
 ## Design Tools
@@ -427,6 +463,27 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[componentry](https://github.com/harshjdhv/componentry)**
   Tool for building and managing a reusable UI component library / design system.
 
+- **[MockuPhone](https://mockuphone.com/)**
+  Free tool for placing app screenshots into realistic device frames (iPhone, Android, tablets) for app store listings and marketing.
+
+- **[Mockups Design](https://mockups-design.com/)**
+  Free library of device and product mockup templates for presenting designs realistically.
+
+- **[21st.dev Components](https://21st.dev/community/components)**
+  Community marketplace of copy-paste UI components built with shadcn/ui and Tailwind.
+
+- **[resourceboy](https://resourceboy.com/)**
+  Directory of free design resources — mockups, fonts, icons, and templates.
+
+- **[Laws of UX (principles.design)](https://principles.design/)**
+  Collection of well-known UX/UI design principles and laws (Fitts's Law, Hick's Law, etc.) explained simply.
+
+- **[fountn.design](https://fountn.design/)**
+  Curated, Notion-based directory of design tools and resources.
+
+- **[Free Design Stuff](https://freedesignstuff.com/)**
+  Free design assets — mockups, UI kits, icons, and templates for personal and commercial use.
+
 ---
 
 ## Development Tools
@@ -460,6 +517,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[graphify](https://github.com/Graphify-Labs/graphify)**
   Turns your data or codebase into visual graphs/diagrams, making relationships easier to understand at a glance.
+
+- **[Motion](https://motion.dev/)**
+  Documentation site for Motion, a popular animation library for the web — guides, examples, and API reference.
 
 ---
 
@@ -543,6 +603,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[cs-video-courses](https://github.com/Developer-Y/cs-video-courses)**
   Curated list of university-level computer science courses with freely available video lectures across algorithms, systems, ML, and security.
+
+- **[Simplilearn SkillUp](https://www.simplilearn.com/skillup-free-online-courses)**
+  Free courses across tech, business, and data skills, with certificates on completion.
 
 ---
 

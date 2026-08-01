@@ -477,6 +477,125 @@ window.RESOURCE_DATA = {
               "Run it against your component files"
             ]
           }
+        },
+        {
+          "name": "Claude Code",
+          "url": "https://github.com/anthropics/claude-code",
+          "desc": "The official GitHub repository for Claude Code, Anthropic's command-line AI coding assistant.",
+          "tags": [
+            "CLI",
+            "Claude Code",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "The official tool from Anthropic that lets you chat with Claude AI right inside your terminal to write, fix, and understand code in your own projects.",
+            "whyHelpful": "Gives you a coding assistant that can read your actual files and make real edits, instead of copy-pasting code back and forth from a chat window.",
+            "installNeeded": true,
+            "install": [
+              "Install Node.js if you don't have it",
+              "Run 'npm install -g @anthropic-ai/claude-code' in a terminal",
+              "Run 'claude' inside any project folder to start"
+            ]
+          }
+        },
+        {
+          "name": "skills.sh",
+          "url": "https://www.skills.sh/",
+          "desc": "Marketplace and directory for discovering and installing AI agent skills.",
+          "tags": [
+            "Agent",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A website where people share and discover pre-made 'skills' — small add-on instructions that make AI coding assistants better at specific tasks.",
+            "whyHelpful": "Saves you from writing your own instructions from scratch — just browse and install what someone else already built.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "bencium-marketplace",
+          "url": "https://github.com/bencium/bencium-marketplace",
+          "desc": "Marketplace of Claude Code skills and agent configurations shared by the community.",
+          "tags": [
+            "Agent",
+            "Claude Code",
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A shared collection of ready-made skills and agent setups for Claude Code that other developers have built and published.",
+            "whyHelpful": "Lets you add proven capabilities to your AI assistant instantly instead of building them yourself.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Copy the skill/agent folder you want into your project",
+              "Follow any setup notes in its own README"
+            ]
+          }
+        },
+        {
+          "name": "taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "desc": "Claude skill that reviews designs and UI with an eye for aesthetic taste and polish, not just functionality.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A skill that teaches Claude to judge whether a design or UI actually looks good, not just whether it technically works.",
+            "whyHelpful": "Helps catch ugly or unpolished designs before you ship them, even if you don't have a design background yourself.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Add the skill file to Claude Code's skills folder",
+              "Ask Claude to review your design using the skill"
+            ]
+          }
+        },
+        {
+          "name": "wcag-audit-claude-skill",
+          "url": "https://github.com/CFLW-AI/wcag-audit-claude-skill",
+          "desc": "Claude skill that audits a website or app for WCAG accessibility compliance issues.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A skill that has Claude check your website or app against WCAG accessibility rules — the standards that make sites usable by people with disabilities.",
+            "whyHelpful": "Catches accessibility problems (like poor color contrast or missing labels) early, before real users or legal reviews find them.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Add the skill file to Claude Code's skills folder",
+              "Ask Claude to audit your site/app using the skill"
+            ]
+          }
+        },
+        {
+          "name": "wondelai/skills",
+          "url": "https://github.com/wondelai/skills",
+          "desc": "Collection of reusable Claude Code skills for common tasks.",
+          "tags": [
+            "Claude Code",
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A ready-made set of skill files that add extra capabilities to Claude Code for common everyday tasks.",
+            "whyHelpful": "Gives you a quick starting toolkit instead of writing skill files from scratch.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Copy the skills you want into Claude Code's skills folder",
+              "Restart Claude Code to pick them up"
+            ]
+          }
         }
       ]
     },
@@ -707,6 +826,50 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "Anthropic's own free, hands-on lesson series for learning how to write better prompts for AI models — you practice as you go instead of just reading.",
             "whyHelpful": "Teaches you directly from the company that makes Claude how to get better, more reliable answers out of AI.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Project Based Learning",
+          "url": "https://github.com/practical-tutorials/project-based-learning",
+          "desc": "Huge curated list of programming tutorials organized around building real projects instead of following pure theory.",
+          "tags": [
+            "Free",
+            "Learning",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A giant free list of tutorials that teach programming by having you build real, working projects instead of just reading theory.",
+            "whyHelpful": "Learning by building something real sticks better than passive reading, and this gives you hundreds of project ideas to pick from.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Learn Anything",
+          "url": "https://learn-anything.xyz/",
+          "desc": "Community-built knowledge graph mapping how to learn any topic, with curated resources at each node.",
+          "tags": [
+            "Learning"
+          ],
+          "details": {
+            "whatItIs": "A website that maps out how to learn almost any topic as a visual web of connected concepts, each with recommended resources.",
+            "whyHelpful": "Helps you see the big picture of a subject and find a logical learning path instead of randomly Googling around.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "huryn's Design & Dev Notion",
+          "url": "https://huryn.notion.site/",
+          "desc": "Curated Notion page collecting design and development tools, resources, and inspiration.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A personal Notion page where someone has organized a big list of design and development tools and resources they like.",
+            "whyHelpful": "Saves you time by browsing someone else's already-curated list instead of hunting for tools yourself.",
             "installNeeded": false,
             "install": []
           }
@@ -1333,6 +1496,20 @@ window.RESOURCE_DATA = {
               "Open it and start using its AI features"
             ]
           }
+        },
+        {
+          "name": "AI Templates — Agents",
+          "url": "https://www.aitmpl.com/agents/",
+          "desc": "Directory of ready-made AI agent templates and configurations you can copy and adapt for your own use case.",
+          "tags": [
+            "Agent"
+          ],
+          "details": {
+            "whatItIs": "A page listing ready-made AI 'agent' setups you can copy and use as a starting point for your own automation.",
+            "whyHelpful": "Gives you working examples to learn from and adapt instead of designing an AI agent completely from scratch.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -1516,6 +1693,20 @@ window.RESOURCE_DATA = {
               "Connect your social media account",
               "Follow the setup steps to start growing"
             ]
+          }
+        },
+        {
+          "name": "LinkedIn Formatter (Poper)",
+          "url": "https://www.poper.ai/linkedin-formatter/",
+          "desc": "Free tool that adds rich formatting (bold, bullets, spacing) to LinkedIn posts, since LinkedIn's own editor doesn't support it natively.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A free web tool that lets you type a LinkedIn post and adds bold text, bullet points, and spacing that LinkedIn's own editor won't let you add directly.",
+            "whyHelpful": "Makes your LinkedIn posts easier to read and more eye-catching without needing to know any tricks or symbols yourself.",
+            "installNeeded": false,
+            "install": []
           }
         }
       ]
@@ -1991,6 +2182,20 @@ window.RESOURCE_DATA = {
               "Run it and provide a video topic to generate from"
             ]
           }
+        },
+        {
+          "name": "Flux AI",
+          "url": "https://flux-ai.io/",
+          "desc": "Web app for generating images from text prompts using the Flux AI image model.",
+          "tags": [
+            "Web"
+          ],
+          "details": {
+            "whatItIs": "A website where you type a description and it generates an image for you using the Flux AI image-generation model.",
+            "whyHelpful": "Lets you create custom images for projects, posts, or ideas without needing any design or art skills.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -2464,6 +2669,105 @@ window.RESOURCE_DATA = {
               "Run it to browse or generate your component library"
             ]
           }
+        },
+        {
+          "name": "MockuPhone",
+          "url": "https://mockuphone.com/",
+          "desc": "Free tool for placing app screenshots into realistic device frames (iPhone, Android, tablets) for app store listings and marketing.",
+          "tags": [
+            "Free",
+            "Mobile"
+          ],
+          "details": {
+            "whatItIs": "A free website that takes a plain screenshot of your app and wraps it in a realistic phone/tablet frame.",
+            "whyHelpful": "Makes your app screenshots look professional for app store listings or marketing without needing design software.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Mockups Design",
+          "url": "https://mockups-design.com/",
+          "desc": "Free library of device and product mockup templates for presenting designs realistically.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A free library of ready-made mockup templates — images of phones, laptops, and products you can drop your own designs into.",
+            "whyHelpful": "Lets you present your work realistically (e.g. your app on a phone screen) without photographing real devices.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "21st.dev Components",
+          "url": "https://21st.dev/community/components",
+          "desc": "Community marketplace of copy-paste UI components built with shadcn/ui and Tailwind.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website where developers share ready-made UI pieces (buttons, cards, forms) you can copy directly into your own project.",
+            "whyHelpful": "Saves time building common UI pieces from scratch — just copy, paste, and adjust to fit your app.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "resourceboy",
+          "url": "https://resourceboy.com/",
+          "desc": "Directory of free design resources — mockups, fonts, icons, and templates.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A website listing free design resources — mockups, fonts, icons, and templates all in one place.",
+            "whyHelpful": "Saves time searching multiple sites for free design assets by putting them all in one directory.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Laws of UX (principles.design)",
+          "url": "https://principles.design/",
+          "desc": "Collection of well-known UX/UI design principles and laws (Fitts's Law, Hick's Law, etc.) explained simply.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website explaining well-known rules of good design (like 'buttons should be easy to click' or 'people remember patterns') in simple terms.",
+            "whyHelpful": "Helps you make better design decisions by understanding the reasoning experts already use, without a design degree.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "fountn.design",
+          "url": "https://fountn.design/",
+          "desc": "Curated, Notion-based directory of design tools and resources.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A Notion page that collects and organizes useful design tools and resources in one browsable list.",
+            "whyHelpful": "Gives you a curated shortcut to good design tools instead of searching for them yourself.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Free Design Stuff",
+          "url": "https://freedesignstuff.com/",
+          "desc": "Free design assets — mockups, UI kits, icons, and templates for personal and commercial use.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A website offering free design assets — mockups, icon sets, UI kits, and templates you can download and use.",
+            "whyHelpful": "Gives you ready-made design pieces for free instead of paying for stock design assets.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -2646,6 +2950,24 @@ window.RESOURCE_DATA = {
               "Clone the GitHub repository",
               "Install dependencies as described in the README",
               "Point it at your data/codebase to generate the graph"
+            ]
+          }
+        },
+        {
+          "name": "Motion",
+          "url": "https://motion.dev/",
+          "desc": "Documentation site for Motion, a popular animation library for the web — guides, examples, and API reference.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "The documentation website for Motion, a tool developers use to add smooth animations to websites and apps.",
+            "whyHelpful": "Helps developers make things move and transition smoothly on a page, which makes an app or site feel more polished.",
+            "installNeeded": true,
+            "install": [
+              "Install via 'npm install motion' in your project",
+              "Import it into your code as shown in the docs",
+              "Follow the guides on motion.dev to add animations"
             ]
           }
         }
@@ -3065,6 +3387,22 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A curated list of links to free video lectures from university computer science classes, including topics related to AI.",
             "whyHelpful": "Lets you watch real university lectures for free instead of paying for a course.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Simplilearn SkillUp",
+          "url": "https://www.simplilearn.com/skillup-free-online-courses",
+          "desc": "Free courses across tech, business, and data skills, with certificates on completion.",
+          "tags": [
+            "Free",
+            "Learning",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A website offering free online courses across tech, business, and data topics, each with a certificate when you finish.",
+            "whyHelpful": "Lets you build up real, certificate-backed skills without paying for a course.",
             "installNeeded": false,
             "install": []
           }

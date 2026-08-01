@@ -154,6 +154,15 @@
     align-items: center;
     justify-content: center;
   }
+  .chip-label { flex: 1; overflow: hidden; text-overflow: ellipsis; }
+  .chip-count {
+    flex-shrink: 0;
+    color: var(--text-dim);
+    font-size: 0.72rem;
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+  }
+  .chip.active .chip-count { color: inherit; opacity: 0.75; }
   /* Category chips = radio buttons (single-select) */
   .chip.chip-radio .indicator {
     border-radius: 50%;
@@ -454,7 +463,7 @@
 
   const CHECK_SVG = '<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 8.5L6.5 12L13 4.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
-  function makeChip(label, isActive, variant, onClick) {
+  function makeChip(label, count, isActive, variant, onClick) {
     const el = document.createElement('button');
     el.className = 'chip chip-' + variant + (isActive ? ' active' : '');
     el.type = 'button';
@@ -469,21 +478,32 @@
     indicator.className = 'indicator';
     if (variant === 'checkbox') indicator.innerHTML = CHECK_SVG;
     const text = document.createElement('span');
+    text.className = 'chip-label';
     text.textContent = label;
+    const count_ = document.createElement('span');
+    count_.className = 'chip-count';
+    count_.textContent = count;
     el.appendChild(indicator);
     el.appendChild(text);
+    el.appendChild(count_);
     el.addEventListener('click', onClick);
     return el;
   }
 
+  const allEntries = data.categories.flatMap(c => c.entries);
+  const tagCounts = {};
+  data.allTags.forEach(tag => {
+    tagCounts[tag] = allEntries.filter(e => e.tags.includes(tag)).length;
+  });
+
   function renderChips() {
     categoryChips.innerHTML = '';
-    categoryChips.appendChild(makeChip('All', state.category === null, 'radio', () => {
+    categoryChips.appendChild(makeChip('All', allEntries.length, state.category === null, 'radio', () => {
       state.category = null;
       renderAll();
     }));
     data.categories.forEach(cat => {
-      categoryChips.appendChild(makeChip(cat.name, state.category === cat.name, 'radio', () => {
+      categoryChips.appendChild(makeChip(cat.name, cat.entries.length, state.category === cat.name, 'radio', () => {
         state.category = state.category === cat.name ? null : cat.name;
         renderAll();
       }));
@@ -491,7 +511,7 @@
 
     tagChips.innerHTML = '';
     data.allTags.forEach(tag => {
-      tagChips.appendChild(makeChip(tag, state.tags.has(tag), 'checkbox', () => {
+      tagChips.appendChild(makeChip(tag, tagCounts[tag], state.tags.has(tag), 'checkbox', () => {
         if (state.tags.has(tag)) state.tags.delete(tag);
         else state.tags.add(tag);
         renderAll();
