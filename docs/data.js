@@ -1844,7 +1844,7 @@ window.RESOURCE_DATA = {
       ]
     },
     {
-      "name": "Design & Development Tools",
+      "name": "Design Tools",
       "entries": [
         {
           "name": "design.md",
@@ -1884,20 +1884,6 @@ window.RESOURCE_DATA = {
               "Download or clone the repository",
               "Follow setup instructions to run it locally"
             ]
-          }
-        },
-        {
-          "name": "Anderro",
-          "url": "https://anderro.com",
-          "desc": "Developer tool. _(Description unavailable — site blocked fetch.)_",
-          "tags": [
-            "Other"
-          ],
-          "details": {
-            "whatItIs": "A tool for developers, though details about exactly what it does are not available.",
-            "whyHelpful": "May speed up some part of a developer's workflow, but check the website directly to confirm.",
-            "installNeeded": false,
-            "install": []
           }
         },
         {
@@ -1983,25 +1969,6 @@ window.RESOURCE_DATA = {
           }
         },
         {
-          "name": "codegraph",
-          "url": "https://github.com/colbymchenry/codegraph",
-          "desc": "Visual code dependency graph explorer — maps relationships between files, functions, and modules in a codebase.",
-          "tags": [
-            "Free",
-            "Open Source"
-          ],
-          "details": {
-            "whatItIs": "A tool that draws a visual map showing how the different files and pieces of a computer program connect to each other.",
-            "whyHelpful": "Helps developers understand a large, unfamiliar codebase quickly by seeing the connections instead of reading every file.",
-            "installNeeded": true,
-            "install": [
-              "Go to the GitHub page",
-              "Clone the repository",
-              "Follow README to install and run"
-            ]
-          }
-        },
-        {
           "name": "awesome-design-md",
           "url": "https://github.com/VoltAgent/awesome-design-md",
           "desc": "Curated resources, examples, and templates for the design.md format — structured design systems for AI agents.",
@@ -2082,54 +2049,6 @@ window.RESOURCE_DATA = {
           }
         },
         {
-          "name": "AI Templates",
-          "url": "https://www.aitmpl.com/",
-          "desc": "Library of AI prompt templates across categories — copywriting, coding, design, marketing, and more.",
-          "tags": [
-            "Other"
-          ],
-          "details": {
-            "whatItIs": "A website with a library of ready-made prompts you can use with AI tools for writing, coding, design, and marketing.",
-            "whyHelpful": "Saves time by giving you proven starting prompts instead of figuring out how to word requests to AI from scratch.",
-            "installNeeded": false,
-            "install": []
-          }
-        },
-        {
-          "name": "mono.chat",
-          "url": "https://mono.chat/en/",
-          "desc": "Multi-model chat interface — switch between Claude, GPT, Gemini, and other models in one unified UI.",
-          "tags": [
-            "Other"
-          ],
-          "details": {
-            "whatItIs": "A website that lets you chat with several different AI models, like Claude, ChatGPT, and Gemini, in one place.",
-            "whyHelpful": "Saves you from juggling multiple separate apps or tabs when you want to compare or switch between AI assistants.",
-            "installNeeded": false,
-            "install": []
-          }
-        },
-        {
-          "name": "baguette",
-          "url": "https://github.com/tddworks/baguette",
-          "desc": "Headless iOS Simulator manager and farm with host-side input injection — taps, swipes, multi-finger gestures, and 60fps streaming for iOS 26.",
-          "tags": [
-            "Free",
-            "Mobile",
-            "Open Source"
-          ],
-          "details": {
-            "whatItIs": "A developer tool that manages many iPhone simulators at once and can automatically tap, swipe, and interact with them.",
-            "whyHelpful": "Helps app developers test their iPhone apps automatically across many simulated devices at the same time.",
-            "installNeeded": true,
-            "install": [
-              "Go to the GitHub page",
-              "Clone the repository",
-              "Follow README setup steps for your Mac"
-            ]
-          }
-        },
-        {
           "name": "AI & Design Systems Resources",
           "url": "https://southleft.substack.com/p/ai-and-design-systems-tjs-resources",
           "desc": "Curated roundup of tools, articles, and frameworks at the intersection of AI and design systems — by TJ from Southleft.",
@@ -2184,26 +2103,6 @@ window.RESOURCE_DATA = {
           }
         },
         {
-          "name": "App-Store-Connect-CLI",
-          "url": "https://github.com/rorkai/App-Store-Connect-CLI",
-          "desc": "Fast Go CLI for automating App Store Connect workflows — TestFlight management, build uploads, and app submissions.",
-          "tags": [
-            "CLI",
-            "Free",
-            "Open Source"
-          ],
-          "details": {
-            "whatItIs": "A command-line tool that automates tasks for publishing iPhone apps, like uploading builds and managing test versions.",
-            "whyHelpful": "Saves app developers time by automating repetitive steps instead of clicking through Apple's website manually.",
-            "installNeeded": true,
-            "install": [
-              "Install Go programming language if needed",
-              "Go to the GitHub page and download the tool",
-              "Follow README to install and configure it"
-            ]
-          }
-        },
-        {
           "name": "Photopea",
           "url": "https://www.photopea.com/",
           "desc": "Free browser-based professional photo editor — processes everything locally, no download or upload required. Full Photoshop-compatible PSD support.",
@@ -2247,26 +2146,6 @@ window.RESOURCE_DATA = {
           }
         },
         {
-          "name": "ai-website-cloner-template",
-          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-          "desc": "Reusable template that reverse-engineers websites into clean Next.js codebases using a multi-phase AI agent pipeline.",
-          "tags": [
-            "Agent",
-            "Free",
-            "Open Source"
-          ],
-          "details": {
-            "whatItIs": "A tool that uses AI to look at an existing website and rebuild it as clean, ready-to-use code.",
-            "whyHelpful": "Saves developers time recreating a website's design by having AI do the reverse-engineering automatically.",
-            "installNeeded": true,
-            "install": [
-              "Go to the GitHub page",
-              "Clone the repository",
-              "Install dependencies and follow README to run"
-            ]
-          }
-        },
-        {
           "name": "ui-ux-pro-max-skill",
           "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
           "desc": "AI-powered design intelligence skill offering 161 industry-specific reasoning rules plus 67 UI styles, 161 color palettes, and 57 font pairings to generate tailored design systems.",
@@ -2304,25 +2183,6 @@ window.RESOURCE_DATA = {
               "Go to the GitHub page and download files",
               "Open Chrome extensions settings",
               "Load the extension in developer mode"
-            ]
-          }
-        },
-        {
-          "name": "ERPNext",
-          "url": "https://github.com/frappe/erpnext",
-          "desc": "Free, open-source ERP system built on the Frappe Framework covering accounting, inventory, manufacturing, and project management for businesses.",
-          "tags": [
-            "Free",
-            "Open Source"
-          ],
-          "details": {
-            "whatItIs": "A free, complete business management system covering accounting, inventory, and project tracking.",
-            "whyHelpful": "Gives small and medium businesses an all-in-one management tool without paying for expensive commercial software.",
-            "installNeeded": true,
-            "install": [
-              "Go to the GitHub page",
-              "Follow the official setup guide",
-              "Install via Docker or a hosting provider"
             ]
           }
         },
@@ -2397,26 +2257,6 @@ window.RESOURCE_DATA = {
           }
         },
         {
-          "name": "Instatic",
-          "url": "https://github.com/corebunch/instatic",
-          "desc": "Self-hosted, open-source visual CMS and static site publisher positioned as an alternative to Webflow, Framer, and WordPress, built on Bun.",
-          "tags": [
-            "Free",
-            "Open Source",
-            "Self-Hosted"
-          ],
-          "details": {
-            "whatItIs": "A free, self-hosted website builder and content manager, similar to Webflow or WordPress but open-source.",
-            "whyHelpful": "Lets you build and manage websites without paying monthly fees to a hosted website builder service.",
-            "installNeeded": true,
-            "install": [
-              "Go to the GitHub page",
-              "Clone the repository",
-              "Follow README to install and run with Bun"
-            ]
-          }
-        },
-        {
           "name": "Penpot",
           "url": "https://github.com/penpot/penpot",
           "desc": "Open-source, self-hostable design platform with real-time collaboration, design tokens, and code inspection built on Clojure/ClojureScript.",
@@ -2433,6 +2273,171 @@ window.RESOURCE_DATA = {
               "Go to the GitHub page",
               "Follow the self-hosting guide with Docker",
               "Or use the free hosted version at penpot.app"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Development Tools",
+      "entries": [
+        {
+          "name": "Anderro",
+          "url": "https://anderro.com",
+          "desc": "Developer tool. _(Description unavailable — site blocked fetch.)_",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A tool for developers, though details about exactly what it does are not available.",
+            "whyHelpful": "May speed up some part of a developer's workflow, but check the website directly to confirm.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "codegraph",
+          "url": "https://github.com/colbymchenry/codegraph",
+          "desc": "Visual code dependency graph explorer — maps relationships between files, functions, and modules in a codebase.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that draws a visual map showing how the different files and pieces of a computer program connect to each other.",
+            "whyHelpful": "Helps developers understand a large, unfamiliar codebase quickly by seeing the connections instead of reading every file.",
+            "installNeeded": true,
+            "install": [
+              "Go to the GitHub page",
+              "Clone the repository",
+              "Follow README to install and run"
+            ]
+          }
+        },
+        {
+          "name": "AI Templates",
+          "url": "https://www.aitmpl.com/",
+          "desc": "Library of AI prompt templates across categories — copywriting, coding, design, marketing, and more.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website with a library of ready-made prompts you can use with AI tools for writing, coding, design, and marketing.",
+            "whyHelpful": "Saves time by giving you proven starting prompts instead of figuring out how to word requests to AI from scratch.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "mono.chat",
+          "url": "https://mono.chat/en/",
+          "desc": "Multi-model chat interface — switch between Claude, GPT, Gemini, and other models in one unified UI.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website that lets you chat with several different AI models, like Claude, ChatGPT, and Gemini, in one place.",
+            "whyHelpful": "Saves you from juggling multiple separate apps or tabs when you want to compare or switch between AI assistants.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "baguette",
+          "url": "https://github.com/tddworks/baguette",
+          "desc": "Headless iOS Simulator manager and farm with host-side input injection — taps, swipes, multi-finger gestures, and 60fps streaming for iOS 26.",
+          "tags": [
+            "Free",
+            "Mobile",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A developer tool that manages many iPhone simulators at once and can automatically tap, swipe, and interact with them.",
+            "whyHelpful": "Helps app developers test their iPhone apps automatically across many simulated devices at the same time.",
+            "installNeeded": true,
+            "install": [
+              "Go to the GitHub page",
+              "Clone the repository",
+              "Follow README setup steps for your Mac"
+            ]
+          }
+        },
+        {
+          "name": "App-Store-Connect-CLI",
+          "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+          "desc": "Fast Go CLI for automating App Store Connect workflows — TestFlight management, build uploads, and app submissions.",
+          "tags": [
+            "CLI",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A command-line tool that automates tasks for publishing iPhone apps, like uploading builds and managing test versions.",
+            "whyHelpful": "Saves app developers time by automating repetitive steps instead of clicking through Apple's website manually.",
+            "installNeeded": true,
+            "install": [
+              "Install Go programming language if needed",
+              "Go to the GitHub page and download the tool",
+              "Follow README to install and configure it"
+            ]
+          }
+        },
+        {
+          "name": "ai-website-cloner-template",
+          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+          "desc": "Reusable template that reverse-engineers websites into clean Next.js codebases using a multi-phase AI agent pipeline.",
+          "tags": [
+            "Agent",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that uses AI to look at an existing website and rebuild it as clean, ready-to-use code.",
+            "whyHelpful": "Saves developers time recreating a website's design by having AI do the reverse-engineering automatically.",
+            "installNeeded": true,
+            "install": [
+              "Go to the GitHub page",
+              "Clone the repository",
+              "Install dependencies and follow README to run"
+            ]
+          }
+        },
+        {
+          "name": "ERPNext",
+          "url": "https://github.com/frappe/erpnext",
+          "desc": "Free, open-source ERP system built on the Frappe Framework covering accounting, inventory, manufacturing, and project management for businesses.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free, complete business management system covering accounting, inventory, and project tracking.",
+            "whyHelpful": "Gives small and medium businesses an all-in-one management tool without paying for expensive commercial software.",
+            "installNeeded": true,
+            "install": [
+              "Go to the GitHub page",
+              "Follow the official setup guide",
+              "Install via Docker or a hosting provider"
+            ]
+          }
+        },
+        {
+          "name": "Instatic",
+          "url": "https://github.com/corebunch/instatic",
+          "desc": "Self-hosted, open-source visual CMS and static site publisher positioned as an alternative to Webflow, Framer, and WordPress, built on Bun.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A free, self-hosted website builder and content manager, similar to Webflow or WordPress but open-source.",
+            "whyHelpful": "Lets you build and manage websites without paying monthly fees to a hosted website builder service.",
+            "installNeeded": true,
+            "install": [
+              "Go to the GitHub page",
+              "Clone the repository",
+              "Follow README to install and run with Bun"
             ]
           }
         }

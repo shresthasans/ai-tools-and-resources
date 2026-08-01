@@ -323,16 +323,13 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 ---
 
-## Design & Development Tools
+## Design Tools
 
 - **[design.md](https://github.com/google-labs-code/design.md)**
   Format spec for describing a visual identity to coding agents. Gives agents a persistent, structured understanding of a design system.
 
 - **[OpenCut](https://github.com/OpenCut-app/OpenCut)**
   Open-source CapCut alternative — a web-based video editor.
-
-- **[Anderro](https://anderro.com)**
-  Developer tool. _(Description unavailable — site blocked fetch.)_
 
 - **[RapidRAW](https://github.com/CyberTimon/RapidRAW)**
   Lightweight, GPU-accelerated RAW photo editor with non-destructive editing, AI-powered masking, and batch operations — under 20MB.
@@ -349,9 +346,6 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Figma to Lottie Community](https://www.lottie.community/c/figma-to-lottie/)**
   Community hub for exporting Figma animations to Lottie format via the LottieFiles plugin.
 
-- **[codegraph](https://github.com/colbymchenry/codegraph)**
-  Visual code dependency graph explorer — maps relationships between files, functions, and modules in a codebase.
-
 - **[awesome-design-md](https://github.com/VoltAgent/awesome-design-md)**
   Curated resources, examples, and templates for the design.md format — structured design systems for AI agents.
 
@@ -364,15 +358,6 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[openpencil](https://github.com/ZSeven-W/openpencil)**
   Open-source AI drawing and annotation tool.
 
-- **[AI Templates](https://www.aitmpl.com/)**
-  Library of AI prompt templates across categories — copywriting, coding, design, marketing, and more.
-
-- **[mono.chat](https://mono.chat/en/)**
-  Multi-model chat interface — switch between Claude, GPT, Gemini, and other models in one unified UI.
-
-- **[baguette](https://github.com/tddworks/baguette)**
-  Headless iOS Simulator manager and farm with host-side input injection — taps, swipes, multi-finger gestures, and 60fps streaming for iOS 26.
-
 - **[AI & Design Systems Resources](https://southleft.substack.com/p/ai-and-design-systems-tjs-resources)**
   Curated roundup of tools, articles, and frameworks at the intersection of AI and design systems — by TJ from Southleft.
 
@@ -381,9 +366,6 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[open-design](https://github.com/nexu-io/open-design)**
   Local-first open-source desktop app that generates prototypes, decks, images, and videos via AI — open alternative to Claude Design.
-
-- **[App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI)**
-  Fast Go CLI for automating App Store Connect workflows — TestFlight management, build uploads, and app submissions.
 
 - **[Photopea](https://www.photopea.com/)**
   Free browser-based professional photo editor — processes everything locally, no download or upload required. Full Photoshop-compatible PSD support.
@@ -394,17 +376,11 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[AI Design OS](https://aidesign-os.com/)**
   Modular knowledge system for AI-era product design — covers foundational paradigms, design principles, and interaction patterns for human-AI interfaces.
 
-- **[ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)**
-  Reusable template that reverse-engineers websites into clean Next.js codebases using a multi-phase AI agent pipeline.
-
 - **[ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)**
   AI-powered design intelligence skill offering 161 industry-specific reasoning rules plus 67 UI styles, 161 color palettes, and 57 font pairings to generate tailored design systems.
 
 - **[design-md-chrome](https://github.com/bergside/design-md-chrome)**
   Chrome extension that extracts a website's visual style into a machine-readable DESIGN.md/SKILL.md file so AI coding assistants can build new sites matching that design system.
-
-- **[ERPNext](https://github.com/frappe/erpnext)**
-  Free, open-source ERP system built on the Frappe Framework covering accounting, inventory, manufacturing, and project management for businesses.
 
 - **[Maket](https://www.maket.ai/)**
   AI platform that lets homeowners, architects, and builders describe requirements to generate, refine, and visualize residential floor plans without specialized design software.
@@ -418,11 +394,39 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Skills for Design Engineers](https://github.com/emilkowalski/skills)**
   Collection of AI agent skills teaching animation review, motion opportunities, and Apple design principles for higher-quality UI output.
 
-- **[Instatic](https://github.com/corebunch/instatic)**
-  Self-hosted, open-source visual CMS and static site publisher positioned as an alternative to Webflow, Framer, and WordPress, built on Bun.
-
 - **[Penpot](https://github.com/penpot/penpot)**
   Open-source, self-hostable design platform with real-time collaboration, design tokens, and code inspection built on Clojure/ClojureScript.
+
+---
+
+## Development Tools
+
+- **[Anderro](https://anderro.com)**
+  Developer tool. _(Description unavailable — site blocked fetch.)_
+
+- **[codegraph](https://github.com/colbymchenry/codegraph)**
+  Visual code dependency graph explorer — maps relationships between files, functions, and modules in a codebase.
+
+- **[AI Templates](https://www.aitmpl.com/)**
+  Library of AI prompt templates across categories — copywriting, coding, design, marketing, and more.
+
+- **[mono.chat](https://mono.chat/en/)**
+  Multi-model chat interface — switch between Claude, GPT, Gemini, and other models in one unified UI.
+
+- **[baguette](https://github.com/tddworks/baguette)**
+  Headless iOS Simulator manager and farm with host-side input injection — taps, swipes, multi-finger gestures, and 60fps streaming for iOS 26.
+
+- **[App-Store-Connect-CLI](https://github.com/rorkai/App-Store-Connect-CLI)**
+  Fast Go CLI for automating App Store Connect workflows — TestFlight management, build uploads, and app submissions.
+
+- **[ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)**
+  Reusable template that reverse-engineers websites into clean Next.js codebases using a multi-phase AI agent pipeline.
+
+- **[ERPNext](https://github.com/frappe/erpnext)**
+  Free, open-source ERP system built on the Frappe Framework covering accounting, inventory, manufacturing, and project management for businesses.
+
+- **[Instatic](https://github.com/corebunch/instatic)**
+  Self-hosted, open-source visual CMS and static site publisher positioned as an alternative to Webflow, Framer, and WordPress, built on Bun.
 
 ---
 
