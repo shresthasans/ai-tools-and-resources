@@ -105,37 +105,83 @@
     margin: 0 0 1.2rem;
     letter-spacing: -0.01em;
   }
-  .filter-group { margin-bottom: 1.1rem; }
+  .filter-group { margin-bottom: 1.4rem; }
+  .filter-label-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
   .filter-label {
     font-size: 0.72rem;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--text-dim);
-    margin-bottom: 0.5rem;
     display: block;
   }
+  .filter-hint {
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    opacity: 0.75;
+    font-style: italic;
+  }
   .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-  .sidebar .chips { flex-direction: column; align-items: stretch; }
+  .sidebar .chips { flex-direction: column; align-items: stretch; gap: 0.2rem; }
   .chip {
-    border: 1px solid var(--border);
-    background: var(--chip-bg);
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    border: 1px solid transparent;
+    background: transparent;
     color: var(--text);
-    border-radius: 999px;
-    padding: 0.3rem 0.8rem;
-    font-size: 0.82rem;
+    padding: 0.32rem 0.5rem;
+    font-size: 0.85rem;
     cursor: pointer;
     user-select: none;
     transition: background 0.12s, color 0.12s, border-color 0.12s;
     white-space: nowrap;
     text-align: left;
+    width: 100%;
+    border-radius: 7px;
   }
-  .sidebar .chip { border-radius: 8px; }
-  .chip:hover { border-color: var(--accent); }
-  .chip.active {
-    background: var(--chip-active-bg);
-    color: var(--chip-active-text);
-    border-color: var(--chip-active-bg);
+  .chip:hover { background: var(--chip-bg); }
+  .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .chip .indicator {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
+  /* Category chips = radio buttons (single-select) */
+  .chip.chip-radio .indicator {
+    border-radius: 50%;
+    border: 1.5px solid var(--text-dim);
+  }
+  .chip.chip-radio.active .indicator {
+    border-color: var(--accent);
+  }
+  .chip.chip-radio.active .indicator::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .chip.chip-radio.active { color: var(--accent); font-weight: 600; }
+  /* Tag chips = checkboxes (multi-select) */
+  .chip.chip-checkbox .indicator {
+    border-radius: 4px;
+    border: 1.5px solid var(--text-dim);
+  }
+  .chip.chip-checkbox.active .indicator {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+  .chip.chip-checkbox.active .indicator svg { display: block; }
+  .chip.chip-checkbox .indicator svg { display: none; width: 10px; height: 10px; }
+  .chip.chip-checkbox.active { color: var(--accent); font-weight: 600; }
   .meta-row {
     display: flex;
     justify-content: space-between;
@@ -300,12 +346,18 @@
   <aside class="sidebar">
     <p class="sidebar-title">Filters</p>
     <div class="filter-group">
-      <span class="filter-label">Category</span>
-      <div class="chips" id="category-chips"></div>
+      <div class="filter-label-row">
+        <span class="filter-label">Category</span>
+        <span class="filter-hint">choose one</span>
+      </div>
+      <div class="chips" id="category-chips" role="radiogroup" aria-label="Filter by category"></div>
     </div>
     <div class="filter-group">
-      <span class="filter-label">Tags</span>
-      <div class="chips" id="tag-chips"></div>
+      <div class="filter-label-row">
+        <span class="filter-label">Tags</span>
+        <span class="filter-hint">choose any</span>
+      </div>
+      <div class="chips" id="tag-chips" role="group" aria-label="Filter by tag"></div>
     </div>
     <div class="meta-row">
       <span id="result-count"></span>
@@ -400,22 +452,38 @@
     if (e.key === 'Escape') closePanel();
   });
 
-  function makeChip(label, isActive, onClick) {
+  const CHECK_SVG = '<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 8.5L6.5 12L13 4.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+  function makeChip(label, isActive, variant, onClick) {
     const el = document.createElement('button');
-    el.className = 'chip' + (isActive ? ' active' : '');
-    el.textContent = label;
+    el.className = 'chip chip-' + variant + (isActive ? ' active' : '');
+    el.type = 'button';
+    if (variant === 'radio') {
+      el.setAttribute('role', 'radio');
+      el.setAttribute('aria-checked', String(isActive));
+    } else {
+      el.setAttribute('role', 'checkbox');
+      el.setAttribute('aria-checked', String(isActive));
+    }
+    const indicator = document.createElement('span');
+    indicator.className = 'indicator';
+    if (variant === 'checkbox') indicator.innerHTML = CHECK_SVG;
+    const text = document.createElement('span');
+    text.textContent = label;
+    el.appendChild(indicator);
+    el.appendChild(text);
     el.addEventListener('click', onClick);
     return el;
   }
 
   function renderChips() {
     categoryChips.innerHTML = '';
-    categoryChips.appendChild(makeChip('All', state.category === null, () => {
+    categoryChips.appendChild(makeChip('All', state.category === null, 'radio', () => {
       state.category = null;
       renderAll();
     }));
     data.categories.forEach(cat => {
-      categoryChips.appendChild(makeChip(cat.name, state.category === cat.name, () => {
+      categoryChips.appendChild(makeChip(cat.name, state.category === cat.name, 'radio', () => {
         state.category = state.category === cat.name ? null : cat.name;
         renderAll();
       }));
@@ -423,7 +491,7 @@
 
     tagChips.innerHTML = '';
     data.allTags.forEach(tag => {
-      tagChips.appendChild(makeChip(tag, state.tags.has(tag), () => {
+      tagChips.appendChild(makeChip(tag, state.tags.has(tag), 'checkbox', () => {
         if (state.tags.has(tag)) state.tags.delete(tag);
         else state.tags.add(tag);
         renderAll();
