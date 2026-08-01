@@ -186,14 +186,16 @@
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
+    cursor: pointer;
+    transition: border-color 0.12s;
   }
-  .card a.name {
+  .card:hover { border-color: var(--accent); }
+  .card .name {
     color: var(--text);
     font-weight: 600;
-    text-decoration: none;
     font-size: 0.95rem;
   }
-  .card a.name:hover { color: var(--accent); text-decoration: underline; }
+  .card:hover .name { color: var(--accent); }
   .card .desc { color: var(--text-dim); font-size: 0.85rem; }
   .card .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.15rem; }
   .tag-pill {
@@ -219,6 +221,77 @@
     font-size: 0.8rem;
   }
   footer a { color: var(--accent); }
+
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.18s;
+    z-index: 90;
+  }
+  .overlay.open { opacity: 1; pointer-events: auto; }
+  .panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: min(480px, 100%);
+    background: var(--surface);
+    border-left: 1px solid var(--border);
+    box-shadow: -8px 0 24px rgba(0, 0, 0, 0.12);
+    transform: translateX(100%);
+    transition: transform 0.22s ease;
+    z-index: 100;
+    overflow-y: auto;
+    padding: 1.5rem;
+  }
+  .panel.open { transform: translateX(0); }
+  .panel-close {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+    float: right;
+    padding: 0.2rem;
+  }
+  .panel-close:hover { color: var(--text); }
+  .panel h2 {
+    font-size: 1.3rem;
+    margin: 0.2rem 0 0.6rem;
+    letter-spacing: -0.01em;
+  }
+  .panel .panel-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 1.1rem; }
+  .panel-section { margin-bottom: 1.2rem; }
+  .panel-section h3 {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-dim);
+    margin: 0 0 0.4rem;
+  }
+  .panel-section p { margin: 0; font-size: 0.92rem; }
+  .panel-section ol { margin: 0; padding-left: 1.2rem; font-size: 0.9rem; }
+  .panel-section ol li { margin-bottom: 0.35rem; }
+  .panel-visit {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    padding: 0.6rem 1.1rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 0.4rem;
+  }
+  .panel-no-install {
+    color: var(--text-dim);
+    font-size: 0.9rem;
+    font-style: italic;
+  }
 </style>
 </head>
 <body>
@@ -259,6 +332,12 @@
   </div>
 </div>
 
+<div class="overlay" id="overlay"></div>
+<div class="panel" id="panel">
+  <button class="panel-close" id="panel-close" aria-label="Close">&times;</button>
+  <div id="panel-body"></div>
+</div>
+
 <script src="data.js"></script>
 <script>
 (function () {
@@ -273,6 +352,53 @@
   const searchInput = document.getElementById('search');
   const clearBtn = document.getElementById('clear-btn');
   document.getElementById('tag-note').textContent = data.generatedNote || '';
+
+  const overlay = document.getElementById('overlay');
+  const panel = document.getElementById('panel');
+  const panelBody = document.getElementById('panel-body');
+  const panelClose = document.getElementById('panel-close');
+
+  function escapeHtml(s) {
+    return (s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+
+  function openPanel(entry) {
+    const d = entry.details;
+    let html = '';
+    html += '<h2>' + escapeHtml(entry.name) + '</h2>';
+    html += '<div class="panel-tags">' + entry.tags.map(t => '<span class="tag-pill">' + escapeHtml(t) + '</span>').join('') + '</div>';
+
+    html += '<div class="panel-section"><h3>What it is</h3><p>' + escapeHtml(d ? d.whatItIs : entry.desc) + '</p></div>';
+
+    if (d && d.whyHelpful) {
+      html += '<div class="panel-section"><h3>Why it helps</h3><p>' + escapeHtml(d.whyHelpful) + '</p></div>';
+    }
+
+    html += '<div class="panel-section"><h3>Getting started</h3>';
+    if (d && d.installNeeded && d.install && d.install.length > 0) {
+      html += '<ol>' + d.install.map(step => '<li>' + escapeHtml(step) + '</li>').join('') + '</ol>';
+    } else {
+      html += '<p class="panel-no-install">No install needed — just open the link below.</p>';
+    }
+    html += '</div>';
+
+    html += '<a class="panel-visit" href="' + entry.url + '" target="_blank" rel="noopener noreferrer">Visit →</a>';
+
+    panelBody.innerHTML = html;
+    panel.classList.add('open');
+    overlay.classList.add('open');
+  }
+
+  function closePanel() {
+    panel.classList.remove('open');
+    overlay.classList.remove('open');
+  }
+
+  overlay.addEventListener('click', closePanel);
+  panelClose.addEventListener('click', closePanel);
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closePanel();
+  });
 
   function makeChip(label, isActive, onClick) {
     const el = document.createElement('button');
@@ -342,12 +468,10 @@
       entries.forEach(entry => {
         const card = document.createElement('div');
         card.className = 'card';
-        const a = document.createElement('a');
-        a.className = 'name';
-        a.href = entry.url;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        a.textContent = entry.name;
+        card.addEventListener('click', () => openPanel(entry));
+        const name = document.createElement('div');
+        name.className = 'name';
+        name.textContent = entry.name;
         const desc = document.createElement('div');
         desc.className = 'desc';
         desc.textContent = entry.desc;
@@ -359,7 +483,7 @@
           pill.textContent = t;
           tagsWrap.appendChild(pill);
         });
-        card.appendChild(a);
+        card.appendChild(name);
         card.appendChild(desc);
         card.appendChild(tagsWrap);
         grid.appendChild(card);

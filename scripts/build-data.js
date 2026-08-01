@@ -72,6 +72,22 @@ for (const cat of categories) {
   }
 }
 
+// --- Merge in hand/agent-authored plain-language details, if present ---
+const detailsPath = path.join(__dirname, '..', 'docs', 'details.json');
+const details = fs.existsSync(detailsPath) ? JSON.parse(fs.readFileSync(detailsPath, 'utf8')) : {};
+let matched = 0;
+for (const cat of categories) {
+  for (const entry of cat.entries) {
+    if (details[entry.name]) {
+      entry.details = details[entry.name];
+      matched++;
+    }
+  }
+}
+if (Object.keys(details).length > 0) {
+  console.log(`Matched details for ${matched}/${Object.keys(details).length} entries.`);
+}
+
 const allTags = new Set();
 categories.forEach(c => c.entries.forEach(e => e.tags.forEach(t => allTags.add(t))));
 
