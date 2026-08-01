@@ -1492,5 +1492,129 @@
     "whyHelpful": "It's a useful reference for anyone building a workout app or wanting a reliable library of exercise instructions in multiple languages.",
     "installNeeded": false,
     "install": []
+  },
+  "31 Skills, 72 Systems — How the Library Works": {
+    "whatItIs": "A blog post that explains, step by step, how a real library of 'skill files' for AI coding assistants is organized on disk — what goes in each folder and why.",
+    "whyHelpful": "If you're building your own skill files for tools like Claude Code, this shows a proven folder structure to copy instead of guessing.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Cybersecurity Mastery Roadmap": {
+    "whatItIs": "A free, step-by-step study plan for learning cybersecurity, from the basics all the way to specialized topics.",
+    "whyHelpful": "Instead of wondering what to learn next, you get an ordered checklist with resources at each stage, so you're not lost or overwhelmed.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Ollama": {
+    "whatItIs": "A free tool that lets you download and run AI chat models (like Llama or Mistral) directly on your own computer, instead of using a cloud service.",
+    "whyHelpful": "Keeps your conversations and data private, works without internet once set up, and costs nothing per message.",
+    "installNeeded": true,
+    "install": [
+      "Download installer from ollama.com or GitHub releases",
+      "Install like any normal app",
+      "Open a terminal and run 'ollama run llama3' to try a model"
+    ]
+  },
+  "openwork": {
+    "whatItIs": "An open-source toolkit for building AI 'agents' that automate everyday work tasks for you.",
+    "whyHelpful": "Lets you automate repetitive tasks with AI instead of doing them by hand every time.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Configure it to point at your own tasks/workflows"
+    ]
+  },
+  "Fooocus": {
+    "whatItIs": "A simplified app for turning text descriptions into AI-generated images, built to be much easier to use than typical image-generation tools.",
+    "whyHelpful": "You get high-quality AI art without needing to understand technical settings — just type what you want.",
+    "installNeeded": true,
+    "install": [
+      "Download the release for your OS (Windows/Mac/Linux)",
+      "Unzip and run the launcher",
+      "Wait for it to download the AI model on first run"
+    ]
+  },
+  "open-seo": {
+    "whatItIs": "A free, open-source tool that checks a website for SEO problems — things that stop it from ranking well on Google.",
+    "whyHelpful": "Helps you fix search-visibility issues on your own site without paying for an SEO subscription service.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Install dependencies as described in the README",
+      "Run it against your website's URL"
+    ]
+  },
+  "Windmill": {
+    "whatItIs": "A self-hostable platform that turns small scripts into full workflows, background jobs, or simple internal apps.",
+    "whyHelpful": "Useful for teams who want to automate business processes without paying for tools like Zapier or Retool.",
+    "installNeeded": true,
+    "install": [
+      "Run via Docker Compose (provided in the repo)",
+      "Open the web interface it starts",
+      "Create your first script or workflow"
+    ]
+  },
+  "cal.diy": {
+    "whatItIs": "A self-hosted scheduling tool for creating booking pages, similar to Calendly but based on the open-source Cal.com project.",
+    "whyHelpful": "Lets you run your own booking page without depending on a paid third-party scheduling service.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the self-hosting setup guide in the README",
+      "Deploy to your own server or hosting provider"
+    ]
+  },
+  "yt-dlp": {
+    "whatItIs": "A free command-line tool that downloads videos or audio from YouTube and over a thousand other video sites.",
+    "whyHelpful": "Lets you save videos for offline viewing, extract just the audio, or grab subtitles — all for free, without ads or trackers.",
+    "installNeeded": true,
+    "install": [
+      "Install via 'pip install yt-dlp' or download the standalone file",
+      "Open a terminal",
+      "Run 'yt-dlp <video URL>' to download"
+    ]
+  },
+  "udemy-downloader-gui": {
+    "whatItIs": "A desktop app with a simple point-and-click interface for downloading Udemy courses you've already purchased.",
+    "whyHelpful": "Lets you watch your paid courses offline, on a plane or without internet, instead of only through the Udemy site.",
+    "installNeeded": true,
+    "install": [
+      "Download the app for your OS from the GitHub releases page",
+      "Install and open it",
+      "Log in with your Udemy account and pick a course to download"
+    ]
+  },
+  "Plausible Analytics": {
+    "whatItIs": "A simple website-visitor tracker (like Google Analytics) that doesn't use cookies or collect personal data.",
+    "whyHelpful": "Gives you the visitor stats you need for your website while respecting visitor privacy and avoiding cookie-consent banners.",
+    "installNeeded": true,
+    "install": [
+      "Sign up for their hosted version, or self-host via Docker",
+      "Add the small tracking script to your website",
+      "View visitor stats on the Plausible dashboard"
+    ]
+  },
+  "AppFlowy": {
+    "whatItIs": "A free, open-source app for notes, to-do lists, and project boards — built as a private alternative to Notion.",
+    "whyHelpful": "You keep full ownership of your notes and data instead of storing everything on someone else's servers.",
+    "installNeeded": true,
+    "install": [
+      "Download the app for your OS from the GitHub releases page",
+      "Install like any normal app",
+      "Open it and start creating pages/boards"
+    ]
+  },
+  "opensourceprojects.dev": {
+    "whatItIs": "A website listing free, open-source software projects organized by category.",
+    "whyHelpful": "Handy for browsing free alternatives to paid software before committing to a purchase.",
+    "installNeeded": false,
+    "install": []
+  },
+  "FreeDomain": {
+    "whatItIs": "A community-maintained list of services that give out free website domain names or subdomains.",
+    "whyHelpful": "Useful if you want a website address for a personal project without paying yearly domain fees.",
+    "installNeeded": false,
+    "install": []
   }
 }

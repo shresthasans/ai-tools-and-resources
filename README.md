@@ -69,6 +69,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[The Minimalist Entrepreneur Skills](https://github.com/slavingia/skills)**
   10 Claude Code skills based on Sahil Lavingia's book, guiding entrepreneurs from idea validation through pricing and growth.
 
+- **[31 Skills, 72 Systems — How the Library Works](https://open-design.ai/blog/31-skills-72-systems-how-the-library-works/#anatomy-of-a-skill-folder)**
+  Deep-dive into how design.md-style skill folders are structured — anatomy of a skill folder, drawn from a real 31-skill, 72-system production library.
+
 ---
 
 ## Learning & Resources
@@ -102,6 +105,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Cursor for Designers](https://adplist.notion.site/cursor-for-designers)**
   Guide to using Cursor as a non-developer designer — prompts, patterns, and workflows for design-to-code.
+
+- **[Cybersecurity Mastery Roadmap](https://github.com/Hamed233/Cybersecurity-Mastery-Roadmap)**
+  Free, structured roadmap covering cybersecurity skills from fundamentals through advanced specializations, with curated resources at each stage.
 
 - **[Google Labs](https://labs.google/)**
   Google's early-access hub for experimental AI tools — try and give feedback on projects before they become products.
@@ -193,6 +199,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Collaborator](https://github.com/collabs-inc/collab-public)**
   Native desktop app combining terminals, code editors, and file management on an infinite canvas for running AI coding agents locally.
+
+- **[Ollama](https://github.com/ollama/ollama)**
+  Run large language models locally on your own machine — pull and serve models like Llama, Mistral, and Gemma with a single command, no cloud required.
+
+- **[openwork](https://github.com/different-ai/openwork)**
+  Open-source toolkit for building AI-powered agentic workflows that automate everyday work tasks.
 
 ---
 
@@ -305,6 +317,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[freecut (Moh4696)](https://github.com/Moh4696/freecut)**
   AI-agent-driven video editing fork that automates filler-word removal, color grading, and subtitle burning using transcript-based, token-efficient processing.
+
+- **[Fooocus](https://github.com/lllyasviel/Fooocus)**
+  Simplified, beginner-friendly interface for Stable-Diffusion-based image generation — focuses on ease of use over manual parameter tuning.
 
 ---
 
@@ -425,6 +440,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[OpenWA](https://github.com/rmyndharis/OpenWA)**
   Self-hosted WhatsApp API gateway built on NestJS/TypeScript for programmatic messaging, group management, and automation via webhooks.
 
+- **[open-seo](https://github.com/every-app/open-seo)**
+  Open-source SEO toolkit for auditing and optimizing a website's content and technical SEO.
+
+- **[Windmill](https://github.com/windmill-labs/windmill)**
+  Open-source developer platform for turning scripts into workflows, APIs, and UIs — self-hostable alternative to Retool/Zapier for internal tools.
+
+- **[cal.diy](https://github.com/calcom/cal.diy)**
+  Self-hostable scheduling and booking-page tool built on the open-source Cal.com stack.
+
 ---
 
 ## Free AI Courses
@@ -541,6 +565,18 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Magika](https://github.com/google/magika)**
   Google's AI-powered file type detection tool achieving ~99% accuracy across 200+ file types in about 5 milliseconds per file.
 
+- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)**
+  Command-line tool for downloading video and audio from YouTube and 1,000+ other sites — extensive format options, subtitles, playlists, and post-processing.
+
+- **[udemy-downloader-gui](https://github.com/heliomarpm/udemy-downloader-gui)**
+  Desktop GUI for downloading purchased Udemy courses — videos, subtitles, and attachments — for offline viewing.
+
+- **[Plausible Analytics](https://github.com/plausible/analytics)**
+  Open-source, privacy-friendly alternative to Google Analytics — lightweight, cookie-free website analytics, self-hostable.
+
+- **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)**
+  Open-source, privacy-first alternative to Notion — notes, docs, and project management with full control over your data, self-hostable.
+
 ---
 
 ## Meta / Lists
@@ -571,6 +607,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Exercises Dataset](https://github.com/hasaneyldrm/exercises-dataset)**
   Open dataset of 1,324 fitness exercises with GIF animations, muscle/equipment metadata, and instructions in 10 languages.
+
+- **[opensourceprojects.dev](https://www.opensourceprojects.dev/)**
+  Directory of open-source software projects across categories — browse, discover, and compare alternatives to proprietary tools.
+
+- **[FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)**
+  Community-maintained list of providers offering free domain names and subdomains for personal projects, with notes on terms and renewal requirements.
 
 ---
 

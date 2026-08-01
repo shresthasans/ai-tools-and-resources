@@ -423,6 +423,20 @@ window.RESOURCE_DATA = {
               "Invoke them while working through your business idea"
             ]
           }
+        },
+        {
+          "name": "31 Skills, 72 Systems — How the Library Works",
+          "url": "https://open-design.ai/blog/31-skills-72-systems-how-the-library-works/#anatomy-of-a-skill-folder",
+          "desc": "Deep-dive into how design.md-style skill folders are structured — anatomy of a skill folder, drawn from a real 31-skill, 72-system production library.",
+          "tags": [
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A blog post that explains, step by step, how a real library of 'skill files' for AI coding assistants is organized on disk — what goes in each folder and why.",
+            "whyHelpful": "If you're building your own skill files for tools like Claude Code, this shows a proven folder structure to copy instead of guessing.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -577,6 +591,22 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "An online guide explaining how non-programmers, especially designers, can use an AI coding tool called Cursor to turn designs into working software.",
             "whyHelpful": "Helps designers with no coding background start building real apps using AI assistance, following a step-by-step guide.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Cybersecurity Mastery Roadmap",
+          "url": "https://github.com/Hamed233/Cybersecurity-Mastery-Roadmap",
+          "desc": "Free, structured roadmap covering cybersecurity skills from fundamentals through advanced specializations, with curated resources at each stage.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A free, step-by-step study plan for learning cybersecurity, from the basics all the way to specialized topics.",
+            "whyHelpful": "Instead of wondering what to learn next, you get an ordered checklist with resources at each stage, so you're not lost or overwhelmed.",
             "installNeeded": false,
             "install": []
           }
@@ -1151,6 +1181,44 @@ window.RESOURCE_DATA = {
               "Download the installer from the GitHub releases page",
               "Install like a normal desktop app",
               "Open and connect your AI coding agent"
+            ]
+          }
+        },
+        {
+          "name": "Ollama",
+          "url": "https://github.com/ollama/ollama",
+          "desc": "Run large language models locally on your own machine — pull and serve models like Llama, Mistral, and Gemma with a single command, no cloud required.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free tool that lets you download and run AI chat models (like Llama or Mistral) directly on your own computer, instead of using a cloud service.",
+            "whyHelpful": "Keeps your conversations and data private, works without internet once set up, and costs nothing per message.",
+            "installNeeded": true,
+            "install": [
+              "Download installer from ollama.com or GitHub releases",
+              "Install like any normal app",
+              "Open a terminal and run 'ollama run llama3' to try a model"
+            ]
+          }
+        },
+        {
+          "name": "openwork",
+          "url": "https://github.com/different-ai/openwork",
+          "desc": "Open-source toolkit for building AI-powered agentic workflows that automate everyday work tasks.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "An open-source toolkit for building AI 'agents' that automate everyday work tasks for you.",
+            "whyHelpful": "Lets you automate repetitive tasks with AI instead of doing them by hand every time.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Configure it to point at your own tasks/workflows"
             ]
           }
         }
@@ -1751,6 +1819,25 @@ window.RESOURCE_DATA = {
               "Download the project files from GitHub",
               "Install the required packages listed by the tool",
               "Run the start command to launch the editor"
+            ]
+          }
+        },
+        {
+          "name": "Fooocus",
+          "url": "https://github.com/lllyasviel/Fooocus",
+          "desc": "Simplified, beginner-friendly interface for Stable-Diffusion-based image generation — focuses on ease of use over manual parameter tuning.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A simplified app for turning text descriptions into AI-generated images, built to be much easier to use than typical image-generation tools.",
+            "whyHelpful": "You get high-quality AI art without needing to understand technical settings — just type what you want.",
+            "installNeeded": true,
+            "install": [
+              "Download the release for your OS (Windows/Mac/Linux)",
+              "Unzip and run the launcher",
+              "Wait for it to download the AI model on first run"
             ]
           }
         }
@@ -2429,6 +2516,65 @@ window.RESOURCE_DATA = {
               "Run the program to start the gateway"
             ]
           }
+        },
+        {
+          "name": "open-seo",
+          "url": "https://github.com/every-app/open-seo",
+          "desc": "Open-source SEO toolkit for auditing and optimizing a website's content and technical SEO.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free, open-source tool that checks a website for SEO problems — things that stop it from ranking well on Google.",
+            "whyHelpful": "Helps you fix search-visibility issues on your own site without paying for an SEO subscription service.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Install dependencies as described in the README",
+              "Run it against your website's URL"
+            ]
+          }
+        },
+        {
+          "name": "Windmill",
+          "url": "https://github.com/windmill-labs/windmill",
+          "desc": "Open-source developer platform for turning scripts into workflows, APIs, and UIs — self-hostable alternative to Retool/Zapier for internal tools.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A self-hostable platform that turns small scripts into full workflows, background jobs, or simple internal apps.",
+            "whyHelpful": "Useful for teams who want to automate business processes without paying for tools like Zapier or Retool.",
+            "installNeeded": true,
+            "install": [
+              "Run via Docker Compose (provided in the repo)",
+              "Open the web interface it starts",
+              "Create your first script or workflow"
+            ]
+          }
+        },
+        {
+          "name": "cal.diy",
+          "url": "https://github.com/calcom/cal.diy",
+          "desc": "Self-hostable scheduling and booking-page tool built on the open-source Cal.com stack.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A self-hosted scheduling tool for creating booking pages, similar to Calendly but based on the open-source Cal.com project.",
+            "whyHelpful": "Lets you run your own booking page without depending on a paid third-party scheduling service.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the self-hosting setup guide in the README",
+              "Deploy to your own server or hosting provider"
+            ]
+          }
         }
       ]
     },
@@ -3054,6 +3200,86 @@ window.RESOURCE_DATA = {
               "Or use it as a library inside other programs"
             ]
           }
+        },
+        {
+          "name": "yt-dlp",
+          "url": "https://github.com/yt-dlp/yt-dlp",
+          "desc": "Command-line tool for downloading video and audio from YouTube and 1,000+ other sites — extensive format options, subtitles, playlists, and post-processing.",
+          "tags": [
+            "CLI",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free command-line tool that downloads videos or audio from YouTube and over a thousand other video sites.",
+            "whyHelpful": "Lets you save videos for offline viewing, extract just the audio, or grab subtitles — all for free, without ads or trackers.",
+            "installNeeded": true,
+            "install": [
+              "Install via 'pip install yt-dlp' or download the standalone file",
+              "Open a terminal",
+              "Run 'yt-dlp <video URL>' to download"
+            ]
+          }
+        },
+        {
+          "name": "udemy-downloader-gui",
+          "url": "https://github.com/heliomarpm/udemy-downloader-gui",
+          "desc": "Desktop GUI for downloading purchased Udemy courses — videos, subtitles, and attachments — for offline viewing.",
+          "tags": [
+            "Free",
+            "Learning",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A desktop app with a simple point-and-click interface for downloading Udemy courses you've already purchased.",
+            "whyHelpful": "Lets you watch your paid courses offline, on a plane or without internet, instead of only through the Udemy site.",
+            "installNeeded": true,
+            "install": [
+              "Download the app for your OS from the GitHub releases page",
+              "Install and open it",
+              "Log in with your Udemy account and pick a course to download"
+            ]
+          }
+        },
+        {
+          "name": "Plausible Analytics",
+          "url": "https://github.com/plausible/analytics",
+          "desc": "Open-source, privacy-friendly alternative to Google Analytics — lightweight, cookie-free website analytics, self-hostable.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A simple website-visitor tracker (like Google Analytics) that doesn't use cookies or collect personal data.",
+            "whyHelpful": "Gives you the visitor stats you need for your website while respecting visitor privacy and avoiding cookie-consent banners.",
+            "installNeeded": true,
+            "install": [
+              "Sign up for their hosted version, or self-host via Docker",
+              "Add the small tracking script to your website",
+              "View visitor stats on the Plausible dashboard"
+            ]
+          }
+        },
+        {
+          "name": "AppFlowy",
+          "url": "https://github.com/AppFlowy-IO/AppFlowy",
+          "desc": "Open-source, privacy-first alternative to Notion — notes, docs, and project management with full control over your data, self-hostable.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A free, open-source app for notes, to-do lists, and project boards — built as a private alternative to Notion.",
+            "whyHelpful": "You keep full ownership of your notes and data instead of storing everything on someone else's servers.",
+            "installNeeded": true,
+            "install": [
+              "Download the app for your OS from the GitHub releases page",
+              "Install like any normal app",
+              "Open it and start creating pages/boards"
+            ]
+          }
         }
       ]
     },
@@ -3189,6 +3415,35 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A free online collection of over 1,300 fitness exercises, each with an animated demonstration and details like which muscles and equipment are involved.",
             "whyHelpful": "It's a useful reference for anyone building a workout app or wanting a reliable library of exercise instructions in multiple languages.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "opensourceprojects.dev",
+          "url": "https://www.opensourceprojects.dev/",
+          "desc": "Directory of open-source software projects across categories — browse, discover, and compare alternatives to proprietary tools.",
+          "tags": [
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A website listing free, open-source software projects organized by category.",
+            "whyHelpful": "Handy for browsing free alternatives to paid software before committing to a purchase.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "FreeDomain",
+          "url": "https://github.com/DigitalPlatDev/FreeDomain",
+          "desc": "Community-maintained list of providers offering free domain names and subdomains for personal projects, with notes on terms and renewal requirements.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A community-maintained list of services that give out free website domain names or subdomains.",
+            "whyHelpful": "Useful if you want a website address for a personal project without paying yearly domain fees.",
             "installNeeded": false,
             "install": []
           }
