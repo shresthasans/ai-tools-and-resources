@@ -254,6 +254,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[AI Templates — Agents](https://www.aitmpl.com/agents/)**
   Directory of ready-made AI agent templates and configurations you can copy and adapt for your own use case.
 
+- **[brain.md](https://github.com/mindmuxai/brain.md)**
+  Format spec for giving AI agents a persistent, structured "memory" file — like design.md, but for an agent's knowledge and context instead of visual style.
+
+- **[opencode](https://opencode.ai/)**
+  Open-source AI coding agent for the terminal, in the same space as Claude Code.
+
 ---
 
 ## MCP Resources
@@ -484,6 +490,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Free Design Stuff](https://freedesignstuff.com/)**
   Free design assets — mockups, UI kits, icons, and templates for personal and commercial use.
 
+- **[thesvg](https://github.com/glincker/thesvg)**
+  Free, open-source library of SVG icons and illustrations for use in web and app projects.
+
 ---
 
 ## Development Tools
@@ -520,6 +529,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Motion](https://motion.dev/)**
   Documentation site for Motion, a popular animation library for the web — guides, examples, and API reference.
+
+- **[web-to-app](https://github.com/shiaho777/web-to-app)**
+  Wraps any website into a standalone desktop or mobile app shell, without rewriting it as a native app.
+
+- **[MD This Page](https://github.com/Ademking/MD-This-Page)**
+  Browser tool that converts the current webpage into clean Markdown with one click.
 
 ---
 
@@ -722,6 +737,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai)**
   Curated list of open-source AI projects and tools across categories.
+
+- **[AllSiteHub](https://allsitehub.site/)**
+  Directory of useful websites and tools across categories.
 
 ---
 

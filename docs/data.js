@@ -1510,6 +1510,47 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "brain.md",
+          "url": "https://github.com/mindmuxai/brain.md",
+          "desc": "Format spec for giving AI agents a persistent, structured \"memory\" file — like design.md, but for an agent's knowledge and context instead of visual style.",
+          "tags": [
+            "Agent",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A standard way of writing a single file that stores an AI agent's memory and important context, so it 'remembers' things across sessions.",
+            "whyHelpful": "Without this, AI agents forget everything between conversations — this gives them a persistent, organized memory file to read from each time.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Read the spec to structure your own brain.md file",
+              "Point your AI agent/tool at the file so it loads it as context"
+            ]
+          }
+        },
+        {
+          "name": "opencode",
+          "url": "https://opencode.ai/",
+          "desc": "Open-source AI coding agent for the terminal, in the same space as Claude Code.",
+          "tags": [
+            "Agent",
+            "CLI",
+            "Claude Code",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free, open-source AI assistant that lives in your terminal and helps you write and edit code, similar to Claude Code.",
+            "whyHelpful": "Gives you an AI coding helper without being tied to one company's paid product.",
+            "installNeeded": true,
+            "install": [
+              "Follow the install command shown on opencode.ai (usually a one-line script)",
+              "Run it in a terminal inside your project folder",
+              "Start chatting with it about your code"
+            ]
+          }
         }
       ]
     },
@@ -2768,6 +2809,25 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "thesvg",
+          "url": "https://github.com/glincker/thesvg",
+          "desc": "Free, open-source library of SVG icons and illustrations for use in web and app projects.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free collection of ready-made SVG icons and illustrations you can drop into a website or app.",
+            "whyHelpful": "Saves time hunting for icons or drawing your own — just copy the icon you need.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository, or browse and copy individual SVG files",
+              "Drop the SVG file into your project",
+              "Reference it like any image or inline SVG"
+            ]
+          }
         }
       ]
     },
@@ -2968,6 +3028,45 @@ window.RESOURCE_DATA = {
               "Install via 'npm install motion' in your project",
               "Import it into your code as shown in the docs",
               "Follow the guides on motion.dev to add animations"
+            ]
+          }
+        },
+        {
+          "name": "web-to-app",
+          "url": "https://github.com/shiaho777/web-to-app",
+          "desc": "Wraps any website into a standalone desktop or mobile app shell, without rewriting it as a native app.",
+          "tags": [
+            "Free",
+            "Mobile",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that takes any website and wraps it into its own standalone app window, so it feels and opens like a real desktop or mobile app.",
+            "whyHelpful": "Lets you turn a favorite website into an app-like shortcut without needing to build a real native app.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup steps in its README",
+              "Point it at the website URL you want to wrap"
+            ]
+          }
+        },
+        {
+          "name": "MD This Page",
+          "url": "https://github.com/Ademking/MD-This-Page",
+          "desc": "Browser tool that converts the current webpage into clean Markdown with one click.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A small browser tool that turns whatever webpage you're looking at into clean, readable Markdown text.",
+            "whyHelpful": "Handy for saving articles, feeding page content into AI tools, or pasting clean text into notes without messy formatting.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the browser extension install steps in the README",
+              "Click it on any page to convert it to Markdown"
             ]
           }
         }
@@ -4044,6 +4143,20 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A curated, organized list of free and open-source AI projects and tools.",
             "whyHelpful": "Saves time browsing GitHub randomly — gives you a vetted starting point for open-source AI options.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "AllSiteHub",
+          "url": "https://allsitehub.site/",
+          "desc": "Directory of useful websites and tools across categories.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website that lists other useful websites and tools, organized into categories.",
+            "whyHelpful": "Handy starting point for discovering new tools without searching randomly.",
             "installNeeded": false,
             "install": []
           }
