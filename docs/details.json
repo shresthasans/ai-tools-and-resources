@@ -1946,5 +1946,141 @@
     "whyHelpful": "Handy starting point for discovering new tools without searching randomly.",
     "installNeeded": false,
     "install": []
+  },
+  "anthropics/skills": {
+    "whatItIs": "Anthropic's own official set of ready-made skill files for Claude Code, covering common tasks.",
+    "whyHelpful": "Straight from the source that builds Claude — a trustworthy starting point instead of random community skills.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Copy the skill folders you want into Claude Code's skills folder",
+      "Restart Claude Code to pick them up"
+    ]
+  },
+  "frontend-design (Anthropic)": {
+    "whatItIs": "An official Anthropic skill that guides Claude to make better visual and layout decisions when building web interfaces.",
+    "whyHelpful": "Helps Claude produce more polished, professional-looking UI instead of generic default styling.",
+    "installNeeded": true,
+    "install": [
+      "Visit the skill page on skills.sh",
+      "Install it into Claude Code following the site's instructions",
+      "Ask Claude to build UI — it will apply the skill automatically"
+    ]
+  },
+  "grill-me": {
+    "whatItIs": "A skill that makes Claude act like a tough critic, poking holes in your code or plan instead of just being agreeable.",
+    "whyHelpful": "Catches weak spots and bad assumptions before you ship, since a too-agreeable AI can miss real problems.",
+    "installNeeded": true,
+    "install": [
+      "Visit the skill page on skills.sh",
+      "Install it into Claude Code following the site's instructions",
+      "Ask Claude to 'grill' your idea or code"
+    ]
+  },
+  "webapp-testing (Anthropic)": {
+    "whatItIs": "An official Anthropic skill that teaches Claude how to actually click through and test a web app like a real user would.",
+    "whyHelpful": "Lets Claude catch broken buttons or flows by testing the app itself, not just reading the code.",
+    "installNeeded": true,
+    "install": [
+      "Visit the skill page on skills.sh",
+      "Install it into Claude Code following the site's instructions",
+      "Ask Claude to test your web app using the skill"
+    ]
+  },
+  "trailofbits/skills": {
+    "whatItIs": "A set of Claude skills built by Trail of Bits, a well-known security research company, focused on finding security issues.",
+    "whyHelpful": "Brings professional-grade security review habits into your AI assistant instead of relying on general knowledge alone.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Copy the skill folders into Claude Code's skills folder",
+      "Ask Claude to review your code for security issues using the skill"
+    ]
+  },
+  "caveman": {
+    "whatItIs": "A fun Claude Code skill that makes Claude reply in short, compressed 'caveman' style sentences to save time reading and fewer tokens used.",
+    "whyHelpful": "Cuts down on wordy AI responses while keeping the technical content correct — good for fast back-and-forth work.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Add the skill/plugin to Claude Code as described in its README",
+      "Turn it on with the command it provides"
+    ]
+  },
+  "handoff": {
+    "whatItIs": "A skill that has Claude write a clear summary of what it just did, so you (or another AI session) can continue the work smoothly later.",
+    "whyHelpful": "Prevents context from being lost between sessions — you get a clean recap instead of re-explaining everything.",
+    "installNeeded": true,
+    "install": [
+      "Visit the skill page on skills.sh",
+      "Install it into Claude Code following the site's instructions",
+      "Ask Claude to write a handoff summary when finishing a task"
+    ]
+  },
+  "open-kritt": {
+    "whatItIs": "An open-source project from Kritt AI for building and running AI agents that automate tasks.",
+    "whyHelpful": "Gives you a free, open starting point for building your own AI-driven automations.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Run it to start building your agent"
+    ]
+  },
+  "mypaios": {
+    "whatItIs": "A free, open-source system that acts like your own personal 'AI operating system' — a home base for running your AI agents and automations.",
+    "whyHelpful": "Keeps your AI tools and automations organized in one place you control, instead of scattered across different services.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup steps in its README",
+      "Run it on your own machine or server"
+    ]
+  },
+  "agentic-ai-starters": {
+    "whatItIs": "A set of ready-made starting templates for building your own AI agent applications.",
+    "whyHelpful": "Saves you from setting up an AI agent project from a completely blank file — just pick a template close to what you want.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Pick the starter template that matches your use case",
+      "Follow that template's own setup instructions"
+    ]
+  },
+  "video-use": {
+    "whatItIs": "A tool that lets an AI agent 'watch' and understand video content, so it can act on what's happening in a video.",
+    "whyHelpful": "Extends AI browser agents beyond just reading text and images, letting them work with video too.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Point it at a video source to start using it"
+    ]
+  },
+  "superdesign": {
+    "whatItIs": "A website where you type what kind of UI or design you want, and it generates a design mockup for you right in the browser.",
+    "whyHelpful": "Lets you quickly get a visual starting point for a design without opening design software yourself.",
+    "installNeeded": false,
+    "install": []
+  },
+  "open-edit": {
+    "whatItIs": "A free, open-source video editor built as an alternative to the paid Veed Studio editor.",
+    "whyHelpful": "Gives you video editing features without a subscription, and you can run it yourself.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Run it locally or deploy it to your own server"
+    ]
+  },
+  "ntfy": {
+    "whatItIs": "A free tool that lets any script, server, or app send a notification straight to your phone or computer, with just one simple web request.",
+    "whyHelpful": "Great for getting alerted the moment something happens (a script finishes, a server has an issue) without building your own notification system.",
+    "installNeeded": true,
+    "install": [
+      "Install the ntfy app on your phone, or self-host the server",
+      "Subscribe to a topic name of your choice",
+      "Send a notification to that topic from any script with a simple web request"
+    ]
   }
 }

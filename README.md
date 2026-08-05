@@ -96,6 +96,27 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[wondelai/skills](https://github.com/wondelai/skills)**
   Collection of reusable Claude Code skills for common tasks.
 
+- **[anthropics/skills](https://github.com/anthropics/skills)**
+  Anthropic's official collection of Claude Code skills — ready-made skill files covering common workflows.
+
+- **[frontend-design (Anthropic)](https://www.skills.sh/anthropics/skills/frontend-design)**
+  Official Anthropic skill focused on frontend UI/design tasks — helps Claude build better-looking interfaces.
+
+- **[grill-me](https://www.skills.sh/mattpocock/skills/grill-me)**
+  Skill by Matt Pocock that has Claude aggressively critique your code or plan before you ship it, to surface weak points.
+
+- **[webapp-testing (Anthropic)](https://www.skills.sh/anthropics/skills/webapp-testing)**
+  Official Anthropic skill that teaches Claude how to test web apps end-to-end by driving the UI and checking behavior.
+
+- **[trailofbits/skills](https://github.com/trailofbits/skills)**
+  Collection of Claude skills from security firm Trail of Bits, focused on security review and auditing tasks.
+
+- **[caveman](https://github.com/JuliusBrussee/caveman)**
+  Claude Code skill/plugin that makes Claude respond in ultra-compressed "caveman speak" to cut token usage while keeping technical accuracy.
+
+- **[handoff](https://www.skills.sh/mattpocock/skills/handoff)**
+  Skill by Matt Pocock that has Claude write a clean handoff summary of finished work, so the next session can pick up smoothly.
+
 ---
 
 ## Learning & Resources
@@ -260,6 +281,18 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[opencode](https://opencode.ai/)**
   Open-source AI coding agent for the terminal, in the same space as Claude Code.
 
+- **[open-kritt](https://github.com/Kritt-ai/open-kritt)**
+  Open-source AI agent project from Kritt AI for automating tasks with AI agents.
+
+- **[mypaios](https://github.com/mypaios/mypaios)**
+  Open-source personal AI operating system — a hub for running your own AI agents and automations.
+
+- **[agentic-ai-starters](https://github.com/cporter202/agentic-ai-starters)**
+  Collection of starter templates for building agentic AI apps, so you're not starting from a blank file.
+
+- **[video-use](https://github.com/browser-use/video-use)**
+  AI agent tool that can watch and understand video content, letting a browser-automation agent act on it.
+
 ---
 
 ## MCP Resources
@@ -387,6 +420,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Flux AI](https://flux-ai.io/)**
   Web app for generating images from text prompts using the Flux AI image model.
 
+- **[open-edit](https://github.com/veedstudio/open-edit)**
+  Open-source video editor, positioned as a free alternative to Veed Studio.
+
 ---
 
 ## Design Tools
@@ -492,6 +528,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[thesvg](https://github.com/glincker/thesvg)**
   Free, open-source library of SVG icons and illustrations for use in web and app projects.
+
+- **[superdesign](https://superdesign.dev/)**
+  AI tool that generates UI designs and mockups from a text prompt, right in your browser.
 
 ---
 
@@ -697,6 +736,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[tools.rmv.fyi](https://tools.rmv.fyi/)**
   Small collection of free, no-frills web-based utility tools.
+
+- **[ntfy](https://github.com/binwiederhier/ntfy)**
+  Simple, free push-notification service — send notifications to your phone or desktop from any script or app with one HTTP request.
 
 ---
 
