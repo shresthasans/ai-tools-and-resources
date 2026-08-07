@@ -293,6 +293,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[video-use](https://github.com/browser-use/video-use)**
   AI agent tool that can watch and understand video content, letting a browser-automation agent act on it.
 
+- **[ACI](https://github.com/aipotheosis-labs/aci)**
+  Open-source framework that connects AI agents to hundreds of external tools and APIs through one unified interface.
+
 ---
 
 ## MCP Resources
@@ -575,6 +578,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[MD This Page](https://github.com/Ademking/MD-This-Page)**
   Browser tool that converts the current webpage into clean Markdown with one click.
 
+- **[AnyDoc](https://github.com/firecrawl/anydoc)**
+  Open-source tool that converts almost any document format (PDF, Word, images, etc.) into clean text or Markdown that AI models can read.
+
+- **[cloudflare-os](https://github.com/cloudflare/cloudflare-os)**
+  Open-source project from Cloudflare related to running and managing workloads at the edge.
+
 ---
 
 ## Productivity
@@ -740,6 +749,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[ntfy](https://github.com/binwiederhier/ntfy)**
   Simple, free push-notification service — send notifications to your phone or desktop from any script or app with one HTTP request.
 
+- **[LocalSend](https://github.com/localsend/localsend)**
+  Free, open-source app for sending files between your own devices over local WiFi — like AirDrop, but works across Windows, Mac, Linux, iOS, and Android.
+
+- **[Invidious](https://github.com/iv-org/invidious)**
+  Free, open-source alternative front-end for YouTube that strips ads and tracking, and can be self-hosted.
+
+- **[decimen-optical-transfer](https://github.com/bashalarmistalt/decimen-optical-transfer)**
+  Tool for transferring data between devices using optical (camera/screen) signals instead of a network connection.
+
 ---
 
 ## Meta / Lists
@@ -782,6 +800,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[AllSiteHub](https://allsitehub.site/)**
   Directory of useful websites and tools across categories.
+
+- **[awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools)**
+  Curated list of AI tools across categories.
+
+- **[One Pace](https://onepace.net/en/watch)**
+  Fan-made project that re-edits the One Piece anime by cutting filler and pacing issues, closer to the manga's pacing.
 
 ---
 

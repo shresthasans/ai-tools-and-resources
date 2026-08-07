@@ -1765,6 +1765,26 @@ window.RESOURCE_DATA = {
               "Point it at a video source to start using it"
             ]
           }
+        },
+        {
+          "name": "ACI",
+          "url": "https://github.com/aipotheosis-labs/aci",
+          "desc": "Open-source framework that connects AI agents to hundreds of external tools and APIs through one unified interface.",
+          "tags": [
+            "Agent",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "An open-source system that connects AI agents to hundreds of outside tools and services (like email, calendars, or databases) through one shared connector.",
+            "whyHelpful": "Saves you from wiring up each tool individually — the agent gets a ready-made bridge to lots of services at once.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Connect your AI agent to it as described"
+            ]
+          }
         }
       ]
     },
@@ -3316,6 +3336,44 @@ window.RESOURCE_DATA = {
               "Click it on any page to convert it to Markdown"
             ]
           }
+        },
+        {
+          "name": "AnyDoc",
+          "url": "https://github.com/firecrawl/anydoc",
+          "desc": "Open-source tool that converts almost any document format (PDF, Word, images, etc.) into clean text or Markdown that AI models can read.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free tool that takes almost any file — PDF, Word document, scanned image — and turns it into clean, readable text or Markdown.",
+            "whyHelpful": "Makes it easy to feed real-world documents into AI tools, which usually work best with plain text.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it against the document you want to convert"
+            ]
+          }
+        },
+        {
+          "name": "cloudflare-os",
+          "url": "https://github.com/cloudflare/cloudflare-os",
+          "desc": "Open-source project from Cloudflare related to running and managing workloads at the edge.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "An open-source project from Cloudflare related to running and managing computing workloads at their network edge.",
+            "whyHelpful": "Useful if you're building infrastructure that needs to run close to users worldwide instead of one central server.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Deploy according to Cloudflare's documentation"
+            ]
+          }
         }
       ]
     },
@@ -4230,6 +4288,68 @@ window.RESOURCE_DATA = {
               "Send a notification to that topic from any script with a simple web request"
             ]
           }
+        },
+        {
+          "name": "LocalSend",
+          "url": "https://github.com/localsend/localsend",
+          "desc": "Free, open-source app for sending files between your own devices over local WiFi — like AirDrop, but works across Windows, Mac, Linux, iOS, and Android.",
+          "tags": [
+            "Free",
+            "Linux",
+            "Mac",
+            "Mobile",
+            "Open Source",
+            "Windows"
+          ],
+          "details": {
+            "whatItIs": "A free app that lets you send files between your own devices over WiFi, no internet or cloud account needed — like Apple's AirDrop, but works on Windows, Mac, Linux, iPhone, and Android.",
+            "whyHelpful": "Lets you move files between different types of devices quickly and privately without emailing them to yourself or using a cloud drive.",
+            "installNeeded": true,
+            "install": [
+              "Download the app for your device from the GitHub releases page",
+              "Install it on each device you want to share between",
+              "Make sure devices are on the same WiFi, then send files"
+            ]
+          }
+        },
+        {
+          "name": "Invidious",
+          "url": "https://github.com/iv-org/invidious",
+          "desc": "Free, open-source alternative front-end for YouTube that strips ads and tracking, and can be self-hosted.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A free, alternative way to watch YouTube videos without ads, tracking, or needing a Google account.",
+            "whyHelpful": "Lets you watch YouTube more privately and without ads, either using a public instance or running your own.",
+            "installNeeded": true,
+            "install": [
+              "Use an existing public Invidious instance, or",
+              "Clone the GitHub repository to self-host your own",
+              "Follow the setup guide in the README if self-hosting"
+            ]
+          }
+        },
+        {
+          "name": "decimen-optical-transfer",
+          "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+          "desc": "Tool for transferring data between devices using optical (camera/screen) signals instead of a network connection.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that sends data between two devices using light/screen signals (like flashing patterns or QR-style codes) instead of WiFi or cables.",
+            "whyHelpful": "Useful for transferring small amounts of data between devices that can't otherwise connect to the same network.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it on both the sending and receiving devices"
+            ]
+          }
         }
       ]
     },
@@ -4423,6 +4543,35 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A website that lists other useful websites and tools, organized into categories.",
             "whyHelpful": "Handy starting point for discovering new tools without searching randomly.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "awesome-ai-tools",
+          "url": "https://github.com/mahseema/awesome-ai-tools",
+          "desc": "Curated list of AI tools across categories.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A curated list of AI tools and websites, organized by category.",
+            "whyHelpful": "Saves time browsing for AI tools by giving you a pre-sorted, curated starting list.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "One Pace",
+          "url": "https://onepace.net/en/watch",
+          "desc": "Fan-made project that re-edits the One Piece anime by cutting filler and pacing issues, closer to the manga's pacing.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A fan project that re-edits the long-running One Piece anime by removing filler and slow padding, so it flows more like the original comic.",
+            "whyHelpful": "Lets fans watch the story at a tighter pace without the padding the TV broadcast version added.",
             "installNeeded": false,
             "install": []
           }
