@@ -426,6 +426,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[open-edit](https://github.com/veedstudio/open-edit)**
   Open-source video editor, positioned as a free alternative to Veed Studio.
 
+- **[dembrandt](https://github.com/dembrandt/dembrandt)**
+  AI-powered tool for generating painterly-style art/images. _(Description best-effort — repo details limited.)_
+
+- **[watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover)**
+  Open-source tool that automatically detects and removes watermarks from images.
+
 ---
 
 ## Design Tools
@@ -612,6 +618,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[OpenShip](https://github.com/oblien/openship)**
   Open-source platform for automating order routing and fulfillment across multiple sales channels and suppliers.
 
+- **[Pen](https://www.pen.dev/)**
+  AI-powered writing tool for drafting and editing text.
+
 ---
 
 ## Free AI Courses
@@ -758,6 +767,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[decimen-optical-transfer](https://github.com/bashalarmistalt/decimen-optical-transfer)**
   Tool for transferring data between devices using optical (camera/screen) signals instead of a network connection.
 
+- **[TorLink](https://github.com/baairon/torlink)**
+  Tool for converting torrent/magnet links into direct streamable or downloadable links.
+
+- **[Paperless-ngx](https://docs.paperless-ngx.com/)**
+  Free, open-source document management system that scans, OCRs, and organizes paper documents into a searchable digital archive — self-hostable.
+
 ---
 
 ## Meta / Lists
@@ -806,6 +821,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[One Pace](https://onepace.net/en/watch)**
   Fan-made project that re-edits the One Piece anime by cutting filler and pacing issues, closer to the manga's pacing.
+
+- **[OSINT4ALL](https://start.me/p/L1rEYQ/osint4all)**
+  Curated, categorized collection of OSINT (open-source intelligence) tools and resources.
 
 ---
 

@@ -2490,6 +2490,44 @@ window.RESOURCE_DATA = {
               "Run it locally or deploy it to your own server"
             ]
           }
+        },
+        {
+          "name": "dembrandt",
+          "url": "https://github.com/dembrandt/dembrandt",
+          "desc": "AI-powered tool for generating painterly-style art/images. _(Description best-effort — repo details limited.)_",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that uses AI to generate art or images in a painterly style, similar to how a painter's brushwork looks.",
+            "whyHelpful": "Lets you create artistic-looking images without needing painting skills yourself.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it to generate images"
+            ]
+          }
+        },
+        {
+          "name": "watermarks-remover",
+          "url": "https://github.com/guillaumemeyer/watermarks-remover",
+          "desc": "Open-source tool that automatically detects and removes watermarks from images.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free tool that automatically finds and removes watermark overlays from images.",
+            "whyHelpful": "Saves time manually editing out watermarks in photo-editing software.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it against the image you want cleaned up"
+            ]
+          }
         }
       ]
     },
@@ -3533,6 +3571,20 @@ window.RESOURCE_DATA = {
               "Deploy to your own server or hosting provider"
             ]
           }
+        },
+        {
+          "name": "Pen",
+          "url": "https://www.pen.dev/",
+          "desc": "AI-powered writing tool for drafting and editing text.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website that uses AI to help you write and edit text, like emails, notes, or drafts.",
+            "whyHelpful": "Speeds up writing by having AI help draft, rephrase, or polish your text.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -4350,6 +4402,45 @@ window.RESOURCE_DATA = {
               "Run it on both the sending and receiving devices"
             ]
           }
+        },
+        {
+          "name": "TorLink",
+          "url": "https://github.com/baairon/torlink",
+          "desc": "Tool for converting torrent/magnet links into direct streamable or downloadable links.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that takes a torrent or magnet link and turns it into a direct link you can stream or download from, without needing a separate torrent client.",
+            "whyHelpful": "Lets you access torrent content more simply, especially on devices where installing a torrent app isn't convenient.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it and provide a torrent/magnet link"
+            ]
+          }
+        },
+        {
+          "name": "Paperless-ngx",
+          "url": "https://docs.paperless-ngx.com/",
+          "desc": "Free, open-source document management system that scans, OCRs, and organizes paper documents into a searchable digital archive — self-hostable.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A free tool that scans your paper documents, reads the text on them (like a receipt or letter), and organizes them into a searchable digital filing cabinet.",
+            "whyHelpful": "Lets you go paperless and instantly search for any document by its content, instead of digging through physical files.",
+            "installNeeded": true,
+            "install": [
+              "Set it up using Docker Compose (recommended in the docs)",
+              "Open the web interface it starts",
+              "Start scanning or uploading documents to it"
+            ]
+          }
         }
       ]
     },
@@ -4572,6 +4663,20 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A fan project that re-edits the long-running One Piece anime by removing filler and slow padding, so it flows more like the original comic.",
             "whyHelpful": "Lets fans watch the story at a tighter pace without the padding the TV broadcast version added.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "OSINT4ALL",
+          "url": "https://start.me/p/L1rEYQ/osint4all",
+          "desc": "Curated, categorized collection of OSINT (open-source intelligence) tools and resources.",
+          "tags": [
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A big organized list of tools used for OSINT — publicly finding and researching information about people, companies, or topics online.",
+            "whyHelpful": "Gives researchers, journalists, and security professionals a ready reference of vetted tools instead of searching individually.",
             "installNeeded": false,
             "install": []
           }

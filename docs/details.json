@@ -2154,5 +2154,57 @@
     "whyHelpful": "Lets fans watch the story at a tighter pace without the padding the TV broadcast version added.",
     "installNeeded": false,
     "install": []
+  },
+  "dembrandt": {
+    "whatItIs": "A tool that uses AI to generate art or images in a painterly style, similar to how a painter's brushwork looks.",
+    "whyHelpful": "Lets you create artistic-looking images without needing painting skills yourself.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Run it to generate images"
+    ]
+  },
+  "watermarks-remover": {
+    "whatItIs": "A free tool that automatically finds and removes watermark overlays from images.",
+    "whyHelpful": "Saves time manually editing out watermarks in photo-editing software.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Run it against the image you want cleaned up"
+    ]
+  },
+  "Pen": {
+    "whatItIs": "A website that uses AI to help you write and edit text, like emails, notes, or drafts.",
+    "whyHelpful": "Speeds up writing by having AI help draft, rephrase, or polish your text.",
+    "installNeeded": false,
+    "install": []
+  },
+  "TorLink": {
+    "whatItIs": "A tool that takes a torrent or magnet link and turns it into a direct link you can stream or download from, without needing a separate torrent client.",
+    "whyHelpful": "Lets you access torrent content more simply, especially on devices where installing a torrent app isn't convenient.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Run it and provide a torrent/magnet link"
+    ]
+  },
+  "Paperless-ngx": {
+    "whatItIs": "A free tool that scans your paper documents, reads the text on them (like a receipt or letter), and organizes them into a searchable digital filing cabinet.",
+    "whyHelpful": "Lets you go paperless and instantly search for any document by its content, instead of digging through physical files.",
+    "installNeeded": true,
+    "install": [
+      "Set it up using Docker Compose (recommended in the docs)",
+      "Open the web interface it starts",
+      "Start scanning or uploading documents to it"
+    ]
+  },
+  "OSINT4ALL": {
+    "whatItIs": "A big organized list of tools used for OSINT — publicly finding and researching information about people, companies, or topics online.",
+    "whyHelpful": "Gives researchers, journalists, and security professionals a ready reference of vetted tools instead of searching individually.",
+    "installNeeded": false,
+    "install": []
   }
 }
