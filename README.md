@@ -545,6 +545,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 ## Development Tools
 
+- **[Agent QA](https://github.com/vostride/agent-qa)**
+  Source-available agentic QA harness for natural-language web and mobile regression tests, with persistent run memory, self-healing execution, a CLI, and an MCP server.
+
 - **[Anderro](https://anderro.com)**
   Developer tool. _(Description unavailable — site blocked fetch.)_
 
