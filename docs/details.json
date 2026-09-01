@@ -2206,5 +2206,275 @@
     "whyHelpful": "Gives researchers, journalists, and security professionals a ready reference of vetted tools instead of searching individually.",
     "installNeeded": false,
     "install": []
+  },
+  "ux-skills": {
+    "whatItIs": "A set of Claude skill files that teach the AI to think about user experience — not just make something work, but make it easy and pleasant to use.",
+    "whyHelpful": "Helps Claude catch usability problems in a design or app before a real person has to point them out.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Add the skill files to Claude Code's skills folder",
+      "Ask Claude to review or build with a UX lens using the skill"
+    ]
+  },
+  "Figma AI Skills": {
+    "whatItIs": "A page on Figma's community site collecting AI 'skills' that plug into design and development tools.",
+    "whyHelpful": "Gives you a curated place to find AI skills built specifically with design workflows in mind.",
+    "installNeeded": false,
+    "install": []
+  },
+  "appllama-skills": {
+    "whatItIs": "A set of ready-made skill files for Claude Code aimed at common app-building tasks.",
+    "whyHelpful": "Saves time by giving Claude built-in know-how for typical app development steps, instead of starting from scratch each time.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Copy the skills you want into Claude Code's skills folder",
+      "Restart Claude Code to pick them up"
+    ]
+  },
+  "autoskills": {
+    "whatItIs": "A small package you install that automatically writes Claude Code 'skill' files for your own project.",
+    "whyHelpful": "Saves you from manually writing skill files — it generates them for you based on your project.",
+    "installNeeded": true,
+    "install": [
+      "Run 'npm install autoskills' in your project",
+      "Run the command it provides to generate skills",
+      "Review and adjust the generated skill files"
+    ]
+  },
+  "mateclaw": {
+    "whatItIs": "A Claude Code tool that helps automate parts of everyday development work.",
+    "whyHelpful": "Cuts down repetitive coding tasks by letting Claude handle them automatically.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Use it alongside Claude Code in your project"
+    ]
+  },
+  "90 Days of Cybersecurity": {
+    "whatItIs": "A free, day-by-day study plan that walks you through learning cybersecurity over 90 days.",
+    "whyHelpful": "Gives structure and pacing to learning cybersecurity instead of an overwhelming pile of random resources.",
+    "installNeeded": false,
+    "install": []
+  },
+  "developer-roadmap (nilbuild)": {
+    "whatItIs": "A visual guide showing what to learn, and in what order, to become a software developer.",
+    "whyHelpful": "Helps beginners avoid feeling lost by giving a clear path instead of guessing what to study next.",
+    "installNeeded": false,
+    "install": []
+  },
+  "AgentHub": {
+    "whatItIs": "A website where people share and browse pre-built AI agents made for different tasks.",
+    "whyHelpful": "Lets you find and reuse an existing AI agent instead of building one entirely from scratch.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Extend AI — UI": {
+    "whatItIs": "A product page from Extend AI showing their tool for building AI agents that read and act on documents.",
+    "whyHelpful": "Useful if you need an AI agent that can process paperwork or documents automatically.",
+    "installNeeded": false,
+    "install": []
+  },
+  "better-voice": {
+    "whatItIs": "A tool that listens to your voice and turns it into typed text using AI, similar to dictation software.",
+    "whyHelpful": "Lets you write by speaking instead of typing, which can be faster and easier for many tasks.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Run it and start speaking to have it transcribed"
+    ]
+  },
+  "ArcReel": {
+    "whatItIs": "A tool that automatically turns content (like text or clips) into short-form video reels.",
+    "whyHelpful": "Saves time creating short social videos by letting AI handle the editing.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Feed it content to generate a reel"
+    ]
+  },
+  "ui-skills.com": {
+    "whatItIs": "A website for finding and sharing AI agent skills that are focused on building user interfaces.",
+    "whyHelpful": "Gives you a shortcut to skills that specifically improve how your AI assistant handles UI work.",
+    "installNeeded": false,
+    "install": []
+  },
+  "UX Components": {
+    "whatItIs": "A website showing examples of common UI/UX component patterns, like navigation menus or forms, done well.",
+    "whyHelpful": "Gives you real examples to reference when designing your own app's components.",
+    "installNeeded": false,
+    "install": []
+  },
+  "design.md Directory": {
+    "whatItIs": "A website listing design.md files — structured documents that describe a visual design system in a way AI coding tools can understand.",
+    "whyHelpful": "Gives you real examples to learn from when writing your own design.md file for a project.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Kitbitz": {
+    "whatItIs": "A website offering free design kits — pre-made sets of icons, graphics, or templates.",
+    "whyHelpful": "Saves time by giving you ready-to-use design assets instead of creating them yourself.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Design Engineer Tools": {
+    "whatItIs": "A directory of tools aimed at 'design engineers' — people who work on both the visual design and the code of a product.",
+    "whyHelpful": "Helps you discover tools built specifically for that in-between design-and-code role.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Beautiful UI": {
+    "whatItIs": "A website showing a gallery of well-designed UI examples and components for inspiration.",
+    "whyHelpful": "Gives you real design examples to reference or copy patterns from when building your own app.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Checklist Design": {
+    "whatItIs": "A website with checklists of things to verify before you consider a design 'done' — spacing, accessibility, states, and more.",
+    "whyHelpful": "Helps you catch common design mistakes before shipping, using a simple pass/fail list.",
+    "installNeeded": false,
+    "install": []
+  },
+  "CV Tailor — AI Resume Optimizer (Figma)": {
+    "whatItIs": "A Figma plugin that uses AI to adjust your resume's wording and formatting so it scores better with automated resume-screening systems.",
+    "whyHelpful": "Helps your resume actually get seen by a human, since many companies use software to filter resumes first.",
+    "installNeeded": true,
+    "install": [
+      "Open Figma",
+      "Search for and install the plugin from the Community page",
+      "Run it on your resume file inside Figma"
+    ]
+  },
+  "Kexsio Animations": {
+    "whatItIs": "A website showing a gallery of UI animation examples you can study or reference.",
+    "whyHelpful": "Gives you real motion-design examples to inspire animations in your own app.",
+    "installNeeded": false,
+    "install": []
+  },
+  "404 Gallery (Colorion)": {
+    "whatItIs": "A website showcasing creative, well-designed 404 'page not found' error pages from around the web.",
+    "whyHelpful": "Gives you inspiration for making your own site's error page more fun and on-brand instead of a boring blank page.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Supercool": {
+    "whatItIs": "A design studio's website showcasing design work, tools, and resources.",
+    "whyHelpful": "Useful for design inspiration and seeing examples of high-quality design work.",
+    "installNeeded": false,
+    "install": []
+  },
+  "screenshot-to-code": {
+    "whatItIs": "A free tool that takes a screenshot or picture of a webpage/app design and generates working code (HTML, React, etc.) that recreates it.",
+    "whyHelpful": "Turns a design image into a real, working starting point for your app instead of building it from scratch by hand.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Upload a screenshot to generate code from it"
+    ]
+  },
+  "kudu": {
+    "whatItIs": "A developer tool that helps automate parts of building and deploying software.",
+    "whyHelpful": "Cuts down on manual, repetitive steps in getting your code from your computer to a live app.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Run it as part of your build/deploy process"
+    ]
+  },
+  "cmux": {
+    "whatItIs": "A tool for running and switching between multiple AI coding agent sessions at the same time, like tabs for AI assistants.",
+    "whyHelpful": "Lets you keep several AI coding tasks going at once instead of doing them one at a time.",
+    "installNeeded": true,
+    "install": [
+      "Visit cmux.com for setup instructions",
+      "Install it following the site's guide",
+      "Start multiple agent sessions from it"
+    ]
+  },
+  "Z.ai Chat": {
+    "whatItIs": "A free website where you can chat with Z.ai's GLM family of AI models, similar to using ChatGPT or Claude's website.",
+    "whyHelpful": "Gives you free access to try a different AI model without paying or installing anything.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Firecrawl": {
+    "whatItIs": "A service that turns any website into clean, organized text that AI tools can easily read and understand.",
+    "whyHelpful": "Saves developers from writing their own website-scraping code when they want to feed web content to an AI.",
+    "installNeeded": true,
+    "install": [
+      "Sign up at firecrawl.dev for an API key",
+      "Install their SDK in your project, or use the API directly",
+      "Send it a URL to get back clean, AI-ready text"
+    ]
+  },
+  "spec-kit": {
+    "whatItIs": "GitHub's official toolkit for writing out exactly what you want built (a 'spec') first, then having an AI coding tool generate the code to match it.",
+    "whyHelpful": "Leads to more accurate results from AI coding tools, since the AI works from a clear plan instead of a vague request.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Use it to write a spec before generating code"
+    ]
+  },
+  "spooty": {
+    "whatItIs": "A developer tool/utility for automating a specific coding workflow task.",
+    "whyHelpful": "Cuts down manual work in that part of a developer's workflow.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Run it as described for your workflow"
+    ]
+  },
+  "RemovePaywall": {
+    "whatItIs": "A free website where you paste a link to a paywalled news article and it shows you a readable version.",
+    "whyHelpful": "Lets you read articles you'd otherwise be blocked from without a paid subscription.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Linkwarden": {
+    "whatItIs": "A free, self-hostable app for saving and organizing bookmarks — it can even save a full copy of the page so links never break.",
+    "whyHelpful": "Keeps your saved links from disappearing when a website changes or goes offline, and keeps them organized in one place you control.",
+    "installNeeded": true,
+    "install": [
+      "Set it up using Docker Compose (recommended in the docs)",
+      "Open the web interface it starts",
+      "Start saving and organizing your bookmarks"
+    ]
+  },
+  "yesitsme": {
+    "whatItIs": "An open-source tool related to verifying someone's identity online.",
+    "whyHelpful": "Useful if you need a way to confirm a person is who they claim to be in your own app.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Integrate it into your own project"
+    ]
+  },
+  "awesome-selfhosted": {
+    "whatItIs": "A massive, well-organized list of free software you can run yourself instead of paying for a cloud service — covering everything from email to photo storage to project management.",
+    "whyHelpful": "Great starting point whenever you want to replace a paid subscription with something you control yourself.",
+    "installNeeded": false,
+    "install": []
+  },
+  "The Book of Secret Knowledge": {
+    "whatItIs": "A giant curated collection of command-line tools, cheatsheets, and tips mostly aimed at developers and security folks.",
+    "whyHelpful": "A handy reference when you need a tool or trick for a technical task and don't know where to start looking.",
+    "installNeeded": false,
+    "install": []
+  },
+  "MuscleWiki": {
+    "whatItIs": "A free website showing how to do exercises correctly, with instructional GIFs, organized by muscle group and equipment.",
+    "whyHelpful": "Helps you learn proper exercise form for free instead of guessing or hiring a trainer.",
+    "installNeeded": false,
+    "install": []
   }
 }

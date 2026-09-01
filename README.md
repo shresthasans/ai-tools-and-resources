@@ -117,6 +117,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[handoff](https://www.skills.sh/mattpocock/skills/handoff)**
   Skill by Matt Pocock that has Claude write a clean handoff summary of finished work, so the next session can pick up smoothly.
 
+- **[ux-skills](https://github.com/Tranz007/ux-skills)**
+  Claude skill collection focused on applying good UX judgment when building interfaces.
+
+- **[Figma AI Skills](https://www.figma.com/community/ai-skills?resource_type=skills)**
+  Figma Community hub listing AI agent skills for design and dev workflows.
+
+- **[appllama-skills](https://github.com/Appllama/appllama-skills)**
+  Collection of Claude Code skills for common app-building tasks.
+
+- **[autoskills](https://www.npmjs.com/package/autoskills)**
+  npm package that auto-generates Claude Code skill files for your project.
+
+- **[mateclaw](https://github.com/mateaix/mateclaw)**
+  Claude Code tool/skill for automating development tasks.
+
 ---
 
 ## Learning & Resources
@@ -174,6 +189,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[huryn's Design & Dev Notion](https://huryn.notion.site/)**
   Curated Notion page collecting design and development tools, resources, and inspiration.
+
+- **[90 Days of Cybersecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity)**
+  Free 90-day structured roadmap for learning cybersecurity from the ground up.
+
+- **[developer-roadmap (nilbuild)](https://github.com/nilbuild/developer-roadmap)**
+  Curated roadmap for learning software development, mapping out what to learn and in what order.
 
 ---
 
@@ -296,6 +317,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[ACI](https://github.com/aipotheosis-labs/aci)**
   Open-source framework that connects AI agents to hundreds of external tools and APIs through one unified interface.
 
+- **[AgentHub](https://www.agenthub.network/)**
+  Marketplace/directory for discovering and sharing AI agents.
+
+- **[Extend AI — UI](https://www.extend.ai/ui)**
+  Extend AI's product for building AI agents that process and act on documents.
+
 ---
 
 ## MCP Resources
@@ -368,6 +395,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Meetily](https://github.com/Zackriya-Solutions/meetily)**
   Privacy-focused, local-first AI meeting assistant built with Rust/Tauri that transcribes and summarizes meetings using Ollama, Claude, or Groq.
 
+- **[better-voice](https://github.com/TarunTomar122/better-voice)**
+  Voice dictation tool that transcribes your speech into text using AI.
+
 ---
 
 ## AI Creative Tools
@@ -431,6 +461,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover)**
   Open-source tool that automatically detects and removes watermarks from images.
+
+- **[ArcReel](https://github.com/ArcReel/ArcReel)**
+  Tool for auto-generating short-form video reels from source content.
 
 ---
 
@@ -541,6 +574,39 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[superdesign](https://superdesign.dev/)**
   AI tool that generates UI designs and mockups from a text prompt, right in your browser.
 
+- **[ui-skills.com](https://www.ui-skills.com/)**
+  Marketplace/directory for discovering AI agent skills focused on UI work.
+
+- **[UX Components](https://www.ux-components.com/)**
+  Gallery of UI/UX component patterns and examples for reference.
+
+- **[design.md Directory](https://designdotmd.directory/)**
+  Directory of design.md files and resources for describing design systems to AI coding agents.
+
+- **[Kitbitz](https://kitbitz.art/)**
+  Collection of free design kits and creative assets.
+
+- **[Design Engineer Tools](https://designengineer.tools/)**
+  Curated directory of tools aimed at the "design engineer" role — people who bridge design and code.
+
+- **[Beautiful UI](https://www.beautifului.dev/)**
+  Gallery of UI design inspiration and component examples.
+
+- **[Checklist Design](https://www.checklist.design/)**
+  Collection of UX checklists to review before shipping a design.
+
+- **[CV Tailor — AI Resume Optimizer (Figma)](https://www.figma.com/community/plugin/1657793281067654311/cv-tailor-ai-resume-optimizer-for-ats)**
+  Figma plugin that uses AI to optimize a resume design for applicant tracking systems (ATS).
+
+- **[Kexsio Animations](https://www.kexsio.com/animations)**
+  Reference gallery of UI animation examples and patterns.
+
+- **[404 Gallery (Colorion)](https://404.colorion.co/)**
+  Gallery of creative, well-designed 404 error pages for inspiration.
+
+- **[Supercool](https://supercool.com/)**
+  Design studio/tool site with design resources and inspiration.
+
 ---
 
 ## Development Tools
@@ -589,6 +655,27 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[cloudflare-os](https://github.com/cloudflare/cloudflare-os)**
   Open-source project from Cloudflare related to running and managing workloads at the edge.
+
+- **[screenshot-to-code](https://github.com/abi/screenshot-to-code)**
+  Open-source tool that converts a screenshot or design image into working HTML/React/Vue code.
+
+- **[kudu](https://github.com/AdventDevInc/kudu)**
+  Developer tool for automating parts of the software build/deploy workflow.
+
+- **[cmux](https://cmux.com/)**
+  Multiplexer tool for running and managing multiple coding agent sessions at once.
+
+- **[Z.ai Chat](https://chat.z.ai/)**
+  Free web chat interface for Z.ai's GLM AI models.
+
+- **[Firecrawl](https://www.firecrawl.dev/)**
+  Web scraping/crawling API that turns websites into clean, LLM-ready text or Markdown.
+
+- **[spec-kit](https://github.com/github/spec-kit)**
+  GitHub's official toolkit for spec-driven development with AI coding agents — write a spec first, then generate code from it.
+
+- **[spooty](https://github.com/dougchansan/spooty)**
+  Developer tool/utility for automating a specific coding workflow task.
 
 ---
 
@@ -773,6 +860,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Paperless-ngx](https://docs.paperless-ngx.com/)**
   Free, open-source document management system that scans, OCRs, and organizes paper documents into a searchable digital archive — self-hostable.
 
+- **[RemovePaywall](https://www.removepaywall.com/)**
+  Free web tool that lets you read paywalled news articles by bypassing the paywall.
+
+- **[Linkwarden](https://github.com/linkwarden/linkwarden)**
+  Open-source, self-hostable bookmark manager with full-page archiving and organization.
+
+- **[yesitsme](https://github.com/0x0be/yesitsme)**
+  Open-source identity/verification tool.
+
 ---
 
 ## Meta / Lists
@@ -824,6 +920,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[OSINT4ALL](https://start.me/p/L1rEYQ/osint4all)**
   Curated, categorized collection of OSINT (open-source intelligence) tools and resources.
+
+- **[awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)**
+  Massive curated list of free, self-hostable software alternatives to popular paid services, across every category.
+
+- **[The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)**
+  Huge curated collection of command-line tools, cheatsheets, security resources, and tips for power users.
+
+- **[MuscleWiki](https://musclewiki.com/)**
+  Free visual wiki of exercises with instructional GIFs, organized by muscle group and equipment.
 
 ---
 

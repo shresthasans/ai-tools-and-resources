@@ -731,6 +731,102 @@ window.RESOURCE_DATA = {
               "Ask Claude to write a handoff summary when finishing a task"
             ]
           }
+        },
+        {
+          "name": "ux-skills",
+          "url": "https://github.com/Tranz007/ux-skills",
+          "desc": "Claude skill collection focused on applying good UX judgment when building interfaces.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A set of Claude skill files that teach the AI to think about user experience — not just make something work, but make it easy and pleasant to use.",
+            "whyHelpful": "Helps Claude catch usability problems in a design or app before a real person has to point them out.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Add the skill files to Claude Code's skills folder",
+              "Ask Claude to review or build with a UX lens using the skill"
+            ]
+          }
+        },
+        {
+          "name": "Figma AI Skills",
+          "url": "https://www.figma.com/community/ai-skills?resource_type=skills",
+          "desc": "Figma Community hub listing AI agent skills for design and dev workflows.",
+          "tags": [
+            "Agent",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A page on Figma's community site collecting AI 'skills' that plug into design and development tools.",
+            "whyHelpful": "Gives you a curated place to find AI skills built specifically with design workflows in mind.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "appllama-skills",
+          "url": "https://github.com/Appllama/appllama-skills",
+          "desc": "Collection of Claude Code skills for common app-building tasks.",
+          "tags": [
+            "Claude Code",
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A set of ready-made skill files for Claude Code aimed at common app-building tasks.",
+            "whyHelpful": "Saves time by giving Claude built-in know-how for typical app development steps, instead of starting from scratch each time.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Copy the skills you want into Claude Code's skills folder",
+              "Restart Claude Code to pick them up"
+            ]
+          }
+        },
+        {
+          "name": "autoskills",
+          "url": "https://www.npmjs.com/package/autoskills",
+          "desc": "npm package that auto-generates Claude Code skill files for your project.",
+          "tags": [
+            "Claude Code",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A small package you install that automatically writes Claude Code 'skill' files for your own project.",
+            "whyHelpful": "Saves you from manually writing skill files — it generates them for you based on your project.",
+            "installNeeded": true,
+            "install": [
+              "Run 'npm install autoskills' in your project",
+              "Run the command it provides to generate skills",
+              "Review and adjust the generated skill files"
+            ]
+          }
+        },
+        {
+          "name": "mateclaw",
+          "url": "https://github.com/mateaix/mateclaw",
+          "desc": "Claude Code tool/skill for automating development tasks.",
+          "tags": [
+            "Claude Code",
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A Claude Code tool that helps automate parts of everyday development work.",
+            "whyHelpful": "Cuts down repetitive coding tasks by letting Claude handle them automatically.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Use it alongside Claude Code in your project"
+            ]
+          }
         }
       ]
     },
@@ -1005,6 +1101,37 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A personal Notion page where someone has organized a big list of design and development tools and resources they like.",
             "whyHelpful": "Saves you time by browsing someone else's already-curated list instead of hunting for tools yourself.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "90 Days of Cybersecurity",
+          "url": "https://github.com/farhanashrafdev/90DaysOfCyberSecurity",
+          "desc": "Free 90-day structured roadmap for learning cybersecurity from the ground up.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free, day-by-day study plan that walks you through learning cybersecurity over 90 days.",
+            "whyHelpful": "Gives structure and pacing to learning cybersecurity instead of an overwhelming pile of random resources.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "developer-roadmap (nilbuild)",
+          "url": "https://github.com/nilbuild/developer-roadmap",
+          "desc": "Curated roadmap for learning software development, mapping out what to learn and in what order.",
+          "tags": [
+            "Free",
+            "Learning",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A visual guide showing what to learn, and in what order, to become a software developer.",
+            "whyHelpful": "Helps beginners avoid feeling lost by giving a clear path instead of guessing what to study next.",
             "installNeeded": false,
             "install": []
           }
@@ -1785,6 +1912,34 @@ window.RESOURCE_DATA = {
               "Connect your AI agent to it as described"
             ]
           }
+        },
+        {
+          "name": "AgentHub",
+          "url": "https://www.agenthub.network/",
+          "desc": "Marketplace/directory for discovering and sharing AI agents.",
+          "tags": [
+            "Agent"
+          ],
+          "details": {
+            "whatItIs": "A website where people share and browse pre-built AI agents made for different tasks.",
+            "whyHelpful": "Lets you find and reuse an existing AI agent instead of building one entirely from scratch.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Extend AI — UI",
+          "url": "https://www.extend.ai/ui",
+          "desc": "Extend AI's product for building AI agents that process and act on documents.",
+          "tags": [
+            "Agent"
+          ],
+          "details": {
+            "whatItIs": "A product page from Extend AI showing their tool for building AI agents that read and act on documents.",
+            "whyHelpful": "Useful if you need an AI agent that can process paperwork or documents automatically.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -2154,6 +2309,25 @@ window.RESOURCE_DATA = {
               "Download the app from the GitHub releases page",
               "Install it on your computer",
               "Connect it to Ollama, Claude, or Groq for summaries"
+            ]
+          }
+        },
+        {
+          "name": "better-voice",
+          "url": "https://github.com/TarunTomar122/better-voice",
+          "desc": "Voice dictation tool that transcribes your speech into text using AI.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that listens to your voice and turns it into typed text using AI, similar to dictation software.",
+            "whyHelpful": "Lets you write by speaking instead of typing, which can be faster and easier for many tasks.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it and start speaking to have it transcribed"
             ]
           }
         }
@@ -2526,6 +2700,25 @@ window.RESOURCE_DATA = {
               "Clone the GitHub repository",
               "Follow the setup instructions in its README",
               "Run it against the image you want cleaned up"
+            ]
+          }
+        },
+        {
+          "name": "ArcReel",
+          "url": "https://github.com/ArcReel/ArcReel",
+          "desc": "Tool for auto-generating short-form video reels from source content.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that automatically turns content (like text or clips) into short-form video reels.",
+            "whyHelpful": "Saves time creating short social videos by letting AI handle the editing.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Feed it content to generate a reel"
             ]
           }
         }
@@ -3133,6 +3326,165 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "ui-skills.com",
+          "url": "https://www.ui-skills.com/",
+          "desc": "Marketplace/directory for discovering AI agent skills focused on UI work.",
+          "tags": [
+            "Agent",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A website for finding and sharing AI agent skills that are focused on building user interfaces.",
+            "whyHelpful": "Gives you a shortcut to skills that specifically improve how your AI assistant handles UI work.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "UX Components",
+          "url": "https://www.ux-components.com/",
+          "desc": "Gallery of UI/UX component patterns and examples for reference.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website showing examples of common UI/UX component patterns, like navigation menus or forms, done well.",
+            "whyHelpful": "Gives you real examples to reference when designing your own app's components.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "design.md Directory",
+          "url": "https://designdotmd.directory/",
+          "desc": "Directory of design.md files and resources for describing design systems to AI coding agents.",
+          "tags": [
+            "Agent"
+          ],
+          "details": {
+            "whatItIs": "A website listing design.md files — structured documents that describe a visual design system in a way AI coding tools can understand.",
+            "whyHelpful": "Gives you real examples to learn from when writing your own design.md file for a project.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Kitbitz",
+          "url": "https://kitbitz.art/",
+          "desc": "Collection of free design kits and creative assets.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A website offering free design kits — pre-made sets of icons, graphics, or templates.",
+            "whyHelpful": "Saves time by giving you ready-to-use design assets instead of creating them yourself.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Design Engineer Tools",
+          "url": "https://designengineer.tools/",
+          "desc": "Curated directory of tools aimed at the \"design engineer\" role — people who bridge design and code.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A directory of tools aimed at 'design engineers' — people who work on both the visual design and the code of a product.",
+            "whyHelpful": "Helps you discover tools built specifically for that in-between design-and-code role.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Beautiful UI",
+          "url": "https://www.beautifului.dev/",
+          "desc": "Gallery of UI design inspiration and component examples.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website showing a gallery of well-designed UI examples and components for inspiration.",
+            "whyHelpful": "Gives you real design examples to reference or copy patterns from when building your own app.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Checklist Design",
+          "url": "https://www.checklist.design/",
+          "desc": "Collection of UX checklists to review before shipping a design.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website with checklists of things to verify before you consider a design 'done' — spacing, accessibility, states, and more.",
+            "whyHelpful": "Helps you catch common design mistakes before shipping, using a simple pass/fail list.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "CV Tailor — AI Resume Optimizer (Figma)",
+          "url": "https://www.figma.com/community/plugin/1657793281067654311/cv-tailor-ai-resume-optimizer-for-ats",
+          "desc": "Figma plugin that uses AI to optimize a resume design for applicant tracking systems (ATS).",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A Figma plugin that uses AI to adjust your resume's wording and formatting so it scores better with automated resume-screening systems.",
+            "whyHelpful": "Helps your resume actually get seen by a human, since many companies use software to filter resumes first.",
+            "installNeeded": true,
+            "install": [
+              "Open Figma",
+              "Search for and install the plugin from the Community page",
+              "Run it on your resume file inside Figma"
+            ]
+          }
+        },
+        {
+          "name": "Kexsio Animations",
+          "url": "https://www.kexsio.com/animations",
+          "desc": "Reference gallery of UI animation examples and patterns.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website showing a gallery of UI animation examples you can study or reference.",
+            "whyHelpful": "Gives you real motion-design examples to inspire animations in your own app.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "404 Gallery (Colorion)",
+          "url": "https://404.colorion.co/",
+          "desc": "Gallery of creative, well-designed 404 error pages for inspiration.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website showcasing creative, well-designed 404 'page not found' error pages from around the web.",
+            "whyHelpful": "Gives you inspiration for making your own site's error page more fun and on-brand instead of a boring blank page.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Supercool",
+          "url": "https://supercool.com/",
+          "desc": "Design studio/tool site with design resources and inspiration.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A design studio's website showcasing design work, tools, and resources.",
+            "whyHelpful": "Useful for design inspiration and seeing examples of high-quality design work.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -3410,6 +3762,133 @@ window.RESOURCE_DATA = {
               "Clone the GitHub repository",
               "Follow the setup instructions in its README",
               "Deploy according to Cloudflare's documentation"
+            ]
+          }
+        },
+        {
+          "name": "screenshot-to-code",
+          "url": "https://github.com/abi/screenshot-to-code",
+          "desc": "Open-source tool that converts a screenshot or design image into working HTML/React/Vue code.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free tool that takes a screenshot or picture of a webpage/app design and generates working code (HTML, React, etc.) that recreates it.",
+            "whyHelpful": "Turns a design image into a real, working starting point for your app instead of building it from scratch by hand.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Upload a screenshot to generate code from it"
+            ]
+          }
+        },
+        {
+          "name": "kudu",
+          "url": "https://github.com/AdventDevInc/kudu",
+          "desc": "Developer tool for automating parts of the software build/deploy workflow.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A developer tool that helps automate parts of building and deploying software.",
+            "whyHelpful": "Cuts down on manual, repetitive steps in getting your code from your computer to a live app.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it as part of your build/deploy process"
+            ]
+          }
+        },
+        {
+          "name": "cmux",
+          "url": "https://cmux.com/",
+          "desc": "Multiplexer tool for running and managing multiple coding agent sessions at once.",
+          "tags": [
+            "Agent"
+          ],
+          "details": {
+            "whatItIs": "A tool for running and switching between multiple AI coding agent sessions at the same time, like tabs for AI assistants.",
+            "whyHelpful": "Lets you keep several AI coding tasks going at once instead of doing them one at a time.",
+            "installNeeded": true,
+            "install": [
+              "Visit cmux.com for setup instructions",
+              "Install it following the site's guide",
+              "Start multiple agent sessions from it"
+            ]
+          }
+        },
+        {
+          "name": "Z.ai Chat",
+          "url": "https://chat.z.ai/",
+          "desc": "Free web chat interface for Z.ai's GLM AI models.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A free website where you can chat with Z.ai's GLM family of AI models, similar to using ChatGPT or Claude's website.",
+            "whyHelpful": "Gives you free access to try a different AI model without paying or installing anything.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Firecrawl",
+          "url": "https://www.firecrawl.dev/",
+          "desc": "Web scraping/crawling API that turns websites into clean, LLM-ready text or Markdown.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A service that turns any website into clean, organized text that AI tools can easily read and understand.",
+            "whyHelpful": "Saves developers from writing their own website-scraping code when they want to feed web content to an AI.",
+            "installNeeded": true,
+            "install": [
+              "Sign up at firecrawl.dev for an API key",
+              "Install their SDK in your project, or use the API directly",
+              "Send it a URL to get back clean, AI-ready text"
+            ]
+          }
+        },
+        {
+          "name": "spec-kit",
+          "url": "https://github.com/github/spec-kit",
+          "desc": "GitHub's official toolkit for spec-driven development with AI coding agents — write a spec first, then generate code from it.",
+          "tags": [
+            "Agent",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "GitHub's official toolkit for writing out exactly what you want built (a 'spec') first, then having an AI coding tool generate the code to match it.",
+            "whyHelpful": "Leads to more accurate results from AI coding tools, since the AI works from a clear plan instead of a vague request.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Use it to write a spec before generating code"
+            ]
+          }
+        },
+        {
+          "name": "spooty",
+          "url": "https://github.com/dougchansan/spooty",
+          "desc": "Developer tool/utility for automating a specific coding workflow task.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A developer tool/utility for automating a specific coding workflow task.",
+            "whyHelpful": "Cuts down manual work in that part of a developer's workflow.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it as described for your workflow"
             ]
           }
         }
@@ -4441,6 +4920,59 @@ window.RESOURCE_DATA = {
               "Start scanning or uploading documents to it"
             ]
           }
+        },
+        {
+          "name": "RemovePaywall",
+          "url": "https://www.removepaywall.com/",
+          "desc": "Free web tool that lets you read paywalled news articles by bypassing the paywall.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A free website where you paste a link to a paywalled news article and it shows you a readable version.",
+            "whyHelpful": "Lets you read articles you'd otherwise be blocked from without a paid subscription.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Linkwarden",
+          "url": "https://github.com/linkwarden/linkwarden",
+          "desc": "Open-source, self-hostable bookmark manager with full-page archiving and organization.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A free, self-hostable app for saving and organizing bookmarks — it can even save a full copy of the page so links never break.",
+            "whyHelpful": "Keeps your saved links from disappearing when a website changes or goes offline, and keeps them organized in one place you control.",
+            "installNeeded": true,
+            "install": [
+              "Set it up using Docker Compose (recommended in the docs)",
+              "Open the web interface it starts",
+              "Start saving and organizing your bookmarks"
+            ]
+          }
+        },
+        {
+          "name": "yesitsme",
+          "url": "https://github.com/0x0be/yesitsme",
+          "desc": "Open-source identity/verification tool.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "An open-source tool related to verifying someone's identity online.",
+            "whyHelpful": "Useful if you need a way to confirm a person is who they claim to be in your own app.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Integrate it into your own project"
+            ]
+          }
         }
       ]
     },
@@ -4677,6 +5209,52 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A big organized list of tools used for OSINT — publicly finding and researching information about people, companies, or topics online.",
             "whyHelpful": "Gives researchers, journalists, and security professionals a ready reference of vetted tools instead of searching individually.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "awesome-selfhosted",
+          "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+          "desc": "Massive curated list of free, self-hostable software alternatives to popular paid services, across every category.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A massive, well-organized list of free software you can run yourself instead of paying for a cloud service — covering everything from email to photo storage to project management.",
+            "whyHelpful": "Great starting point whenever you want to replace a paid subscription with something you control yourself.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "The Book of Secret Knowledge",
+          "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+          "desc": "Huge curated collection of command-line tools, cheatsheets, security resources, and tips for power users.",
+          "tags": [
+            "CLI",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A giant curated collection of command-line tools, cheatsheets, and tips mostly aimed at developers and security folks.",
+            "whyHelpful": "A handy reference when you need a tool or trick for a technical task and don't know where to start looking.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "MuscleWiki",
+          "url": "https://musclewiki.com/",
+          "desc": "Free visual wiki of exercises with instructional GIFs, organized by muscle group and equipment.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A free website showing how to do exercises correctly, with instructional GIFs, organized by muscle group and equipment.",
+            "whyHelpful": "Helps you learn proper exercise form for free instead of guessing or hiring a trainer.",
             "installNeeded": false,
             "install": []
           }
