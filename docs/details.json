@@ -2476,5 +2476,11 @@
     "whyHelpful": "Helps you learn proper exercise form for free instead of guessing or hiring a trainer.",
     "installNeeded": false,
     "install": []
+  },
+  "Open Source Everything": {
+    "whatItIs": "A big list linking to free, open-source alternatives for popular paid apps and services, across many categories.",
+    "whyHelpful": "Handy when you want to replace a paid tool with a free one but don't know what alternatives exist.",
+    "installNeeded": false,
+    "install": []
   }
 }

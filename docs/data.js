@@ -5258,6 +5258,21 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "Open Source Everything",
+          "url": "https://github.com/An-anonymous-coder/Open-Source-Everything",
+          "desc": "Curated list of free, open-source alternatives to popular paid software across many categories.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A big list linking to free, open-source alternatives for popular paid apps and services, across many categories.",
+            "whyHelpful": "Handy when you want to replace a paid tool with a free one but don't know what alternatives exist.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     }

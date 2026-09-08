@@ -930,6 +930,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[MuscleWiki](https://musclewiki.com/)**
   Free visual wiki of exercises with instructional GIFs, organized by muscle group and equipment.
 
+- **[Open Source Everything](https://github.com/An-anonymous-coder/Open-Source-Everything)**
+  Curated list of free, open-source alternatives to popular paid software across many categories.
+
 ---
 
 _Add more resources by opening a PR or editing this file directly._
