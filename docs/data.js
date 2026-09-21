@@ -847,6 +847,22 @@ window.RESOURCE_DATA = {
               "Restart Claude Code to pick them up"
             ]
           }
+        },
+        {
+          "name": "claude-code-for-beginners",
+          "url": "https://github.com/koki7o/claude-code-for-beginners",
+          "desc": "Beginner-friendly guide to getting started with Claude Code — basics, setup, and first steps.",
+          "tags": [
+            "Claude Code",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free written guide that walks a total beginner through setting up and using Claude Code for the first time.",
+            "whyHelpful": "Gives new users a simple starting point instead of figuring out setup and basics by trial and error.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -2172,6 +2188,25 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "OpenPost",
+          "url": "https://github.com/getopenpost/openpost",
+          "desc": "Open-source tool for scheduling and publishing social media posts.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free, open-source tool for planning and posting content to social media accounts, instead of posting manually one by one.",
+            "whyHelpful": "Saves time by letting you schedule posts ahead instead of remembering to post them yourself each day.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Connect your social accounts and start scheduling posts"
+            ]
+          }
         }
       ]
     },
@@ -2363,6 +2398,40 @@ window.RESOURCE_DATA = {
               "Follow the setup instructions in its README",
               "Run it and start speaking to have it transcribed"
             ]
+          }
+        },
+        {
+          "name": "vibe",
+          "url": "https://github.com/thewh1teagle/vibe",
+          "desc": "Free, open-source desktop app for transcribing and translating audio/video locally using Whisper, with no cloud upload required.",
+          "tags": [
+            "Desktop",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free desktop app that turns spoken audio or video into written text, running entirely on your own computer with no upload to the cloud.",
+            "whyHelpful": "Lets you transcribe or translate audio privately and for free, without sending your recordings to a company's servers.",
+            "installNeeded": true,
+            "install": [
+              "Download the installer for your OS from the GitHub releases page",
+              "Install like any normal desktop app",
+              "Open it and load an audio/video file to transcribe"
+            ]
+          }
+        },
+        {
+          "name": "VoiceStudio",
+          "url": "https://voicestudio.sh/",
+          "desc": "AI voice studio for generating and editing text-to-speech and voice audio.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website for generating and editing AI voice audio, like turning written text into natural-sounding speech.",
+            "whyHelpful": "Lets you produce voiceovers or spoken audio without recording your own voice or hiring a voice actor.",
+            "installNeeded": false,
+            "install": []
           }
         }
       ]
@@ -3585,6 +3654,38 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "Design Systems One",
+          "url": "https://www.designsystems.one/",
+          "desc": "Directory of real-world design systems from companies, to browse for examples and inspiration.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website that collects real design systems from actual companies, so you can browse how others structure their design rules.",
+            "whyHelpful": "Gives you concrete, real-world examples to learn from when building your own design system.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "VisualKit — Live Website Editor",
+          "url": "https://chromewebstore.google.com/detail/visualkit-live-website-ed",
+          "desc": "Chrome extension that lets you visually edit any live website's design directly in the browser.",
+          "tags": [
+            "Web"
+          ],
+          "details": {
+            "whatItIs": "A browser extension that lets you click on parts of a live website and change how they look, directly in your browser.",
+            "whyHelpful": "Lets you experiment with design changes on a real page instantly, without touching the site's actual code first.",
+            "installNeeded": true,
+            "install": [
+              "Install the extension from the Chrome Web Store",
+              "Open the extension while browsing any website",
+              "Click elements on the page to start editing their design"
+            ]
+          }
         }
       ]
     },
@@ -4010,6 +4111,44 @@ window.RESOURCE_DATA = {
               "Wire it into your code review process (e.g. as a CI step)"
             ]
           }
+        },
+        {
+          "name": "highball",
+          "url": "https://github.com/gauthierpiarrette/highball",
+          "desc": "Developer tool/utility for automating a specific workflow task. _(Description best-effort — repo details limited.)_",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A developer tool for automating a specific part of a coding workflow.",
+            "whyHelpful": "Cuts down manual, repetitive work in that part of a developer's workflow.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it as described in the project"
+            ]
+          }
+        },
+        {
+          "name": "boneyard",
+          "url": "https://github.com/0xGF/boneyard",
+          "desc": "Tool for finding and cleaning up dead code and unused assets in a codebase.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that scans your codebase to find code and files that are no longer used, so you know what's safe to delete.",
+            "whyHelpful": "Helps keep a codebase clean by finding 'dead' code that's just taking up space and adding confusion.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it against your codebase to find unused code"
+            ]
+          }
         }
       ]
     },
@@ -4182,6 +4321,44 @@ window.RESOURCE_DATA = {
             "whyHelpful": "Speeds up writing by having AI help draft, rephrase, or polish your text.",
             "installNeeded": false,
             "install": []
+          }
+        },
+        {
+          "name": "seo-apis-that-rank-pages",
+          "url": "https://github.com/cporter202/seo-apis-that-rank-pages",
+          "desc": "Collection of APIs and tools useful for SEO work like rank tracking and content optimization.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A collection of APIs and tools useful for improving how well a website ranks in search results — things like keyword rank tracking.",
+            "whyHelpful": "Saves time hunting for the right SEO API by giving a pre-vetted list to choose from.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Browse the list of APIs/tools it documents",
+              "Sign up for and use whichever ones fit your project"
+            ]
+          }
+        },
+        {
+          "name": "recordly",
+          "url": "https://github.com/webadderallorg/recordly",
+          "desc": "Tool for recording your screen and/or audio.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool for recording what's happening on your screen and/or your microphone audio.",
+            "whyHelpful": "Useful for making tutorials, bug reports, or demos without needing separate recording software.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it and start a recording"
+            ]
           }
         }
       ]
@@ -5092,6 +5269,25 @@ window.RESOURCE_DATA = {
               "Integrate it into your own project"
             ]
           }
+        },
+        {
+          "name": "omniget",
+          "url": "https://github.com/tonhowtf/omniget",
+          "desc": "Universal downloader tool for saving media/files from various sources.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that downloads files or media from a variety of different websites/sources through one interface.",
+            "whyHelpful": "Saves you from needing a different downloader for every different site.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Give it a link to download from"
+            ]
+          }
         }
       ]
     },
@@ -5389,6 +5585,21 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A big list linking to free, open-source alternatives for popular paid apps and services, across many categories.",
             "whyHelpful": "Handy when you want to replace a paid tool with a free one but don't know what alternatives exist.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "public-apis",
+          "url": "https://github.com/public-apis/public-apis",
+          "desc": "Massive curated list of free public APIs across every category — weather, finance, games, and more.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A giant, organized list of free public APIs — ready-made data sources you can plug into your own app for things like weather, movies, or currency rates.",
+            "whyHelpful": "Saves time searching for a data source when building a project — just pick one from the list instead of searching the web.",
             "installNeeded": false,
             "install": []
           }

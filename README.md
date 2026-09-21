@@ -135,6 +135,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[social-media-skills](https://github.com/charlie947/social-media-skills)**
   Collection of Claude skills for common social media tasks like drafting posts and captions.
 
+- **[claude-code-for-beginners](https://github.com/koki7o/claude-code-for-beginners)**
+  Beginner-friendly guide to getting started with Claude Code — basics, setup, and first steps.
+
 ---
 
 ## Learning & Resources
@@ -370,6 +373,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[LinkedIn Formatter (Poper)](https://www.poper.ai/linkedin-formatter/)**
   Free tool that adds rich formatting (bold, bullets, spacing) to LinkedIn posts, since LinkedIn's own editor doesn't support it natively.
 
+- **[OpenPost](https://github.com/getopenpost/openpost)**
+  Open-source tool for scheduling and publishing social media posts.
+
 ---
 
 ## AI Audio & Voice
@@ -403,6 +409,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[better-voice](https://github.com/TarunTomar122/better-voice)**
   Voice dictation tool that transcribes your speech into text using AI.
+
+- **[vibe](https://github.com/thewh1teagle/vibe)**
+  Free, open-source desktop app for transcribing and translating audio/video locally using Whisper, with no cloud upload required.
+
+- **[VoiceStudio](https://voicestudio.sh/)**
+  AI voice studio for generating and editing text-to-speech and voice audio.
 
 ---
 
@@ -625,6 +637,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Shape of AI](https://www.shapeof.ai/)**
   Gallery of UX/UI design patterns specifically for AI-powered products and features.
 
+- **[Design Systems One](https://www.designsystems.one/)**
+  Directory of real-world design systems from companies, to browse for examples and inspiration.
+
+- **[VisualKit — Live Website Editor](https://chromewebstore.google.com/detail/visualkit-live-website-ed)**
+  Chrome extension that lets you visually edit any live website's design directly in the browser.
+
 ---
 
 ## Development Tools
@@ -698,6 +716,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[open-code-review](https://github.com/alibaba/open-code-review)**
   Alibaba's open-source AI tool for automatically reviewing code changes and flagging issues.
 
+- **[highball](https://github.com/gauthierpiarrette/highball)**
+  Developer tool/utility for automating a specific workflow task. _(Description best-effort — repo details limited.)_
+
+- **[boneyard](https://github.com/0xGF/boneyard)**
+  Tool for finding and cleaning up dead code and unused assets in a codebase.
+
 ---
 
 ## Productivity
@@ -728,6 +752,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Pen](https://www.pen.dev/)**
   AI-powered writing tool for drafting and editing text.
+
+- **[seo-apis-that-rank-pages](https://github.com/cporter202/seo-apis-that-rank-pages)**
+  Collection of APIs and tools useful for SEO work like rank tracking and content optimization.
+
+- **[recordly](https://github.com/webadderallorg/recordly)**
+  Tool for recording your screen and/or audio.
 
 ---
 
@@ -890,6 +920,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[yesitsme](https://github.com/0x0be/yesitsme)**
   Open-source identity/verification tool.
 
+- **[omniget](https://github.com/tonhowtf/omniget)**
+  Universal downloader tool for saving media/files from various sources.
+
 ---
 
 ## Meta / Lists
@@ -953,6 +986,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Open Source Everything](https://github.com/An-anonymous-coder/Open-Source-Everything)**
   Curated list of free, open-source alternatives to popular paid software across many categories.
+
+- **[public-apis](https://github.com/public-apis/public-apis)**
+  Massive curated list of free public APIs across every category — weather, finance, games, and more.
 
 ---
 
