@@ -132,6 +132,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[mateclaw](https://github.com/mateaix/mateclaw)**
   Claude Code tool/skill for automating development tasks.
 
+- **[social-media-skills](https://github.com/charlie947/social-media-skills)**
+  Collection of Claude skills for common social media tasks like drafting posts and captions.
+
 ---
 
 ## Learning & Resources
@@ -195,6 +198,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[developer-roadmap (nilbuild)](https://github.com/nilbuild/developer-roadmap)**
   Curated roadmap for learning software development, mapping out what to learn and in what order.
+
+- **[pwn.college](https://pwn.college/)**
+  Free, hands-on cybersecurity education platform with hacking exercises and CTF-style challenges, from Arizona State University.
 
 ---
 
@@ -465,6 +471,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[ArcReel](https://github.com/ArcReel/ArcReel)**
   Tool for auto-generating short-form video reels from source content.
 
+- **[drawably](https://github.com/Danilaa1/drawably)**
+  AI-powered drawing/illustration tool that helps generate or assist artwork.
+
+- **[OpenShorts](https://github.com/mutonby/openshorts)**
+  Open-source tool for automatically generating short-form video clips from longer content.
+
 ---
 
 ## Design Tools
@@ -607,6 +619,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Supercool](https://supercool.com/)**
   Design studio/tool site with design resources and inspiration.
 
+- **[Aiverse](https://www.aiverse.design/)**
+  Directory of AI-powered design tools, organized by category.
+
+- **[Shape of AI](https://www.shapeof.ai/)**
+  Gallery of UX/UI design patterns specifically for AI-powered products and features.
+
 ---
 
 ## Development Tools
@@ -676,6 +694,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[spooty](https://github.com/dougchansan/spooty)**
   Developer tool/utility for automating a specific coding workflow task.
+
+- **[open-code-review](https://github.com/alibaba/open-code-review)**
+  Alibaba's open-source AI tool for automatically reviewing code changes and flagging issues.
 
 ---
 

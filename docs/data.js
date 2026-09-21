@@ -827,6 +827,26 @@ window.RESOURCE_DATA = {
               "Use it alongside Claude Code in your project"
             ]
           }
+        },
+        {
+          "name": "social-media-skills",
+          "url": "https://github.com/charlie947/social-media-skills",
+          "desc": "Collection of Claude skills for common social media tasks like drafting posts and captions.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A set of Claude skill files that help with common social media tasks, like writing captions or planning posts.",
+            "whyHelpful": "Gives Claude built-in know-how for social media writing tasks instead of starting fresh each time.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Add the skill files to Claude Code's skills folder",
+              "Restart Claude Code to pick them up"
+            ]
+          }
         }
       ]
     },
@@ -1132,6 +1152,20 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A visual guide showing what to learn, and in what order, to become a software developer.",
             "whyHelpful": "Helps beginners avoid feeling lost by giving a clear path instead of guessing what to study next.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "pwn.college",
+          "url": "https://pwn.college/",
+          "desc": "Free, hands-on cybersecurity education platform with hacking exercises and CTF-style challenges, from Arizona State University.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A free website with hands-on hacking exercises that teach cybersecurity skills by actually breaking into deliberately vulnerable practice systems.",
+            "whyHelpful": "Lets you learn security skills by doing, not just reading, backed by a real university (Arizona State).",
             "installNeeded": false,
             "install": []
           }
@@ -2721,6 +2755,44 @@ window.RESOURCE_DATA = {
               "Feed it content to generate a reel"
             ]
           }
+        },
+        {
+          "name": "drawably",
+          "url": "https://github.com/Danilaa1/drawably",
+          "desc": "AI-powered drawing/illustration tool that helps generate or assist artwork.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that uses AI to help generate or assist with drawing and illustration.",
+            "whyHelpful": "Helps people without strong drawing skills still produce artwork with AI assistance.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Run it to start creating drawings"
+            ]
+          }
+        },
+        {
+          "name": "OpenShorts",
+          "url": "https://github.com/mutonby/openshorts",
+          "desc": "Open-source tool for automatically generating short-form video clips from longer content.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free, open-source tool that automatically cuts short highlight clips out of a longer video.",
+            "whyHelpful": "Saves the manual work of scrubbing through long videos to find and clip the best moments.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Point it at a video to generate short clips from it"
+            ]
+          }
         }
       ]
     },
@@ -3485,6 +3557,34 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "Aiverse",
+          "url": "https://www.aiverse.design/",
+          "desc": "Directory of AI-powered design tools, organized by category.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website listing AI-powered design tools, sorted by category.",
+            "whyHelpful": "Makes it easy to browse and discover AI tools built specifically for design work.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Shape of AI",
+          "url": "https://www.shapeof.ai/",
+          "desc": "Gallery of UX/UI design patterns specifically for AI-powered products and features.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website showing examples of how AI features are designed into real products — things like chat interfaces, AI suggestions, and loading states.",
+            "whyHelpful": "Gives designers proven patterns to reference when adding AI features to their own product, instead of guessing.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -3889,6 +3989,25 @@ window.RESOURCE_DATA = {
               "Clone the GitHub repository",
               "Follow the setup instructions in its README",
               "Run it as described for your workflow"
+            ]
+          }
+        },
+        {
+          "name": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "desc": "Alibaba's open-source AI tool for automatically reviewing code changes and flagging issues.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free, open-source tool from Alibaba that uses AI to automatically look over code changes and point out potential issues.",
+            "whyHelpful": "Catches problems in code changes automatically, giving teams a first pass of feedback before a human reviewer looks at it.",
+            "installNeeded": true,
+            "install": [
+              "Clone the GitHub repository",
+              "Follow the setup instructions in its README",
+              "Wire it into your code review process (e.g. as a CI step)"
             ]
           }
         }

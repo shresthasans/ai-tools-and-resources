@@ -2482,5 +2482,63 @@
     "whyHelpful": "Handy when you want to replace a paid tool with a free one but don't know what alternatives exist.",
     "installNeeded": false,
     "install": []
+  },
+  "social-media-skills": {
+    "whatItIs": "A set of Claude skill files that help with common social media tasks, like writing captions or planning posts.",
+    "whyHelpful": "Gives Claude built-in know-how for social media writing tasks instead of starting fresh each time.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Add the skill files to Claude Code's skills folder",
+      "Restart Claude Code to pick them up"
+    ]
+  },
+  "pwn.college": {
+    "whatItIs": "A free website with hands-on hacking exercises that teach cybersecurity skills by actually breaking into deliberately vulnerable practice systems.",
+    "whyHelpful": "Lets you learn security skills by doing, not just reading, backed by a real university (Arizona State).",
+    "installNeeded": false,
+    "install": []
+  },
+  "drawably": {
+    "whatItIs": "A tool that uses AI to help generate or assist with drawing and illustration.",
+    "whyHelpful": "Helps people without strong drawing skills still produce artwork with AI assistance.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Run it to start creating drawings"
+    ]
+  },
+  "OpenShorts": {
+    "whatItIs": "A free, open-source tool that automatically cuts short highlight clips out of a longer video.",
+    "whyHelpful": "Saves the manual work of scrubbing through long videos to find and clip the best moments.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Point it at a video to generate short clips from it"
+    ]
+  },
+  "Aiverse": {
+    "whatItIs": "A website listing AI-powered design tools, sorted by category.",
+    "whyHelpful": "Makes it easy to browse and discover AI tools built specifically for design work.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Shape of AI": {
+    "whatItIs": "A website showing examples of how AI features are designed into real products — things like chat interfaces, AI suggestions, and loading states.",
+    "whyHelpful": "Gives designers proven patterns to reference when adding AI features to their own product, instead of guessing.",
+    "installNeeded": false,
+    "install": []
+  },
+  "open-code-review": {
+    "whatItIs": "A free, open-source tool from Alibaba that uses AI to automatically look over code changes and point out potential issues.",
+    "whyHelpful": "Catches problems in code changes automatically, giving teams a first pass of feedback before a human reviewer looks at it.",
+    "installNeeded": true,
+    "install": [
+      "Clone the GitHub repository",
+      "Follow the setup instructions in its README",
+      "Wire it into your code review process (e.g. as a CI step)"
+    ]
   }
 }
