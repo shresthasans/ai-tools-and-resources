@@ -138,6 +138,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[claude-code-for-beginners](https://github.com/koki7o/claude-code-for-beginners)**
   Beginner-friendly guide to getting started with Claude Code — basics, setup, and first steps.
 
+- **[skills-for-figma](https://github.com/southleft/skills-for-figma)**
+  Open-source agent skills for the native Figma MCP server — design tokens, components, accessibility, Slides, and FigJam.
+
 ---
 
 ## Learning & Resources
@@ -204,6 +207,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[pwn.college](https://pwn.college/)**
   Free, hands-on cybersecurity education platform with hacking exercises and CTF-style challenges, from Arizona State University.
+
+- **[coding-interview-university](https://github.com/jwasham/coding-interview-university)**
+  Huge self-study plan covering computer science fundamentals and data structures/algorithms for software engineering interviews.
 
 ---
 
@@ -351,6 +357,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[drawio-mcp-server](https://github.com/lgazo/drawio-mcp-server)**
   MCP server that lets AI assistants create and edit diagrams directly in draw.io / diagrams.net.
 
+- **[Figma MCP Server Guide](https://github.com/figma/mcp-server-guide)**
+  Figma's official guide to setting up and using the Figma MCP server with AI coding tools.
+
 ---
 
 ## AI Social Media Tools
@@ -375,6 +384,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[OpenPost](https://github.com/getopenpost/openpost)**
   Open-source tool for scheduling and publishing social media posts.
+
+- **[ViralWave Studio Guide](https://github.com/cporter202/viralwave-studio-guide)**
+  Complete guide to ViralWave Studio for automating social media content — setup, brand voice, review workflow, AI agent integrations, plans, and FAQ.
 
 ---
 
@@ -643,6 +655,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[VisualKit — Live Website Editor](https://chromewebstore.google.com/detail/visualkit-live-website-ed)**
   Chrome extension that lets you visually edit any live website's design directly in the browser.
 
+- **[Tokens Studio for Figma](https://github.com/tokens-studio/figma-plugin)**
+  Popular Figma plugin for creating, managing, and syncing design tokens (colors, spacing, typography) with code via Git.
+
+- **[Style Dictionary](https://github.com/style-dictionary/style-dictionary)**
+  Build system that turns design tokens into platform-ready code — CSS variables, iOS, Android, JS, and more.
+
+- **[Design Tokens Community Group (DTCG)](https://github.com/design-tokens/community-group)**
+  Official W3C community group repo for the design tokens specification — the standard format tools like Tokens Studio and Style Dictionary follow.
+
 ---
 
 ## Development Tools
@@ -722,6 +743,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[boneyard](https://github.com/0xGF/boneyard)**
   Tool for finding and cleaning up dead code and unused assets in a codebase.
 
+- **[Paymenter](https://github.com/Paymenter/Paymenter)**
+  Free, open-source, self-hostable webshop and billing platform for hosting companies.
+
+- **[axe-core](https://github.com/dequelabs/axe-core)**
+  Accessibility testing engine for websites and HTML UIs — automatically finds WCAG issues; powers many browser and CI a11y tools.
+
+- **[Storybook](https://github.com/storybookjs/storybook)**
+  Workshop for building, documenting, and testing UI components in isolation — supports React, Vue, Angular, Svelte, and more.
+
 ---
 
 ## Productivity
@@ -758,6 +788,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[recordly](https://github.com/webadderallorg/recordly)**
   Tool for recording your screen and/or audio.
+
+- **[Super Productivity](https://github.com/super-productivity/super-productivity)**
+  Open-source to-do app with timeboxing and time tracking, plus Jira, GitLab, GitHub, and OpenProject integrations.
+
+- **[MarkerOn](https://github.com/ifer47/markeron)**
+  Lightweight (~1.5 MB) open-source screen annotation tool with click-through mode and keyboard shortcuts — for demos, teaching, meetings, and recordings. Windows & macOS.
 
 ---
 

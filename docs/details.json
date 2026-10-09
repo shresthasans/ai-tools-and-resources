@@ -2644,5 +2644,103 @@
     "whyHelpful": "Saves time searching for a data source when building a project — just pick one from the list instead of searching the web.",
     "installNeeded": false,
     "install": []
+  },
+  "skills-for-figma": {
+    "whatItIs": "A set of ready-made skills that teach an AI agent how to work inside Figma through Figma's official MCP server.",
+    "whyHelpful": "Lets Claude handle tokens, components, accessibility checks, Slides and FigJam in Figma without you writing step-by-step instructions.",
+    "installNeeded": true,
+    "install": [
+      "Install the official Figma MCP server in Claude Code",
+      "Clone the repo and copy the skills into your ~/.claude/skills folder",
+      "Restart Claude Code to pick them up"
+    ]
+  },
+  "coding-interview-university": {
+    "whatItIs": "A free, very detailed study plan that walks you through the computer science topics big tech companies ask about in interviews.",
+    "whyHelpful": "Gives a clear roadmap of what to learn and in what order, with links to free videos and readings.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Figma MCP Server Guide": {
+    "whatItIs": "Figma's own documentation for connecting AI tools like Claude Code to Figma through its MCP server.",
+    "whyHelpful": "Shows the correct setup steps and usage patterns straight from the source, so design-to-code workflows work first time.",
+    "installNeeded": false,
+    "install": []
+  },
+  "ViralWave Studio Guide": {
+    "whatItIs": "A written guide explaining how to set up and use ViralWave Studio, a tool for putting social media posting on autopilot.",
+    "whyHelpful": "Walks through setup, brand voice and review steps so you can get automated posting running without guesswork.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Tokens Studio for Figma": {
+    "whatItIs": "A Figma plugin that stores your design decisions (colors, spacing, fonts) as reusable tokens and can sync them to a code repository.",
+    "whyHelpful": "Keeps design and code in step, so a color change in Figma can flow into the product without manual copying.",
+    "installNeeded": true,
+    "install": [
+      "Open Figma and search the Community for \"Tokens Studio for Figma\"",
+      "Install the plugin and run it from the Plugins menu"
+    ]
+  },
+  "Style Dictionary": {
+    "whatItIs": "A developer tool that takes one set of design tokens and generates matching style files for web, iOS, Android and other platforms.",
+    "whyHelpful": "One source of truth for design values instead of maintaining separate color and spacing files per platform.",
+    "installNeeded": true,
+    "install": [
+      "Install Node.js",
+      "Run npm install -D style-dictionary in your project",
+      "Add a config file and run the build command from the README"
+    ]
+  },
+  "Design Tokens Community Group (DTCG)": {
+    "whatItIs": "The home of the official standard that defines how design tokens should be written so different tools can share them.",
+    "whyHelpful": "Helps you structure tokens in a format that works across Figma plugins and build tools, avoiding lock-in.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Paymenter": {
+    "whatItIs": "A free, self-hosted store and billing system built for businesses that sell hosting services.",
+    "whyHelpful": "Handles products, invoices and client accounts without paying for commercial billing software like WHMCS.",
+    "installNeeded": true,
+    "install": [
+      "Get a server with PHP and a database",
+      "Follow the installation guide in the README/docs"
+    ]
+  },
+  "axe-core": {
+    "whatItIs": "An open-source engine that scans web pages and flags accessibility problems, like missing labels or poor contrast.",
+    "whyHelpful": "Catches accessibility bugs automatically during development or in tests, before real users hit them.",
+    "installNeeded": true,
+    "install": [
+      "Run npm install -D axe-core in your project",
+      "Call axe.run() in your tests, or use a browser extension built on it"
+    ]
+  },
+  "Storybook": {
+    "whatItIs": "A tool that gives you a separate workspace to build and preview each UI component on its own, outside the full app.",
+    "whyHelpful": "Makes it easier to develop, review and document components, and share a living component library with designers.",
+    "installNeeded": true,
+    "install": [
+      "In your frontend project, run npx storybook@latest init",
+      "Run npm run storybook to open it in the browser"
+    ]
+  },
+  "Super Productivity": {
+    "whatItIs": "A free task manager that combines a to-do list with time tracking and focus timers, and can pull in tasks from tools like Jira and GitHub.",
+    "whyHelpful": "Keeps tasks and the time spent on them in one place, handy for tracking work across projects.",
+    "installNeeded": true,
+    "install": [
+      "Download the desktop app from the website or GitHub releases",
+      "Or use the web version in the browser"
+    ]
+  },
+  "MarkerOn": {
+    "whatItIs": "A tiny app that lets you draw and highlight directly on your screen while presenting or recording.",
+    "whyHelpful": "Makes demos and screen recordings clearer by letting you point things out live, without heavy software.",
+    "installNeeded": true,
+    "install": [
+      "Download the installer for Windows or macOS from the GitHub releases page",
+      "Launch it and use the keyboard shortcuts to start drawing"
+    ]
   }
 }

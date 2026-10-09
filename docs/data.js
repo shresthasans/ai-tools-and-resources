@@ -863,6 +863,28 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "skills-for-figma",
+          "url": "https://github.com/southleft/skills-for-figma",
+          "desc": "Open-source agent skills for the native Figma MCP server — design tokens, components, accessibility, Slides, and FigJam.",
+          "tags": [
+            "Agent",
+            "Free",
+            "MCP",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A set of ready-made skills that teach an AI agent how to work inside Figma through Figma's official MCP server.",
+            "whyHelpful": "Lets Claude handle tokens, components, accessibility checks, Slides and FigJam in Figma without you writing step-by-step instructions.",
+            "installNeeded": true,
+            "install": [
+              "Install the official Figma MCP server in Claude Code",
+              "Clone the repo and copy the skills into your ~/.claude/skills folder",
+              "Restart Claude Code to pick them up"
+            ]
+          }
         }
       ]
     },
@@ -1182,6 +1204,21 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A free website with hands-on hacking exercises that teach cybersecurity skills by actually breaking into deliberately vulnerable practice systems.",
             "whyHelpful": "Lets you learn security skills by doing, not just reading, backed by a real university (Arizona State).",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "coding-interview-university",
+          "url": "https://github.com/jwasham/coding-interview-university",
+          "desc": "Huge self-study plan covering computer science fundamentals and data structures/algorithms for software engineering interviews.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free, very detailed study plan that walks you through the computer science topics big tech companies ask about in interviews.",
+            "whyHelpful": "Gives a clear roadmap of what to learn and in what order, with links to free videos and readings.",
             "installNeeded": false,
             "install": []
           }
@@ -2079,6 +2116,22 @@ window.RESOURCE_DATA = {
               "Connect it to your AI assistant's MCP settings"
             ]
           }
+        },
+        {
+          "name": "Figma MCP Server Guide",
+          "url": "https://github.com/figma/mcp-server-guide",
+          "desc": "Figma's official guide to setting up and using the Figma MCP server with AI coding tools.",
+          "tags": [
+            "Free",
+            "MCP",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "Figma's own documentation for connecting AI tools like Claude Code to Figma through its MCP server.",
+            "whyHelpful": "Shows the correct setup steps and usage patterns straight from the source, so design-to-code workflows work first time.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -2206,6 +2259,22 @@ window.RESOURCE_DATA = {
               "Follow the setup instructions in its README",
               "Connect your social accounts and start scheduling posts"
             ]
+          }
+        },
+        {
+          "name": "ViralWave Studio Guide",
+          "url": "https://github.com/cporter202/viralwave-studio-guide",
+          "desc": "Complete guide to ViralWave Studio for automating social media content — setup, brand voice, review workflow, AI agent integrations, plans, and FAQ.",
+          "tags": [
+            "Agent",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A written guide explaining how to set up and use ViralWave Studio, a tool for putting social media posting on autopilot.",
+            "whyHelpful": "Walks through setup, brand voice and review steps so you can get automated posting running without guesswork.",
+            "installNeeded": false,
+            "install": []
           }
         }
       ]
@@ -3686,6 +3755,59 @@ window.RESOURCE_DATA = {
               "Click elements on the page to start editing their design"
             ]
           }
+        },
+        {
+          "name": "Tokens Studio for Figma",
+          "url": "https://github.com/tokens-studio/figma-plugin",
+          "desc": "Popular Figma plugin for creating, managing, and syncing design tokens (colors, spacing, typography) with code via Git.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A Figma plugin that stores your design decisions (colors, spacing, fonts) as reusable tokens and can sync them to a code repository.",
+            "whyHelpful": "Keeps design and code in step, so a color change in Figma can flow into the product without manual copying.",
+            "installNeeded": true,
+            "install": [
+              "Open Figma and search the Community for \"Tokens Studio for Figma\"",
+              "Install the plugin and run it from the Plugins menu"
+            ]
+          }
+        },
+        {
+          "name": "Style Dictionary",
+          "url": "https://github.com/style-dictionary/style-dictionary",
+          "desc": "Build system that turns design tokens into platform-ready code — CSS variables, iOS, Android, JS, and more.",
+          "tags": [
+            "Free",
+            "Mobile",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A developer tool that takes one set of design tokens and generates matching style files for web, iOS, Android and other platforms.",
+            "whyHelpful": "One source of truth for design values instead of maintaining separate color and spacing files per platform.",
+            "installNeeded": true,
+            "install": [
+              "Install Node.js",
+              "Run npm install -D style-dictionary in your project",
+              "Add a config file and run the build command from the README"
+            ]
+          }
+        },
+        {
+          "name": "Design Tokens Community Group (DTCG)",
+          "url": "https://github.com/design-tokens/community-group",
+          "desc": "Official W3C community group repo for the design tokens specification — the standard format tools like Tokens Studio and Style Dictionary follow.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "The home of the official standard that defines how design tokens should be written so different tools can share them.",
+            "whyHelpful": "Helps you structure tokens in a format that works across Figma plugins and build tools, avoiding lock-in.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -4149,6 +4271,61 @@ window.RESOURCE_DATA = {
               "Run it against your codebase to find unused code"
             ]
           }
+        },
+        {
+          "name": "Paymenter",
+          "url": "https://github.com/Paymenter/Paymenter",
+          "desc": "Free, open-source, self-hostable webshop and billing platform for hosting companies.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A free, self-hosted store and billing system built for businesses that sell hosting services.",
+            "whyHelpful": "Handles products, invoices and client accounts without paying for commercial billing software like WHMCS.",
+            "installNeeded": true,
+            "install": [
+              "Get a server with PHP and a database",
+              "Follow the installation guide in the README/docs"
+            ]
+          }
+        },
+        {
+          "name": "axe-core",
+          "url": "https://github.com/dequelabs/axe-core",
+          "desc": "Accessibility testing engine for websites and HTML UIs — automatically finds WCAG issues; powers many browser and CI a11y tools.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "An open-source engine that scans web pages and flags accessibility problems, like missing labels or poor contrast.",
+            "whyHelpful": "Catches accessibility bugs automatically during development or in tests, before real users hit them.",
+            "installNeeded": true,
+            "install": [
+              "Run npm install -D axe-core in your project",
+              "Call axe.run() in your tests, or use a browser extension built on it"
+            ]
+          }
+        },
+        {
+          "name": "Storybook",
+          "url": "https://github.com/storybookjs/storybook",
+          "desc": "Workshop for building, documenting, and testing UI components in isolation — supports React, Vue, Angular, Svelte, and more.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that gives you a separate workspace to build and preview each UI component on its own, outside the full app.",
+            "whyHelpful": "Makes it easier to develop, review and document components, and share a living component library with designers.",
+            "installNeeded": true,
+            "install": [
+              "In your frontend project, run npx storybook@latest init",
+              "Run npm run storybook to open it in the browser"
+            ]
+          }
         }
       ]
     },
@@ -4358,6 +4535,44 @@ window.RESOURCE_DATA = {
               "Clone the GitHub repository",
               "Follow the setup instructions in its README",
               "Run it and start a recording"
+            ]
+          }
+        },
+        {
+          "name": "Super Productivity",
+          "url": "https://github.com/super-productivity/super-productivity",
+          "desc": "Open-source to-do app with timeboxing and time tracking, plus Jira, GitLab, GitHub, and OpenProject integrations.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free task manager that combines a to-do list with time tracking and focus timers, and can pull in tasks from tools like Jira and GitHub.",
+            "whyHelpful": "Keeps tasks and the time spent on them in one place, handy for tracking work across projects.",
+            "installNeeded": true,
+            "install": [
+              "Download the desktop app from the website or GitHub releases",
+              "Or use the web version in the browser"
+            ]
+          }
+        },
+        {
+          "name": "MarkerOn",
+          "url": "https://github.com/ifer47/markeron",
+          "desc": "Lightweight (~1.5 MB) open-source screen annotation tool with click-through mode and keyboard shortcuts — for demos, teaching, meetings, and recordings. Windows & macOS.",
+          "tags": [
+            "Free",
+            "Mac",
+            "Open Source",
+            "Windows"
+          ],
+          "details": {
+            "whatItIs": "A tiny app that lets you draw and highlight directly on your screen while presenting or recording.",
+            "whyHelpful": "Makes demos and screen recordings clearer by letting you point things out live, without heavy software.",
+            "installNeeded": true,
+            "install": [
+              "Download the installer for Windows or macOS from the GitHub releases page",
+              "Launch it and use the keyboard shortcuts to start drawing"
             ]
           }
         }
