@@ -141,6 +141,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[skills-for-figma](https://github.com/southleft/skills-for-figma)**
   Open-source agent skills for the native Figma MCP server — design tokens, components, accessibility, Slides, and FigJam.
 
+- **[motionsites claude-skill](https://github.com/motionsites-ai/claude-skill)**
+  Free Claude skill that makes Claude build award-level, cinematic landing pages, by MotionSites.
+
+- **[claude-seo](https://github.com/AgricIDaniel/claude-seo)**
+  Universal SEO skill for Claude Code — 26 sub-skills and 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local and international SEO, and reporting.
+
+- **[ux-ui-agent-skills](https://github.com/plugin87/ux-ui-agent-skills)**
+  Turns Claude into a senior design architect: DTCG tokens, 52 components, WCAG 2.2 AA-AAA, 138 design systems, any-framework code, and 50 objective quality gates.
+
+- **[refactoring-ui-skill](https://github.com/s0xDk/refactoring-ui-skill)**
+  Claude Code skill applying the design rules from the book Refactoring UI — constrained spacing, type, color and shadow scales, hierarchy and depth.
+
+- **[claudemy](https://github.com/assafkip/claudemy)**
+  Open-source alternative to Udemy and Coursera: give Claude a topic and it researches the web and builds a course of 2-minute audio lessons with cited sources.
+
 ---
 
 ## Learning & Resources
@@ -210,6 +225,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[coding-interview-university](https://github.com/jwasham/coding-interview-university)**
   Huge self-study plan covering computer science fundamentals and data structures/algorithms for software engineering interviews.
+
+- **[DeepTutor](https://github.com/HKUDS/DeepTutor)**
+  Open-source AI tutor for lifelong, personalized learning.
+
+- **[Google Skills](https://www.skills.google/)**
+  Google's learning platform with courses, labs and skill badges for Google Cloud and AI.
+
+- **[open-notebook](https://github.com/lfnovo/open-notebook)**
+  Open-source implementation of NotebookLM with more flexibility and features.
+
+- **[Callijatra — Ranjana Lipi Lessons](https://callijatra.org.np/learn/)**
+  Interactive lessons for learning Ranjana Lipi — vowels, consonants and matras with Devanagari mappings.
+
+- **[Computer Science (OSSU)](https://github.com/ossu/computer-science)**
+  Path to a free self-taught education in Computer Science.
 
 ---
 
@@ -338,6 +368,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Extend AI — UI](https://www.extend.ai/ui)**
   Extend AI's product for building AI agents that process and act on documents.
 
+- **[OpenResearch](https://github.com/alphaXiv/OpenResearch)**
+  Turns coding agents like Claude Code into research agents, from alphaXiv.
+
+- **[Paperclip](https://github.com/paperclipai/paperclip)**
+  Open-source orchestration for teams of AI agents — org charts, budgets, governance, and task tracking from one dashboard. Bring your own agents.
+
+- **[Open Science](https://github.com/aipoch/open-science)**
+  Open-source AI research workbench: local-first, model-agnostic desktop app with skills, MCP tools, Python/R execution and traceable artifacts. macOS, Windows, Linux.
+
 ---
 
 ## MCP Resources
@@ -359,6 +398,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[Figma MCP Server Guide](https://github.com/figma/mcp-server-guide)**
   Figma's official guide to setting up and using the Figma MCP server with AI coding tools.
+
+- **[official-mcp-servers](https://github.com/VoltAgent/official-mcp-servers)**
+  Curated directory of 390+ official MCP servers from the companies behind the products — no unofficial forks.
 
 ---
 
@@ -500,6 +542,24 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[OpenShorts](https://github.com/mutonby/openshorts)**
   Open-source tool for automatically generating short-form video clips from longer content.
+
+- **[dioramas](https://github.com/blendi-remade/dioramas)**
+  Free open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy on fal). Includes 20 example sites.
+
+- **[ArtCraft Crafting Apps](https://getartcraft.com/apps)**
+  Sixteen free, open-source native apps built in Rust — image editing, vector art, video, photography, PDFs, 3D painting, audio, CAD, spreadsheets, and more.
+
+- **[editonny](https://github.com/soumatheusgomes/editonny)**
+  Local video editing through conversation.
+
+- **[free.ai](https://free.ai/)**
+  Free AI for chat, search, images, video, writing and code. No sign-up or credit card needed.
+
+- **[brag](https://github.com/latent-spaces/brag)**
+  Turn the project you just built into a short, shareable launch video with one command.
+
+- **[concat](https://github.com/jub0t/concat)**
+  Beta free, open-source, local-first, cross-platform video editor, scriptable via JSON-RPC API and MCP.
 
 ---
 
@@ -664,6 +724,33 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Design Tokens Community Group (DTCG)](https://github.com/design-tokens/community-group)**
   Official W3C community group repo for the design tokens specification — the standard format tools like Tokens Studio and Style Dictionary follow.
 
+- **[hallmark](https://github.com/Nutlope/hallmark)**
+  Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
+
+- **[Haikei](https://haikei.app/)**
+  Web tool to generate unique SVG design assets — backgrounds, waves, blobs, wallpapers and more.
+
+- **[shaders](https://github.com/shader-effects-inc/shaders)**
+  WebGPU shader components for React, Vue, Svelte, Solid, JS and Framer.
+
+- **[suiss/ui](https://suiss.app/ui)**
+  Copy-paste components, patterns, interactions, charts and blocks for React, React Native, SwiftUI and Jetpack Compose.
+
+- **[OrganUI](https://github.com/organui/organui/)**
+  OrganUI website, documentation and component registry.
+
+- **[Motion Design System](https://motiondesignsystem.org/)**
+  Tiered, tokenised approach to motion design, demonstrated live.
+
+- **[CSS Text Effects](https://text-effects.colorion.co/)**
+  123 free copy-and-paste CSS text effects and animations — glitch, neon, gradient, typewriter, 3D. Pure CSS.
+
+- **[AI UX Playground — Patterns](https://aiuxplayground.com/patterns)**
+  150+ reusable AI UX patterns for chat, agents, trust, onboarding and multimodal interfaces, with demos.
+
+- **[Leadership Folios](https://www.leadershipfolios.com/)**
+  33 annotated portfolios from design managers, directors, VPs and founders — what each shows and why it works.
+
 ---
 
 ## Development Tools
@@ -752,6 +839,12 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Storybook](https://github.com/storybookjs/storybook)**
   Workshop for building, documenting, and testing UI components in isolation — supports React, Vue, Angular, Svelte, and more.
 
+- **[craft-anything](https://github.com/storytold/craft-anything)**
+  Understand how any software works, and craft your own.
+
+- **[Puter: everything](https://github.com/HeyPuter/everything)**
+  Open-sourcing and rebuilding the world's software from scratch.
+
 ---
 
 ## Productivity
@@ -794,6 +887,21 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[MarkerOn](https://github.com/ifer47/markeron)**
   Lightweight (~1.5 MB) open-source screen annotation tool with click-through mode and keyboard shortcuts — for demos, teaching, meetings, and recordings. Windows & macOS.
+
+- **[TwinDesk](https://github.com/InukaAsith/TwinDesk)**
+  Share screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard across Mac, Windows, Linux, and Android. Free, no account, no cloud.
+
+- **[openGym](https://github.com/DuarteSantos8/openGym)**
+  Open-source gym and body-weight tracker for iPhone, Apple Watch, and Android. Plan routines, log workouts, import from Strong/Hevy/FitNotes. Self-hostable.
+
+- **[GymMane](https://github.com/InlitX/GymMane)**
+  Offline gym log for Android. No account, no ads, no internet.
+
+- **[openscreen](https://github.com/getopenscreen/openscreen)**
+  Free, open-source, GPU-accelerated screen recorder for making demos. No watermarks or subscriptions. Windows, macOS, Linux.
+
+- **[Cap](https://github.com/CapSoftware/Cap)**
+  Open-source Loom alternative — beautiful, shareable screen recordings.
 
 ---
 
@@ -958,6 +1066,24 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[omniget](https://github.com/tonhowtf/omniget)**
   Universal downloader tool for saving media/files from various sources.
+
+- **[Mole](https://github.com/tw93/Mole)**
+  Fast open-source CLI plus native Mac and Windows apps to keep your computer clean, light, and running like new.
+
+- **[Cleanly](https://github.com/0xCodez/cleanly)**
+  Stylish, safe PC cleaner for Windows and macOS.
+
+- **[limusic](https://github.com/SimoHypers/limusic)**
+  Feature-rich, native desktop YouTube Music client.
+
+- **[ExifCleaner](https://github.com/szTheory/exifcleaner)**
+  Cross-platform desktop app to clean image metadata.
+
+- **[android-tv-makeover](https://github.com/kulwantnagi/android-tv-makeover)**
+  Debloat an Android TV, swap its home screen for a clean Apple TV style launcher, and add a fast Indian live TV app. Reversible, over Wi-Fi ADB.
+
+- **[delphitools](https://delphi.tools/)**
+  Collection of small browser tools. No logins, no data collection — everything runs locally.
 
 ---
 

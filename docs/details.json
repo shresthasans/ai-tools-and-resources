@@ -2742,5 +2742,362 @@
       "Download the installer for Windows or macOS from the GitHub releases page",
       "Launch it and use the keyboard shortcuts to start drawing"
     ]
+  },
+  "motionsites claude-skill": {
+    "whatItIs": "A free skill pack that teaches Claude how to design and build polished, cinematic-looking landing pages.",
+    "whyHelpful": "Gives you much more striking website results from Claude without writing detailed design instructions yourself.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Copy the skill folder into your ~/.claude/skills folder",
+      "Restart Claude Code"
+    ]
+  },
+  "DeepTutor": {
+    "whatItIs": "An AI tutoring app that adapts to what you know and guides you through learning topics at your own pace.",
+    "whyHelpful": "Works like a personal teacher that remembers your progress, so studying is more targeted.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Follow the README setup steps (Python)",
+      "Add your AI model API key and run it"
+    ]
+  },
+  "OpenResearch": {
+    "whatItIs": "A tool that gives coding agents the ability to do research work, such as reading papers and running experiments.",
+    "whyHelpful": "Lets you point Claude Code at a research question instead of only code tasks.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Follow the README to install the CLI",
+      "Connect it to your coding agent"
+    ]
+  },
+  "dioramas": {
+    "whatItIs": "A framework for building interactive 3D websites where the 3D models and images are created by AI.",
+    "whyHelpful": "Lets you make eye-catching 3D sites quickly, with 20 examples to start from.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Install dependencies with npm",
+      "Add a fal API key and run an example site"
+    ]
+  },
+  "ArtCraft Crafting Apps": {
+    "whatItIs": "A suite of sixteen free creative and office apps for Mac and Windows, made by the ArtCraft team.",
+    "whyHelpful": "One free launcher gives you replacements for many paid creative tools.",
+    "installNeeded": true,
+    "install": [
+      "Open getartcraft.com/apps",
+      "Download the ArtCraft Launcher",
+      "Install the apps you want from it"
+    ]
+  },
+  "hallmark": {
+    "whatItIs": "A skill that steers AI coding tools away from the generic, samey look of AI-made designs.",
+    "whyHelpful": "Makes the interfaces Claude builds look more original and intentional.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Copy the skill into your ~/.claude/skills folder",
+      "Restart Claude Code"
+    ]
+  },
+  "craft-anything": {
+    "whatItIs": "A tool that helps you study how existing software works so you can build your own version.",
+    "whyHelpful": "Speeds up learning from real apps and starting your own project.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Build with Rust (cargo build --release)",
+      "Follow the README to run it"
+    ]
+  },
+  "TwinDesk": {
+    "whatItIs": "An app that links your computers and phone so they work like one desk.",
+    "whyHelpful": "Move between devices without cloud accounts or copying things by hand.",
+    "installNeeded": true,
+    "install": [
+      "Download the app from the repo releases",
+      "Install on each device",
+      "Pair the devices"
+    ]
+  },
+  "openGym": {
+    "whatItIs": "A free workout tracker for planning routines and logging training, with an optional self-hosted server.",
+    "whyHelpful": "Keeps your fitness data in your own hands and lets you bring history from other apps.",
+    "installNeeded": true,
+    "install": [
+      "Install from the App Store or download the Android APK",
+      "Optionally self-host following the README"
+    ]
+  },
+  "Mole": {
+    "whatItIs": "A cleanup tool that clears junk files and frees up disk space on Mac and PC.",
+    "whyHelpful": "Gets space back and speeds up your machine with one command.",
+    "installNeeded": true,
+    "install": [
+      "Install via Homebrew (brew install mole) or download the app",
+      "Run the clean command"
+    ]
+  },
+  "Cleanly": {
+    "whatItIs": "A desktop cleaner that removes unneeded files from Windows and macOS.",
+    "whyHelpful": "Frees disk space with a friendly interface and safety checks.",
+    "installNeeded": true,
+    "install": [
+      "Download the installer from the repo releases",
+      "Run it and review what it finds before cleaning"
+    ]
+  },
+  "Paperclip": {
+    "whatItIs": "A free app that lets you run a team of AI agents like a company, with roles, goals, budgets and a task dashboard.",
+    "whyHelpful": "Lets you assign business goals to many agents and track their work and costs in one place instead of juggling separate tools.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Install dependencies and start the Node.js server (see Quickstart in the README)",
+      "Open the dashboard in your browser and add your agents"
+    ]
+  },
+  "GymMane": {
+    "whatItIs": "A workout logging app for Android that works fully offline.",
+    "whyHelpful": "Track training without accounts, ads or sending your data anywhere.",
+    "installNeeded": true,
+    "install": [
+      "Download the APK from the repo releases",
+      "Install it on your Android phone"
+    ]
+  },
+  "openscreen": {
+    "whatItIs": "A free screen recorder aimed at producing polished product demos.",
+    "whyHelpful": "Get demo videos without watermarks or a paid plan.",
+    "installNeeded": true,
+    "install": [
+      "Download the installer for your OS from the repo releases",
+      "Install and open it to start recording"
+    ]
+  },
+  "Cap": {
+    "whatItIs": "A screen recording tool you can use to record and share videos, similar to Loom.",
+    "whyHelpful": "Lets you record and share walkthroughs without paying for Loom.",
+    "installNeeded": true,
+    "install": [
+      "Download the app from the repo or cap.so",
+      "Install and sign in or self-host"
+    ]
+  },
+  "limusic": {
+    "whatItIs": "A lightweight desktop app for listening to YouTube Music.",
+    "whyHelpful": "Gives a faster, native alternative to the browser tab.",
+    "installNeeded": true,
+    "install": [
+      "Download the build for your OS from the repo releases",
+      "Install and open it"
+    ]
+  },
+  "ExifCleaner": {
+    "whatItIs": "A drag-and-drop app that removes hidden data (location, camera details) from photos.",
+    "whyHelpful": "Protects your privacy before you share images online.",
+    "installNeeded": true,
+    "install": [
+      "Download the installer for your OS from the repo releases",
+      "Drag images into the window to clean them"
+    ]
+  },
+  "android-tv-makeover": {
+    "whatItIs": "A set of steps and tools to clean up an Android TV and give it a simpler home screen.",
+    "whyHelpful": "Makes a cluttered smart TV faster and cleaner, and can be undone.",
+    "installNeeded": true,
+    "install": [
+      "Enable developer options and ADB over Wi-Fi on your TV",
+      "Clone the repo",
+      "Follow the README steps from your computer"
+    ]
+  },
+  "delphitools": {
+    "whatItIs": "A website of many small utilities that run entirely in your browser.",
+    "whyHelpful": "Handy quick tools without accounts or sending files to a server.",
+    "installNeeded": false,
+    "install": []
+  },
+  "claude-seo": {
+    "whatItIs": "A big skill pack that lets Claude Code run full SEO audits and fixes for a website.",
+    "whyHelpful": "Covers technical SEO, AI-search optimisation and reports in one install.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Run its install script or copy skills into ~/.claude/skills",
+      "Restart Claude Code"
+    ]
+  },
+  "ux-ui-agent-skills": {
+    "whatItIs": "A skill pack that guides Claude through design systems, accessibility and component building.",
+    "whyHelpful": "Gives more consistent, accessible UI output with checks that fail the build.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Copy the skills into ~/.claude/skills",
+      "Restart Claude Code"
+    ]
+  },
+  "refactoring-ui-skill": {
+    "whatItIs": "A skill that makes Claude follow the Refactoring UI book's practical design rules.",
+    "whyHelpful": "Improves spacing, hierarchy and polish of interfaces Claude builds.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Copy the skill into ~/.claude/skills",
+      "Restart Claude Code"
+    ]
+  },
+  "claudemy": {
+    "whatItIs": "A Claude Code skill that creates a short audio course on any topic you name.",
+    "whyHelpful": "Turns any subject into a bite-sized, sourced course for free.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Copy the skill into ~/.claude/skills",
+      "Ask Claude to build a course on a topic"
+    ]
+  },
+  "Google Skills": {
+    "whatItIs": "Google's training site with hands-on labs, courses and badges.",
+    "whyHelpful": "Free and paid structured learning straight from Google.",
+    "installNeeded": false,
+    "install": []
+  },
+  "open-notebook": {
+    "whatItIs": "A self-hostable app for chatting with and summarising your own documents and notes, like Google NotebookLM.",
+    "whyHelpful": "Works with many AI models and keeps your sources under your control.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Run it with Docker as described in the README",
+      "Add your AI model keys and open it in the browser"
+    ]
+  },
+  "Callijatra — Ranjana Lipi Lessons": {
+    "whatItIs": "A website with interactive lessons for the Ranjana Lipi script.",
+    "whyHelpful": "A friendly way to learn to read and write the script.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Computer Science (OSSU)": {
+    "whatItIs": "A full degree-style curriculum built from free online courses.",
+    "whyHelpful": "Gives a clear, structured path to learn CS without tuition.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Open Science": {
+    "whatItIs": "A desktop app where AI agents help with scientific research and analysis.",
+    "whyHelpful": "Reproducible research workflows that run on your own machine.",
+    "installNeeded": true,
+    "install": [
+      "Download the desktop app from the repo releases",
+      "Add your AI model key",
+      "Open a project and start a research task"
+    ]
+  },
+  "official-mcp-servers": {
+    "whatItIs": "A list of official MCP servers from real companies.",
+    "whyHelpful": "A trustworthy place to find MCP servers for Claude.",
+    "installNeeded": false,
+    "install": []
+  },
+  "editonny": {
+    "whatItIs": "A tool where you edit video by chatting with an AI, running on your own computer.",
+    "whyHelpful": "Edit videos by describing changes instead of using a timeline.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Install the Python dependencies",
+      "Follow the README to start it"
+    ]
+  },
+  "free.ai": {
+    "whatItIs": "A website offering many free AI tools in one place.",
+    "whyHelpful": "Try AI chat, image and video tools without an account.",
+    "installNeeded": false,
+    "install": []
+  },
+  "brag": {
+    "whatItIs": "A command that makes a short promo video for your project.",
+    "whyHelpful": "Saves hours when you want a launch video.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Install the Python dependencies",
+      "Run the brag command in your project"
+    ]
+  },
+  "concat": {
+    "whatItIs": "A video editor that AI agents can control through an MCP server.",
+    "whyHelpful": "Lets Claude edit video, and works offline.",
+    "installNeeded": true,
+    "install": [
+      "Download the build from the repo releases or build with Rust",
+      "Connect it as an MCP server if you want AI control"
+    ]
+  },
+  "Haikei": {
+    "whatItIs": "A website that generates customisable SVG shapes and backgrounds.",
+    "whyHelpful": "Fast, unique visuals you can export for any design tool.",
+    "installNeeded": false,
+    "install": []
+  },
+  "shaders": {
+    "whatItIs": "A library of ready-made animated visual effects for websites.",
+    "whyHelpful": "Adds eye-catching GPU effects with a few lines of code.",
+    "installNeeded": true,
+    "install": [
+      "Install the package for your framework with npm",
+      "Follow the README to add a component"
+    ]
+  },
+  "suiss/ui": {
+    "whatItIs": "A component library you copy into your project, for web and mobile.",
+    "whyHelpful": "Ready UI parts for both web and native apps.",
+    "installNeeded": false,
+    "install": []
+  },
+  "OrganUI": {
+    "whatItIs": "An open-source UI component registry with docs.",
+    "whyHelpful": "Pull ready-made components into your project.",
+    "installNeeded": true,
+    "install": [
+      "Follow the docs on the repo to add the registry",
+      "Install components with the CLI"
+    ]
+  },
+  "Motion Design System": {
+    "whatItIs": "A guide to organising animation rules like a design system.",
+    "whyHelpful": "Helps make motion consistent across a product.",
+    "installNeeded": false,
+    "install": []
+  },
+  "CSS Text Effects": {
+    "whatItIs": "A gallery of text effects you can copy into your site.",
+    "whyHelpful": "No JavaScript needed — just paste the CSS.",
+    "installNeeded": false,
+    "install": []
+  },
+  "AI UX Playground — Patterns": {
+    "whatItIs": "A library of interface patterns for AI products.",
+    "whyHelpful": "Ideas and demos to design better AI features.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Leadership Folios": {
+    "whatItIs": "A collection of annotated design-leadership portfolios.",
+    "whyHelpful": "Learn what strong senior portfolios look like.",
+    "installNeeded": false,
+    "install": []
+  },
+  "Puter: everything": {
+    "whatItIs": "A project from the Puter team that re-creates well-known software as open source.",
+    "whyHelpful": "A place to explore and contribute to open replacements.",
+    "installNeeded": false,
+    "install": []
   }
 }

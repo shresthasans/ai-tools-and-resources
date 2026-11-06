@@ -885,6 +885,110 @@ window.RESOURCE_DATA = {
               "Restart Claude Code to pick them up"
             ]
           }
+        },
+        {
+          "name": "motionsites claude-skill",
+          "url": "https://github.com/motionsites-ai/claude-skill",
+          "desc": "Free Claude skill that makes Claude build award-level, cinematic landing pages, by MotionSites.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A free skill pack that teaches Claude how to design and build polished, cinematic-looking landing pages.",
+            "whyHelpful": "Gives you much more striking website results from Claude without writing detailed design instructions yourself.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Copy the skill folder into your ~/.claude/skills folder",
+              "Restart Claude Code"
+            ]
+          }
+        },
+        {
+          "name": "claude-seo",
+          "url": "https://github.com/AgricIDaniel/claude-seo",
+          "desc": "Universal SEO skill for Claude Code — 26 sub-skills and 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local and international SEO, and reporting.",
+          "tags": [
+            "Agent",
+            "Claude Code",
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A big skill pack that lets Claude Code run full SEO audits and fixes for a website.",
+            "whyHelpful": "Covers technical SEO, AI-search optimisation and reports in one install.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Run its install script or copy skills into ~/.claude/skills",
+              "Restart Claude Code"
+            ]
+          }
+        },
+        {
+          "name": "ux-ui-agent-skills",
+          "url": "https://github.com/plugin87/ux-ui-agent-skills",
+          "desc": "Turns Claude into a senior design architect: DTCG tokens, 52 components, WCAG 2.2 AA-AAA, 138 design systems, any-framework code, and 50 objective quality gates.",
+          "tags": [
+            "Agent",
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A skill pack that guides Claude through design systems, accessibility and component building.",
+            "whyHelpful": "Gives more consistent, accessible UI output with checks that fail the build.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Copy the skills into ~/.claude/skills",
+              "Restart Claude Code"
+            ]
+          }
+        },
+        {
+          "name": "refactoring-ui-skill",
+          "url": "https://github.com/s0xDk/refactoring-ui-skill",
+          "desc": "Claude Code skill applying the design rules from the book Refactoring UI — constrained spacing, type, color and shadow scales, hierarchy and depth.",
+          "tags": [
+            "Claude Code",
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A skill that makes Claude follow the Refactoring UI book's practical design rules.",
+            "whyHelpful": "Improves spacing, hierarchy and polish of interfaces Claude builds.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Copy the skill into ~/.claude/skills",
+              "Restart Claude Code"
+            ]
+          }
+        },
+        {
+          "name": "claudemy",
+          "url": "https://github.com/assafkip/claudemy",
+          "desc": "Open-source alternative to Udemy and Coursera: give Claude a topic and it researches the web and builds a course of 2-minute audio lessons with cited sources.",
+          "tags": [
+            "Free",
+            "Learning",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A Claude Code skill that creates a short audio course on any topic you name.",
+            "whyHelpful": "Turns any subject into a bite-sized, sourced course for free.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Copy the skill into ~/.claude/skills",
+              "Ask Claude to build a course on a topic"
+            ]
+          }
         }
       ]
     },
@@ -1219,6 +1323,88 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "A free, very detailed study plan that walks you through the computer science topics big tech companies ask about in interviews.",
             "whyHelpful": "Gives a clear roadmap of what to learn and in what order, with links to free videos and readings.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "desc": "Open-source AI tutor for lifelong, personalized learning.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "An AI tutoring app that adapts to what you know and guides you through learning topics at your own pace.",
+            "whyHelpful": "Works like a personal teacher that remembers your progress, so studying is more targeted.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Follow the README setup steps (Python)",
+              "Add your AI model API key and run it"
+            ]
+          }
+        },
+        {
+          "name": "Google Skills",
+          "url": "https://www.skills.google/",
+          "desc": "Google's learning platform with courses, labs and skill badges for Google Cloud and AI.",
+          "tags": [
+            "Learning",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "Google's training site with hands-on labs, courses and badges.",
+            "whyHelpful": "Free and paid structured learning straight from Google.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "open-notebook",
+          "url": "https://github.com/lfnovo/open-notebook",
+          "desc": "Open-source implementation of NotebookLM with more flexibility and features.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A self-hostable app for chatting with and summarising your own documents and notes, like Google NotebookLM.",
+            "whyHelpful": "Works with many AI models and keeps your sources under your control.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Run it with Docker as described in the README",
+              "Add your AI model keys and open it in the browser"
+            ]
+          }
+        },
+        {
+          "name": "Callijatra — Ranjana Lipi Lessons",
+          "url": "https://callijatra.org.np/learn/",
+          "desc": "Interactive lessons for learning Ranjana Lipi — vowels, consonants and matras with Devanagari mappings.",
+          "tags": [
+            "Learning"
+          ],
+          "details": {
+            "whatItIs": "A website with interactive lessons for the Ranjana Lipi script.",
+            "whyHelpful": "A friendly way to learn to read and write the script.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Computer Science (OSSU)",
+          "url": "https://github.com/ossu/computer-science",
+          "desc": "Path to a free self-taught education in Computer Science.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A full degree-style curriculum built from free online courses.",
+            "whyHelpful": "Gives a clear, structured path to learn CS without tuition.",
             "installNeeded": false,
             "install": []
           }
@@ -2027,6 +2213,72 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "OpenResearch",
+          "url": "https://github.com/alphaXiv/OpenResearch",
+          "desc": "Turns coding agents like Claude Code into research agents, from alphaXiv.",
+          "tags": [
+            "Agent",
+            "Claude Code",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that gives coding agents the ability to do research work, such as reading papers and running experiments.",
+            "whyHelpful": "Lets you point Claude Code at a research question instead of only code tasks.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Follow the README to install the CLI",
+              "Connect it to your coding agent"
+            ]
+          }
+        },
+        {
+          "name": "Paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "desc": "Open-source orchestration for teams of AI agents — org charts, budgets, governance, and task tracking from one dashboard. Bring your own agents.",
+          "tags": [
+            "Agent",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A free app that lets you run a team of AI agents like a company, with roles, goals, budgets and a task dashboard.",
+            "whyHelpful": "Lets you assign business goals to many agents and track their work and costs in one place instead of juggling separate tools.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Install dependencies and start the Node.js server (see Quickstart in the README)",
+              "Open the dashboard in your browser and add your agents"
+            ]
+          }
+        },
+        {
+          "name": "Open Science",
+          "url": "https://github.com/aipoch/open-science",
+          "desc": "Open-source AI research workbench: local-first, model-agnostic desktop app with skills, MCP tools, Python/R execution and traceable artifacts. macOS, Windows, Linux.",
+          "tags": [
+            "Desktop",
+            "Free",
+            "Linux",
+            "MCP",
+            "Mac",
+            "Open Source",
+            "Skill",
+            "Windows"
+          ],
+          "details": {
+            "whatItIs": "A desktop app where AI agents help with scientific research and analysis.",
+            "whyHelpful": "Reproducible research workflows that run on your own machine.",
+            "installNeeded": true,
+            "install": [
+              "Download the desktop app from the repo releases",
+              "Add your AI model key",
+              "Open a project and start a research task"
+            ]
+          }
         }
       ]
     },
@@ -2129,6 +2381,22 @@ window.RESOURCE_DATA = {
           "details": {
             "whatItIs": "Figma's own documentation for connecting AI tools like Claude Code to Figma through its MCP server.",
             "whyHelpful": "Shows the correct setup steps and usage patterns straight from the source, so design-to-code workflows work first time.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "official-mcp-servers",
+          "url": "https://github.com/VoltAgent/official-mcp-servers",
+          "desc": "Curated directory of 390+ official MCP servers from the companies behind the products — no unofficial forks.",
+          "tags": [
+            "Free",
+            "MCP",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A list of official MCP servers from real companies.",
+            "whyHelpful": "A trustworthy place to find MCP servers for Claude.",
             "installNeeded": false,
             "install": []
           }
@@ -2929,6 +3197,115 @@ window.RESOURCE_DATA = {
               "Clone the GitHub repository",
               "Follow the setup instructions in its README",
               "Point it at a video to generate short clips from it"
+            ]
+          }
+        },
+        {
+          "name": "dioramas",
+          "url": "https://github.com/blendi-remade/dioramas",
+          "desc": "Free open-source framework for cinematic, interactive 3D websites with AI-generated assets (Nano Banana 2 + Meshy on fal). Includes 20 example sites.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A framework for building interactive 3D websites where the 3D models and images are created by AI.",
+            "whyHelpful": "Lets you make eye-catching 3D sites quickly, with 20 examples to start from.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Install dependencies with npm",
+              "Add a fal API key and run an example site"
+            ]
+          }
+        },
+        {
+          "name": "ArtCraft Crafting Apps",
+          "url": "https://getartcraft.com/apps",
+          "desc": "Sixteen free, open-source native apps built in Rust — image editing, vector art, video, photography, PDFs, 3D painting, audio, CAD, spreadsheets, and more.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A suite of sixteen free creative and office apps for Mac and Windows, made by the ArtCraft team.",
+            "whyHelpful": "One free launcher gives you replacements for many paid creative tools.",
+            "installNeeded": true,
+            "install": [
+              "Open getartcraft.com/apps",
+              "Download the ArtCraft Launcher",
+              "Install the apps you want from it"
+            ]
+          }
+        },
+        {
+          "name": "editonny",
+          "url": "https://github.com/soumatheusgomes/editonny",
+          "desc": "Local video editing through conversation.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool where you edit video by chatting with an AI, running on your own computer.",
+            "whyHelpful": "Edit videos by describing changes instead of using a timeline.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Install the Python dependencies",
+              "Follow the README to start it"
+            ]
+          }
+        },
+        {
+          "name": "free.ai",
+          "url": "https://free.ai/",
+          "desc": "Free AI for chat, search, images, video, writing and code. No sign-up or credit card needed.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A website offering many free AI tools in one place.",
+            "whyHelpful": "Try AI chat, image and video tools without an account.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "brag",
+          "url": "https://github.com/latent-spaces/brag",
+          "desc": "Turn the project you just built into a short, shareable launch video with one command.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A command that makes a short promo video for your project.",
+            "whyHelpful": "Saves hours when you want a launch video.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Install the Python dependencies",
+              "Run the brag command in your project"
+            ]
+          }
+        },
+        {
+          "name": "concat",
+          "url": "https://github.com/jub0t/concat",
+          "desc": "Beta free, open-source, local-first, cross-platform video editor, scriptable via JSON-RPC API and MCP.",
+          "tags": [
+            "Free",
+            "MCP",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A video editor that AI agents can control through an MCP server.",
+            "whyHelpful": "Lets Claude edit video, and works offline.",
+            "installNeeded": true,
+            "install": [
+              "Download the build from the repo releases or build with Rust",
+              "Connect it as an MCP server if you want AI control"
             ]
           }
         }
@@ -3808,6 +4185,148 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+          "tags": [
+            "Claude Code",
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A skill that steers AI coding tools away from the generic, samey look of AI-made designs.",
+            "whyHelpful": "Makes the interfaces Claude builds look more original and intentional.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Copy the skill into your ~/.claude/skills folder",
+              "Restart Claude Code"
+            ]
+          }
+        },
+        {
+          "name": "Haikei",
+          "url": "https://haikei.app/",
+          "desc": "Web tool to generate unique SVG design assets — backgrounds, waves, blobs, wallpapers and more.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website that generates customisable SVG shapes and backgrounds.",
+            "whyHelpful": "Fast, unique visuals you can export for any design tool.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "shaders",
+          "url": "https://github.com/shader-effects-inc/shaders",
+          "desc": "WebGPU shader components for React, Vue, Svelte, Solid, JS and Framer.",
+          "tags": [
+            "Free",
+            "Open Source",
+            "Web"
+          ],
+          "details": {
+            "whatItIs": "A library of ready-made animated visual effects for websites.",
+            "whyHelpful": "Adds eye-catching GPU effects with a few lines of code.",
+            "installNeeded": true,
+            "install": [
+              "Install the package for your framework with npm",
+              "Follow the README to add a component"
+            ]
+          }
+        },
+        {
+          "name": "suiss/ui",
+          "url": "https://suiss.app/ui",
+          "desc": "Copy-paste components, patterns, interactions, charts and blocks for React, React Native, SwiftUI and Jetpack Compose.",
+          "tags": [
+            "Mac"
+          ],
+          "details": {
+            "whatItIs": "A component library you copy into your project, for web and mobile.",
+            "whyHelpful": "Ready UI parts for both web and native apps.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "OrganUI",
+          "url": "https://github.com/organui/organui/",
+          "desc": "OrganUI website, documentation and component registry.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "An open-source UI component registry with docs.",
+            "whyHelpful": "Pull ready-made components into your project.",
+            "installNeeded": true,
+            "install": [
+              "Follow the docs on the repo to add the registry",
+              "Install components with the CLI"
+            ]
+          }
+        },
+        {
+          "name": "Motion Design System",
+          "url": "https://motiondesignsystem.org/",
+          "desc": "Tiered, tokenised approach to motion design, demonstrated live.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A guide to organising animation rules like a design system.",
+            "whyHelpful": "Helps make motion consistent across a product.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "CSS Text Effects",
+          "url": "https://text-effects.colorion.co/",
+          "desc": "123 free copy-and-paste CSS text effects and animations — glitch, neon, gradient, typewriter, 3D. Pure CSS.",
+          "tags": [
+            "Free"
+          ],
+          "details": {
+            "whatItIs": "A gallery of text effects you can copy into your site.",
+            "whyHelpful": "No JavaScript needed — just paste the CSS.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "AI UX Playground — Patterns",
+          "url": "https://aiuxplayground.com/patterns",
+          "desc": "150+ reusable AI UX patterns for chat, agents, trust, onboarding and multimodal interfaces, with demos.",
+          "tags": [
+            "Agent"
+          ],
+          "details": {
+            "whatItIs": "A library of interface patterns for AI products.",
+            "whyHelpful": "Ideas and demos to design better AI features.",
+            "installNeeded": false,
+            "install": []
+          }
+        },
+        {
+          "name": "Leadership Folios",
+          "url": "https://www.leadershipfolios.com/",
+          "desc": "33 annotated portfolios from design managers, directors, VPs and founders — what each shows and why it works.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A collection of annotated design-leadership portfolios.",
+            "whyHelpful": "Learn what strong senior portfolios look like.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -4326,6 +4845,40 @@ window.RESOURCE_DATA = {
               "Run npm run storybook to open it in the browser"
             ]
           }
+        },
+        {
+          "name": "craft-anything",
+          "url": "https://github.com/storytold/craft-anything",
+          "desc": "Understand how any software works, and craft your own.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool that helps you study how existing software works so you can build your own version.",
+            "whyHelpful": "Speeds up learning from real apps and starting your own project.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Build with Rust (cargo build --release)",
+              "Follow the README to run it"
+            ]
+          }
+        },
+        {
+          "name": "Puter: everything",
+          "url": "https://github.com/HeyPuter/everything",
+          "desc": "Open-sourcing and rebuilding the world's software from scratch.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A project from the Puter team that re-creates well-known software as open source.",
+            "whyHelpful": "A place to explore and contribute to open replacements.",
+            "installNeeded": false,
+            "install": []
+          }
         }
       ]
     },
@@ -4573,6 +5126,107 @@ window.RESOURCE_DATA = {
             "install": [
               "Download the installer for Windows or macOS from the GitHub releases page",
               "Launch it and use the keyboard shortcuts to start drawing"
+            ]
+          }
+        },
+        {
+          "name": "TwinDesk",
+          "url": "https://github.com/InukaAsith/TwinDesk",
+          "desc": "Share screens, apps, files, clipboard, calls, texts, notifications, mouse and keyboard across Mac, Windows, Linux, and Android. Free, no account, no cloud.",
+          "tags": [
+            "Free",
+            "Linux",
+            "Mac",
+            "Mobile",
+            "Open Source",
+            "Windows"
+          ],
+          "details": {
+            "whatItIs": "An app that links your computers and phone so they work like one desk.",
+            "whyHelpful": "Move between devices without cloud accounts or copying things by hand.",
+            "installNeeded": true,
+            "install": [
+              "Download the app from the repo releases",
+              "Install on each device",
+              "Pair the devices"
+            ]
+          }
+        },
+        {
+          "name": "openGym",
+          "url": "https://github.com/DuarteSantos8/openGym",
+          "desc": "Open-source gym and body-weight tracker for iPhone, Apple Watch, and Android. Plan routines, log workouts, import from Strong/Hevy/FitNotes. Self-hostable.",
+          "tags": [
+            "Free",
+            "Mobile",
+            "Open Source",
+            "Self-Hosted"
+          ],
+          "details": {
+            "whatItIs": "A free workout tracker for planning routines and logging training, with an optional self-hosted server.",
+            "whyHelpful": "Keeps your fitness data in your own hands and lets you bring history from other apps.",
+            "installNeeded": true,
+            "install": [
+              "Install from the App Store or download the Android APK",
+              "Optionally self-host following the README"
+            ]
+          }
+        },
+        {
+          "name": "GymMane",
+          "url": "https://github.com/InlitX/GymMane",
+          "desc": "Offline gym log for Android. No account, no ads, no internet.",
+          "tags": [
+            "Free",
+            "Mobile",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A workout logging app for Android that works fully offline.",
+            "whyHelpful": "Track training without accounts, ads or sending your data anywhere.",
+            "installNeeded": true,
+            "install": [
+              "Download the APK from the repo releases",
+              "Install it on your Android phone"
+            ]
+          }
+        },
+        {
+          "name": "openscreen",
+          "url": "https://github.com/getopenscreen/openscreen",
+          "desc": "Free, open-source, GPU-accelerated screen recorder for making demos. No watermarks or subscriptions. Windows, macOS, Linux.",
+          "tags": [
+            "Free",
+            "Linux",
+            "Mac",
+            "Open Source",
+            "Windows"
+          ],
+          "details": {
+            "whatItIs": "A free screen recorder aimed at producing polished product demos.",
+            "whyHelpful": "Get demo videos without watermarks or a paid plan.",
+            "installNeeded": true,
+            "install": [
+              "Download the installer for your OS from the repo releases",
+              "Install and open it to start recording"
+            ]
+          }
+        },
+        {
+          "name": "Cap",
+          "url": "https://github.com/CapSoftware/Cap",
+          "desc": "Open-source Loom alternative — beautiful, shareable screen recordings.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A screen recording tool you can use to record and share videos, similar to Loom.",
+            "whyHelpful": "Lets you record and share walkthroughs without paying for Loom.",
+            "installNeeded": true,
+            "install": [
+              "Download the app from the repo or cap.so",
+              "Install and sign in or self-host"
             ]
           }
         }
@@ -5502,6 +6156,119 @@ window.RESOURCE_DATA = {
               "Follow the setup instructions in its README",
               "Give it a link to download from"
             ]
+          }
+        },
+        {
+          "name": "Mole",
+          "url": "https://github.com/tw93/Mole",
+          "desc": "Fast open-source CLI plus native Mac and Windows apps to keep your computer clean, light, and running like new.",
+          "tags": [
+            "CLI",
+            "Free",
+            "Mac",
+            "Open Source",
+            "Windows"
+          ],
+          "details": {
+            "whatItIs": "A cleanup tool that clears junk files and frees up disk space on Mac and PC.",
+            "whyHelpful": "Gets space back and speeds up your machine with one command.",
+            "installNeeded": true,
+            "install": [
+              "Install via Homebrew (brew install mole) or download the app",
+              "Run the clean command"
+            ]
+          }
+        },
+        {
+          "name": "Cleanly",
+          "url": "https://github.com/0xCodez/cleanly",
+          "desc": "Stylish, safe PC cleaner for Windows and macOS.",
+          "tags": [
+            "Free",
+            "Mac",
+            "Open Source",
+            "Windows"
+          ],
+          "details": {
+            "whatItIs": "A desktop cleaner that removes unneeded files from Windows and macOS.",
+            "whyHelpful": "Frees disk space with a friendly interface and safety checks.",
+            "installNeeded": true,
+            "install": [
+              "Download the installer from the repo releases",
+              "Run it and review what it finds before cleaning"
+            ]
+          }
+        },
+        {
+          "name": "limusic",
+          "url": "https://github.com/SimoHypers/limusic",
+          "desc": "Feature-rich, native desktop YouTube Music client.",
+          "tags": [
+            "Desktop",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A lightweight desktop app for listening to YouTube Music.",
+            "whyHelpful": "Gives a faster, native alternative to the browser tab.",
+            "installNeeded": true,
+            "install": [
+              "Download the build for your OS from the repo releases",
+              "Install and open it"
+            ]
+          }
+        },
+        {
+          "name": "ExifCleaner",
+          "url": "https://github.com/szTheory/exifcleaner",
+          "desc": "Cross-platform desktop app to clean image metadata.",
+          "tags": [
+            "Desktop",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A drag-and-drop app that removes hidden data (location, camera details) from photos.",
+            "whyHelpful": "Protects your privacy before you share images online.",
+            "installNeeded": true,
+            "install": [
+              "Download the installer for your OS from the repo releases",
+              "Drag images into the window to clean them"
+            ]
+          }
+        },
+        {
+          "name": "android-tv-makeover",
+          "url": "https://github.com/kulwantnagi/android-tv-makeover",
+          "desc": "Debloat an Android TV, swap its home screen for a clean Apple TV style launcher, and add a fast Indian live TV app. Reversible, over Wi-Fi ADB.",
+          "tags": [
+            "Free",
+            "Mobile",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A set of steps and tools to clean up an Android TV and give it a simpler home screen.",
+            "whyHelpful": "Makes a cluttered smart TV faster and cleaner, and can be undone.",
+            "installNeeded": true,
+            "install": [
+              "Enable developer options and ADB over Wi-Fi on your TV",
+              "Clone the repo",
+              "Follow the README steps from your computer"
+            ]
+          }
+        },
+        {
+          "name": "delphitools",
+          "url": "https://delphi.tools/",
+          "desc": "Collection of small browser tools. No logins, no data collection — everything runs locally.",
+          "tags": [
+            "Other"
+          ],
+          "details": {
+            "whatItIs": "A website of many small utilities that run entirely in your browser.",
+            "whyHelpful": "Handy quick tools without accounts or sending files to a server.",
+            "installNeeded": false,
+            "install": []
           }
         }
       ]
