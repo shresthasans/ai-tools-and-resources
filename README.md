@@ -470,6 +470,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[VoiceStudio](https://voicestudio.sh/)**
   AI voice studio for generating and editing text-to-speech and voice audio.
 
+- **[VibeVoice](https://github.com/microsoft/VibeVoice)**
+  Microsoft's open-source frontier voice AI — long-form text-to-speech and speech recognition models.
+
 ---
 
 ## AI Creative Tools
@@ -560,6 +563,15 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 
 - **[concat](https://github.com/jub0t/concat)**
   Beta free, open-source, local-first, cross-platform video editor, scriptable via JSON-RPC API and MCP.
+
+- **[bang-motion](https://github.com/bangtutorial/bang-motion)**
+  Agent skill for browser motion graphics — openers, promos, bumpers, kinetic typography and explainers that move like video, not slides. Single index.html output; works with Claude Code, Codex, Gemini CLI, Cursor.
+
+- **[explainroo](https://github.com/vincentsch/explainroo)**
+  Explainer videos and product demos made by your AI agent. Free and open source: local Kokoro voice, Whisper word timing and a canvas renderer turn a script into a narrated MP4.
+
+- **[img2threejs](https://github.com/img2threejs/img2threejs)**
+  Agent skill that rebuilds the object in a reference image as a code-only, procedural, animation-ready Three.js model. Token-efficient image-to-3D.
 
 ---
 

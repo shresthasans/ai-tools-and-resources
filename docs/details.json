@@ -3099,5 +3099,45 @@
     "whyHelpful": "A place to explore and contribute to open replacements.",
     "installNeeded": false,
     "install": []
+  },
+  "VibeVoice": {
+    "whatItIs": "Microsoft's open-source voice AI models for generating long, natural-sounding speech and for transcription.",
+    "whyHelpful": "Free, high-quality voice generation and recognition you can run yourself instead of paying for a voice API.",
+    "installNeeded": true,
+    "install": [
+      "Clone the repo",
+      "Follow the README to install dependencies and download the models",
+      "Run the demo to generate speech"
+    ]
+  },
+  "bang-motion": {
+    "whatItIs": "A skill that teaches AI coding agents to build video-like motion graphics (openers, promos, explainers) as a single web page.",
+    "whyHelpful": "Gets you animated promo and explainer visuals from a plain prompt, without video-editing software.",
+    "installNeeded": true,
+    "install": [
+      "In Claude Code, add the bang-motion plugin marketplace and run /plugin install bang-motion@bang-motion",
+      "Or copy the skill folder into your agent's skills folder (install only one copy)",
+      "Ask for an opener, promo or explainer"
+    ]
+  },
+  "explainroo": {
+    "whatItIs": "A tool your AI agent uses to turn a script into a narrated explainer or product-demo MP4, with voice and timing generated locally.",
+    "whyHelpful": "Makes narrated demo videos for free without recording your voice or using a video editor.",
+    "installNeeded": true,
+    "install": [
+      "Run npx --yes explainroo doctor --fetch to check your machine and download the models",
+      "Add it to Claude Code with /plugin install explainroo@explainroo",
+      "Ask your agent to make an explainer video"
+    ]
+  },
+  "img2threejs": {
+    "whatItIs": "A skill that lets an AI agent rebuild the object in a picture as an animated 3D model written entirely in code (Three.js).",
+    "whyHelpful": "Turns a reference image into a web-ready 3D model without 3D modeling software or heavy asset files.",
+    "installNeeded": true,
+    "install": [
+      "Needs Node.js 18+, Git and Python 3.10+",
+      "Run npx --yes img2threejs@latest install",
+      "Restart your agent and ask it to reconstruct an image"
+    ]
   }
 }

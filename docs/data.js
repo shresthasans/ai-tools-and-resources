@@ -2770,6 +2770,25 @@ window.RESOURCE_DATA = {
             "installNeeded": false,
             "install": []
           }
+        },
+        {
+          "name": "VibeVoice",
+          "url": "https://github.com/microsoft/VibeVoice",
+          "desc": "Microsoft's open-source frontier voice AI — long-form text-to-speech and speech recognition models.",
+          "tags": [
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "Microsoft's open-source voice AI models for generating long, natural-sounding speech and for transcription.",
+            "whyHelpful": "Free, high-quality voice generation and recognition you can run yourself instead of paying for a voice API.",
+            "installNeeded": true,
+            "install": [
+              "Clone the repo",
+              "Follow the README to install dependencies and download the models",
+              "Run the demo to generate speech"
+            ]
+          }
         }
       ]
     },
@@ -3306,6 +3325,70 @@ window.RESOURCE_DATA = {
             "install": [
               "Download the build from the repo releases or build with Rust",
               "Connect it as an MCP server if you want AI control"
+            ]
+          }
+        },
+        {
+          "name": "bang-motion",
+          "url": "https://github.com/bangtutorial/bang-motion",
+          "desc": "Agent skill for browser motion graphics — openers, promos, bumpers, kinetic typography and explainers that move like video, not slides. Single index.html output; works with Claude Code, Codex, Gemini CLI, Cursor.",
+          "tags": [
+            "Agent",
+            "CLI",
+            "Claude Code",
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A skill that teaches AI coding agents to build video-like motion graphics (openers, promos, explainers) as a single web page.",
+            "whyHelpful": "Gets you animated promo and explainer visuals from a plain prompt, without video-editing software.",
+            "installNeeded": true,
+            "install": [
+              "In Claude Code, add the bang-motion plugin marketplace and run /plugin install bang-motion@bang-motion",
+              "Or copy the skill folder into your agent's skills folder (install only one copy)",
+              "Ask for an opener, promo or explainer"
+            ]
+          }
+        },
+        {
+          "name": "explainroo",
+          "url": "https://github.com/vincentsch/explainroo",
+          "desc": "Explainer videos and product demos made by your AI agent. Free and open source: local Kokoro voice, Whisper word timing and a canvas renderer turn a script into a narrated MP4.",
+          "tags": [
+            "Agent",
+            "Free",
+            "Open Source"
+          ],
+          "details": {
+            "whatItIs": "A tool your AI agent uses to turn a script into a narrated explainer or product-demo MP4, with voice and timing generated locally.",
+            "whyHelpful": "Makes narrated demo videos for free without recording your voice or using a video editor.",
+            "installNeeded": true,
+            "install": [
+              "Run npx --yes explainroo doctor --fetch to check your machine and download the models",
+              "Add it to Claude Code with /plugin install explainroo@explainroo",
+              "Ask your agent to make an explainer video"
+            ]
+          }
+        },
+        {
+          "name": "img2threejs",
+          "url": "https://github.com/img2threejs/img2threejs",
+          "desc": "Agent skill that rebuilds the object in a reference image as a code-only, procedural, animation-ready Three.js model. Token-efficient image-to-3D.",
+          "tags": [
+            "Agent",
+            "Free",
+            "Open Source",
+            "Skill"
+          ],
+          "details": {
+            "whatItIs": "A skill that lets an AI agent rebuild the object in a picture as an animated 3D model written entirely in code (Three.js).",
+            "whyHelpful": "Turns a reference image into a web-ready 3D model without 3D modeling software or heavy asset files.",
+            "installNeeded": true,
+            "install": [
+              "Needs Node.js 18+, Git and Python 3.10+",
+              "Run npx --yes img2threejs@latest install",
+              "Restart your agent and ask it to reconstruct an image"
             ]
           }
         }
