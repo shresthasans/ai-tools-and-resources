@@ -1056,6 +1056,15 @@ window.RESOURCE_DATA = {
           }
         },
         {
+          "name": "StudyArena",
+          "url": "https://studyarena.com",
+          "desc": "Web app for students to compare three AI explanations side by side, vote, and reveal the models. The free plan requires an account.",
+          "tags": [
+            "Free",
+            "Web"
+          ]
+        },
+        {
           "name": "AI Text Tools",
           "url": "https://aitextools.com/",
           "desc": "Collection of AI-powered text manipulation and transformation utilities.",
