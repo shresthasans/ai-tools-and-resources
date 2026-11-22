@@ -172,6 +172,9 @@ A curated list of useful AI tools, Claude Code resources, agent frameworks, and 
 - **[Arena AI](https://arena.ai/)**
   Battle Mode platform for comparing AI models head-to-head through interactive conversations — results feed into an official leaderboard.
 
+- **[StudyArena](https://studyarena.com)**
+  Web app for students to compare three AI explanations side by side, vote, and reveal the models. The free plan requires an account.
+
 - **[AI Text Tools](https://aitextools.com/)**
   Collection of AI-powered text manipulation and transformation utilities.
 
